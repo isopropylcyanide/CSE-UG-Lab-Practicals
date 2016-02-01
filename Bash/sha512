@@ -1,0 +1,15 @@
+#! /bin/bash
+
+n=1
+
+  while(n=1)
+  do
+     echo -n " Enter the word you wish to encode using sha512sum : "
+      read word
+  
+  echo -n " The encrypted form is : "
+          echo -n $word| sha512sum 
+      
+    read n
+   done
+  

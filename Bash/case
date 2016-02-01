@@ -1,0 +1,18 @@
+#! /bin/bash
+
+ echo " Is it morning? Please enter yes or no "
+ read time
+
+ case $time in
+ yes | [Yy][eE][sS] ) 
+   echo " Rise my child "
+   echo " Good morning " ;;
+ 
+ [nN]* ) 
+    echo " Good afternoon " ;;
+  
+ *) echo " Not recognised " 
+    exit 1;;
+ 
+ esac 
+ exit 0

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -d obj ]
+
+  then
+	echo  Objects folder for arrays already exists
+	  mv *.o obj
+   else
+	echo  Creating the objects folder - arrays 
+	mkdir obj |  mv *.o obj
+fi	

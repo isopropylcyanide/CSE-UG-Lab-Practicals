@@ -1,0 +1,18 @@
+all: compile move mlib fin
+
+compile:func/*.c
+
+	@echo -e Individual Functions for binary trees
+	@gcc -c -Wall -Werror -fpic func/*.c
+	@echo -e Functions compiled - binary trees
+	
+move:
+	@./existbin
+	@echo -e Objects have been added to the folder	
+	
+mlib:
+	
+fin:
+	@echo -e Lib file Successful for Binary trees
+	@echo -e
+	@echo -e

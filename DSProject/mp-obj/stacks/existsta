@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -d obj ]
+
+  then
+	echo  Objects folder for stacks already exists
+	  mv *.o obj
+   else
+	echo  Creating the objects folder - stacks
+	mkdir obj |  mv *.o obj
+fi	

@@ -1,0 +1,26 @@
+#! /bin/bash
+
+ sal="Hello"
+ 
+echo $sal
+echo "The program $0 is currently running"
+echo "The second parameter was $2 "
+echo "The first parameter was $1 "
+echo "THe para list is $* "
+echo "The directory is $HOME "
+
+echo "Enter name "
+read name
+echo "Welcome $name :) "
+echo "Script complete "
+
+exit 0
+
+
+
+
+
+
+
+
+

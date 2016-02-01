@@ -1,0 +1,18 @@
+all:	compile move mlib fin
+
+compile:func/*.c
+
+	@echo -e Individual Functions for linked lists
+	@gcc -c -Wall -Werror -fpic func/*.c
+	@echo -e Functions compiled - linked lists
+	
+move:
+	@./existl
+	@echo -e Objects have been added to the folder
+mlib:
+	
+
+fin:
+	@echo -e Lib file Successful for Linked Lists
+	@echo -e
+	@echo -e

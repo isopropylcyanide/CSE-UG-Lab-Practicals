@@ -1,0 +1,17 @@
+
+Functions of length 1 : 61
+
+Functions of length 2 : 18
+
+Functions of length 3 : 6
+
+Total Functions:  85
+
+ Length 1 : set([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
+ -> 16
+
+ Length 2 : set([2, 4, 6, 8, 9, 10, 11, 12, 13, 14])
+ -> 10
+
+ Length 3 : set([8, 9, 14, 6])
+ -> 4

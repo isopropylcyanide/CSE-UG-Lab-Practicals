@@ -1,0 +1,17 @@
+#! /bin/bash
+
+ echo " Is it morning or not "
+ read time
+
+if [ $time = "yes" ]; then
+ echo "Good morning "
+
+elif [ $time = "no" ]; then 
+ echo " Good Afternoon "
+
+else
+  echo "Enter correct response "
+  exit 1
+fi
+
+ exit 0

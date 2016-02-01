@@ -1,0 +1,13 @@
+
+Functions of length 1 : 421700
+
+Functions of length 2 : 489839
+
+Functions of length 3 : 655058
+
+Functions of length 4 : 432078
+
+Functions of length 5 : 457935
+
+Functions of length 6 : 218162
+Total Functions:  2674772

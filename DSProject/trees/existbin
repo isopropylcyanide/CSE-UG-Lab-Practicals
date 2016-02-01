@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -d obj ]
+
+  then
+	echo  Objects folder for binary trees already exists
+	  mv *.o obj
+   else
+	echo  Creating the objects folder - binary trees
+	mkdir obj |  mv *.o obj
+fi	

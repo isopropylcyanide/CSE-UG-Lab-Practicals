@@ -1,0 +1,31 @@
+#! /bin/bash
+
+ echo " Enter your name "
+  read me
+
+ if [ -d ../prog ] && [ $me = "Aman" ]
+  then
+  mkdir Backup
+     echo " Aman. Your programs are safe "
+   echo -n "Do you want a backup here , just in case ? "
+   read choice
+   
+   if [ $choice="yes" ]
+ then
+      cp  -R ../prog Backup/
+   echo "Backup successful "
+
+   else
+    echo " No problem. " 
+    rmdir Backup
+  fi
+  
+ else
+
+
+   echo " Sorry. Didnt recognise you"
+fi
+ 
+
+exit 0
+

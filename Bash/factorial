@@ -1,0 +1,22 @@
+#! /bin/bash
+
+  k=1;
+ 
+ fac()
+ {
+    echo -n " Enter a number "
+  read n
+ 
+   while expr $n = 1
+  do
+    expr $k= expr $k * expr $n
+    expr $n= expr $n -1
+    done
+   echo "  The factorial of the number is $k "
+ }
+
+ echo -n " Script is starting "
+ fac
+ echo " Factorial computed "
+
+ exit 0

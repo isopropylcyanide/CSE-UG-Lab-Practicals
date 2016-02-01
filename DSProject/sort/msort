@@ -1,0 +1,19 @@
+all: compile move mlib fin
+
+compile:func/*.c
+
+	@echo -e Individual Functions for arrays
+	@gcc -c -Wall -Werror -fpic func/*.c
+	@echo -e Functions compiled - arrays
+	
+move:
+	@./exists
+	@echo -e Objects have been added to the folder	
+	
+mlib:
+	@gcc -shared -o ../libsort.so obj/*.o 
+
+fin:
+	@echo -e Lib file Successful for Arrays
+	@echo -e
+	@echo -e

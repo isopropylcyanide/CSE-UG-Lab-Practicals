@@ -1,0 +1,27 @@
+This folder contains all the necessary code and output
+
+1) n=2 | n-3 | n=4 (dir)
+	Contains the finding for the functions n= {2,3,4}
+
+2) classes (dir)
+	Compiled java-classes
+
+3) interaction_graph.java (code)
+	The main code for the project
+
+4) comb.py (python-script)
+	Python script used for testing various combinations
+
+5) get_unique.py (python-script)
+	Python script used for getting unique combinations
+
+6) cycle_length.py (python-script)
+	Python script used for getting number of cycle lengths
+
+7) formula.py (python-script)
+	Python script used for the proposed formula for generalizing result for n in negative_complete_graph (only)
+
+8) ../makefile (script)
+   makefile used for compilation of the project
+
+

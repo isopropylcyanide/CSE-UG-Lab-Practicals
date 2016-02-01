@@ -1,0 +1,19 @@
+all: compile move mlib fin
+
+compile:func/*.c
+
+	@echo -e Individual Functions for queues
+	@gcc -c -Wall -Werror -fpic func/*.c
+	@echo -e Functions compiled - queues
+	
+move:
+	@./existq
+	@echo -e Objects have been added to the folder	
+	
+mlib:
+	
+
+fin:
+	@echo -e Lib file Successful for Queues
+	@echo -e
+	@echo -e

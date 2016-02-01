@@ -1,0 +1,6 @@
+1
+9
+6
+7
+
+Distinct functions:  4

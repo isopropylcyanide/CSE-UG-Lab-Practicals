@@ -1,0 +1,69 @@
+The files in this folder consist of results for n=2:
+
+1)pos_sets.txt:
+	Consists of 4 distinct functions (positive)
+
+2)neg_sets.txt:
+	Consists of 4 distinct functions (negative)
+
+3)neg_all.txt:
+	All those combinations of two nodes that yield a complete graph with negative edges
+	Total: 4(C)2 = 6
+
+4)pos_all.txt:
+	All those combinations of two nodes that yield a complete graph with positive edges
+	Total: 4(C)2 = 6
+
+5)neg_cyc.txt:
+	All those combinations of two nodes that yield a cycle of atleast length 1 with negative edges
+	Output Format: Cycle Length + 3 Functions
+	Total: 83
+
+6)pos_cyc.txt:
+	All those combinations of two nodes that yield a cycle of atleast length 1 with positive edges
+	Output Format: Cycle Length + 3 Functions
+	Total: 84
+
+7)common_txt:
+	Boolean functions which occur in both pos_sets.txt and neg_sets.txt
+	Total: 2
+
+8)cycle_analysis_pos:
+	Determine the count of the positive cycles found in pos_cyc.txt by their cycle length and also separate them into equivalence
+	classes along with the functions contained in them and their cardinality
+
+9)cycle_analysis_neg:
+	Determine the count of the positive cycles found in neg_cyc.txt by their cycle length and also separate them into equivalence
+	classes along with the functions contained in them and their cardinality
+
+10)pos_only.txt
+	All combinations of two nodes which have at least one positive edge but no negative edge
+	Total: 14
+
+11)pos_only_sets.txt
+	Distinct nodes which are a part of pos_only.txt
+	Total: 6
+
+12)neg_only.txt
+	All combinations of two nodes which have at least one negative edge but no positive edge
+	Total: 14
+
+13)neg_only_sets.txt
+	Distinct nodes which are a part of neg_only.txt
+	Total: 6
+
+14)pos_only_comp.txt
+	All combinations of two nodes which have complete positive edges but no negative edge
+	Total: 1
+
+15)pos_only_comp_sets.txt
+	Distinct nodes which are a part of pos_only_comp
+	Total: 2
+
+16)neg_only_comp.txt
+	All combinations of two nodes which have complete positive edges but no negative edge
+	Total: 1
+
+17)neg_only_comp_sets.txt
+	Distinct nodes which are a part of pos_only_comp
+	Total: 2

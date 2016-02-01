@@ -1,0 +1,18 @@
+#!/bin/bash
+#this script returns the memory usage else disk stats
+
+echo "Welcome to my first script. Enter 1/0 "
+
+
+ if ls -l | grep p
+   then
+  echo $file
+ fi
+
+
+echo "now printing the memory stats "
+ free 
+
+
+ exit 0
+

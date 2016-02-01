@@ -1,0 +1,7240 @@
+
+ Enter the order of the chessboard matrix : 
+ 0 0 0 0
+ 0 0 0 0
+ 0 0 0 0
+ 0 0 0 0
+ Position :  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+
+ Location for Q[0]: M[0][0]
+ 1 0 0 0
+ 0 0 0 0
+ 0 0 0 0
+ 0 0 0 0
+ Position :  0 -1 -1 -1 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 0 & 1
+ Fail for row: 0
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 0 & 2
+ Safe for row: 0
+ Placed: M[1][1]
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 0 0
+ 0 0 0 0
+ Position :  0 1 -1 -1 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 0 & 2
+ Fail for row: 0
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 0 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 2 & 3
+ Fail for row: 1
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 0 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 2 & 4
+ Safe for row: 1
+ Placed: M[2][2]
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 0 0
+ Position :  0 1 2 -1 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 0 & 3
+ Fail for row: 0
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 0 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 2 & 4
+ Fail for row: 1
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 0 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 2 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 4 & 5
+ Fail for row: 2
+ Coudn't place at column : 2
+
+ Checking for column :: 3
+ Checking row : 0 test diag : 0 & 6
+ Safe for row: 0
+ Checking row : 1 test diag : 2 & 6
+ Safe for row: 1
+ Checking row : 2 test diag : 4 & 6
+ Safe for row: 2
+ Placed: M[3][3]
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 0 1
+ Position :  0 1 2 3 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][1]
+ 1 1 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 0 1
+ Position :  1 1 2 3 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 1 & 1
+ Fail for row: 0
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 1 & 2
+ Fail for row: 0
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 1 & 3
+ Safe for row: 0
+ Placed: M[1][2]
+ 1 1 0 0
+ 0 1 1 0
+ 0 0 1 0
+ 0 0 0 1
+ Position :  1 2 2 3 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 1 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 3 & 2
+ Safe for row: 1
+ Placed: M[2][0]
+ 1 1 0 0
+ 0 1 1 0
+ 1 0 1 0
+ 0 0 0 1
+ Position :  1 2 0 3 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 1 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 3 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 1 & 4
+ Fail for row: 0
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 1 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 3 & 5
+ Fail for row: 1
+ Coudn't place at column : 2
+
+ Checking for column :: 3
+ Checking row : 0 test diag : 1 & 6
+ Safe for row: 0
+ Checking row : 1 test diag : 3 & 6
+ Safe for row: 1
+ Checking row : 2 test diag : 2 & 6
+ Safe for row: 2
+ Placed: M[3][3]
+ 1 1 0 0
+ 0 1 1 0
+ 1 0 1 0
+ 0 0 0 1
+ Position :  1 2 0 3 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][2]
+ 1 1 1 0
+ 0 1 1 0
+ 1 0 1 0
+ 0 0 0 1
+ Position :  2 2 0 3 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 2 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 0
+ 1 1 1 0
+ 1 0 1 0
+ 0 0 0 1
+ Position :  2 0 0 3 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 2 & 2
+ Fail for row: 0
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 2 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 0
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 0 1
+ Position :  2 0 1 3 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 2 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 2 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 2 & 5
+ Fail for row: 0
+ Coudn't place at column : 2
+
+ Checking for column :: 3
+ Checking row : 0 test diag : 2 & 6
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 6
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 6
+ Safe for row: 2
+ Placed: M[3][3]
+ 1 1 1 0
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 0 1
+ Position :  2 0 1 3 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][3]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 0 1
+ Position :  3 0 1 3 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 3 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 0 1
+ Position :  3 0 1 3 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 3 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 3 & 3
+ Fail for row: 0
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 3 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Placed: M[2][2]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 0 1
+ Position :  3 0 2 3 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 3 & 3
+ Fail for row: 0
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 3 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 4 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 3 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 4 & 5
+ Fail for row: 2
+ Coudn't place at column : 2
+
+ Checking for column :: 3
+ Checking row : 0 test diag : 3 & 6
+ Fail for row: 0
+ Coudn't place at column : 3
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 0 1
+ Position :  3 0 2 3 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][4]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 0 1
+ Position :  4 0 2 3 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 4 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 0 1
+ Position :  4 0 2 3 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 4 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 4 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 0 1
+ Position :  4 0 1 3 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 4 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 4 & 4
+ Fail for row: 0
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 4 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  4 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][5]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  5 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 5 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  5 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 5 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 5 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  5 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 5 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 5 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 5 & 5
+ Fail for row: 0
+ Coudn't place at column : 2
+
+ Checking for column :: 3
+ Checking row : 0 test diag : 5 & 6
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 6
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 6
+ Safe for row: 2
+ Placed: M[3][3]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  5 0 1 3 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][6]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  6 0 1 3 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 6 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  6 0 1 3 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 6 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 6 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  6 0 1 3 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 6 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 6 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 6 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  6 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][7]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  7 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 7 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  7 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 7 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 7 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  7 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 7 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 7 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 7 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  7 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][8]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  8 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 8 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  8 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 8 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 8 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  8 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 8 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 8 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 8 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  8 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][9]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  9 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 9 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  9 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 9 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 9 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  9 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 9 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 9 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 9 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  9 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][10]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  10 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 10 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  10 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 10 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 10 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  10 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 10 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 10 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 10 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  10 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][11]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  11 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 11 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  11 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 11 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 11 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  11 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 11 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 11 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 11 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  11 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][12]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  12 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 12 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  12 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 12 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 12 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  12 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 12 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 12 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 12 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 0
+ 1 1 1 0
+ 0 0 1 1
+ Position :  12 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][13]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  13 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 13 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  13 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 13 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 13 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  13 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 13 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 13 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 13 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  13 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][14]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  14 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 14 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  14 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 14 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 14 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  14 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 14 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 14 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 14 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  14 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][15]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  15 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 15 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  15 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 15 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 15 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  15 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 15 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 15 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 15 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  15 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][16]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  16 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 16 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  16 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 16 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 16 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  16 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 16 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 16 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 16 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  16 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][17]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  17 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 17 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  17 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 17 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 17 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  17 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 17 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 17 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 17 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  17 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][18]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  18 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 18 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  18 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 18 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 18 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  18 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 18 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 18 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 18 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  18 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][19]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  19 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 19 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  19 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 19 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 19 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  19 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 19 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 19 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 19 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  19 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][20]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  20 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 20 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  20 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 20 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 20 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  20 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 20 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 20 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 20 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  20 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][21]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  21 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 21 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  21 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 21 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 21 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  21 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 21 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 21 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 21 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  21 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][22]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  22 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 22 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  22 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 22 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 22 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  22 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 22 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 22 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 22 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 0
+ 0 0 1 1
+ Position :  22 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][23]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  23 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 23 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  23 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 23 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 23 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  23 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 23 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 23 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 23 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  23 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][24]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  24 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 24 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  24 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 24 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 24 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  24 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 24 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 24 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 24 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  24 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][25]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  25 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 25 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  25 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 25 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 25 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  25 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 25 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 25 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 25 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  25 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][26]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  26 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 26 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  26 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 26 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 26 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  26 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 26 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 26 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 26 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  26 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][27]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  27 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 27 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  27 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 27 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 27 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  27 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 27 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 27 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 27 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  27 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][28]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  28 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 28 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  28 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 28 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 28 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  28 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 28 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 28 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 28 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  28 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][29]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  29 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 29 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  29 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 29 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 29 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  29 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 29 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 29 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 29 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 0 0 1 1
+ Position :  29 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][30]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 0 1 1
+ Position :  30 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 30 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 0 1 1
+ Position :  30 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 30 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 30 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 0 1 1
+ Position :  30 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 30 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 30 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 30 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 0 1 1
+ Position :  30 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][31]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  31 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 31 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  31 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 31 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 31 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  31 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 31 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 31 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 31 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  31 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][32]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  32 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 32 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  32 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 32 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 32 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  32 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 32 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 32 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 32 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  32 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][33]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  33 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 33 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  33 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 33 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 33 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  33 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 33 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 33 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 33 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  33 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][34]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  34 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 34 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  34 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 34 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 34 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  34 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 34 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 34 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 34 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  34 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][35]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  35 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 35 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  35 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 35 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 35 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  35 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 35 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 35 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 35 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  35 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][36]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  36 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 36 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  36 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 36 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 36 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  36 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 36 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 36 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 36 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  36 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][37]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  37 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 37 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  37 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 37 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 37 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  37 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 37 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 37 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 37 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  37 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][38]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  38 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 38 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  38 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 38 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 38 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  38 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 38 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 38 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 38 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  38 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][39]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  39 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 39 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  39 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 39 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 39 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  39 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 39 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 39 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 39 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  39 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][40]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  40 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 40 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  40 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 40 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 40 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  40 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 40 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 40 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 40 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  40 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][41]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  41 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 41 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  41 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 41 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 41 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  41 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 41 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 41 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 41 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  41 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][42]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  42 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 42 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  42 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 42 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 42 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  42 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 42 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 42 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 42 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  42 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][43]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  43 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 43 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  43 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 43 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 43 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  43 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 43 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 43 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 43 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  43 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][44]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  44 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 44 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  44 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 44 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 44 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  44 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 44 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 44 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 44 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  44 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][45]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  45 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 45 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  45 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 45 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 45 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  45 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 45 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 45 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 45 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  45 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][46]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  46 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 46 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  46 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 46 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 46 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  46 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 46 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 46 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 46 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  46 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][47]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  47 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 47 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  47 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 47 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 47 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  47 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 47 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 47 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 47 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  47 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][48]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  48 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 48 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  48 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 48 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 48 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  48 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 48 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 48 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 48 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  48 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][49]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  49 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 49 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  49 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 49 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 49 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  49 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 49 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 49 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 49 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  49 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][50]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  50 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 50 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  50 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 50 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 50 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  50 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 50 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 50 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 50 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  50 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][51]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  51 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 51 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  51 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 51 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 51 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  51 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 51 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 51 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 51 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  51 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][52]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  52 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 52 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  52 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 52 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 52 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  52 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 52 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 52 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 52 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  52 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][53]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  53 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 53 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  53 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 53 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 53 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  53 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 53 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 53 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 53 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  53 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][54]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  54 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 54 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  54 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 54 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 54 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  54 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 54 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 54 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 54 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  54 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][55]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  55 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 55 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  55 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 55 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 55 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  55 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 55 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 55 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 55 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  55 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][56]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  56 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 56 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  56 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 56 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 56 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  56 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 56 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 56 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 56 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  56 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][57]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  57 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 57 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  57 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 57 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 57 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  57 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 57 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 57 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 57 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  57 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][58]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  58 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 58 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  58 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 58 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 58 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  58 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 58 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 58 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 58 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  58 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][59]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  59 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 59 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  59 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 59 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 59 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  59 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 59 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 59 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 59 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  59 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][60]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  60 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 60 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  60 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 60 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 60 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  60 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 60 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 60 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 60 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  60 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][61]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  61 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 61 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  61 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 61 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 61 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  61 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 61 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 61 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 61 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  61 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][62]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  62 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 62 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  62 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 62 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 62 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  62 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 62 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 62 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 62 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  62 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][63]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  63 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 63 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  63 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 63 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 63 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  63 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 63 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 63 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 63 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  63 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][64]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  64 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 64 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  64 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 64 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 64 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  64 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 64 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 64 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 64 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  64 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][65]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  65 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 65 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  65 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 65 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 65 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  65 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 65 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 65 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 65 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  65 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][66]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  66 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 66 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  66 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 66 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 66 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  66 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 66 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 66 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 66 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  66 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][67]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  67 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 67 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  67 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 67 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 67 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  67 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 67 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 67 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 67 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  67 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][68]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  68 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 68 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  68 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 68 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 68 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  68 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 68 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 68 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 68 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  68 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][69]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  69 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 69 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  69 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 69 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 69 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  69 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 69 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 69 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 69 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  69 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][70]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  70 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 70 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  70 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 70 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 70 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  70 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 70 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 70 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 70 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  70 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][71]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  71 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 71 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  71 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 71 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 71 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  71 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 71 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 71 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 71 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  71 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][72]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  72 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 72 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  72 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 72 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 72 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  72 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 72 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 72 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 72 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  72 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][73]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  73 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 73 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  73 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 73 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 73 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  73 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 73 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 73 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 73 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  73 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][74]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  74 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 74 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  74 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 74 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 74 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  74 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 74 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 74 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 74 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  74 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][75]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  75 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 75 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  75 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 75 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 75 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  75 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 75 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 75 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 75 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  75 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][76]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  76 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 76 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  76 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 76 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 76 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  76 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 76 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 76 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 76 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  76 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][77]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  77 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 77 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  77 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 77 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 77 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  77 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 77 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 77 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 77 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  77 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][78]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  78 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 78 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  78 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 78 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 78 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  78 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 78 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 78 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 78 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  78 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][79]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  79 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 79 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  79 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 79 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 79 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  79 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 79 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 79 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 79 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  79 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][80]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  80 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 80 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  80 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 80 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 80 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  80 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 80 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 80 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 80 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  80 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][81]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  81 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 81 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  81 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 81 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 81 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  81 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 81 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 81 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 81 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  81 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][82]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  82 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 82 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  82 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 82 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 82 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  82 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 82 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 82 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 82 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  82 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][83]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  83 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 83 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  83 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 83 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 83 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  83 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 83 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 83 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 83 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  83 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][84]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  84 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 84 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  84 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 84 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 84 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  84 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 84 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 84 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 84 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  84 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][85]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  85 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 85 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  85 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 85 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 85 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  85 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 85 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 85 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 85 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  85 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][86]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  86 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 86 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  86 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 86 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 86 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  86 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 86 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 86 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 86 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  86 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][87]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  87 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 87 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  87 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 87 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 87 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  87 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 87 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 87 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 87 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  87 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][88]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  88 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 88 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  88 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 88 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 88 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  88 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 88 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 88 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 88 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  88 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][89]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  89 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 89 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  89 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 89 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 89 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  89 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 89 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 89 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 89 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  89 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][90]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  90 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 90 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  90 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 90 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 90 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  90 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 90 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 90 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 90 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  90 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][91]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  91 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 91 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  91 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 91 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 91 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  91 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 91 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 91 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 91 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  91 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][92]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  92 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 92 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  92 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 92 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 92 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  92 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 92 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 92 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 92 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  92 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][93]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  93 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 93 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  93 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 93 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 93 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  93 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 93 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 93 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 93 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  93 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][94]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  94 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 94 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  94 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 94 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 94 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  94 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 94 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 94 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 94 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  94 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][95]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  95 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 95 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  95 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 95 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 95 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  95 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 95 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 95 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 95 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  95 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][96]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  96 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 96 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  96 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 96 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 96 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  96 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 96 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 96 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 96 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  96 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][97]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  97 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 97 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  97 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 97 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 97 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  97 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 97 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 97 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 97 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  97 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][98]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  98 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 98 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  98 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 98 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 98 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  98 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 98 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 98 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 98 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  98 0 1 2 -1 -1 -1 -1 -1 -1
+Trying again 
+ Location for Q[0]: M[0][99]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  99 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[1]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 99 & 1
+ Safe for row: 0
+ Placed: M[1][0]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  99 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[2]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 99 & 2
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 2
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 99 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Safe for row: 1
+ Placed: M[2][1]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  99 0 1 2 -1 -1 -1 -1 -1 -1
+
+ Location for Q[3]: 
+
+ Checking for column :: 0
+ Checking row : 0 test diag : 99 & 3
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 3
+ Fail for row: 1
+ Coudn't place at column : 0
+
+ Checking for column :: 1
+ Checking row : 0 test diag : 99 & 4
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 4
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 4
+ Fail for row: 2
+ Coudn't place at column : 1
+
+ Checking for column :: 2
+ Checking row : 0 test diag : 99 & 5
+ Safe for row: 0
+ Checking row : 1 test diag : 1 & 5
+ Safe for row: 1
+ Checking row : 2 test diag : 3 & 5
+ Safe for row: 2
+ Placed: M[3][2]
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ 1 1 1 1
+ Position :  99 0 1 2 -1 -1 -1 -1 -1 -1

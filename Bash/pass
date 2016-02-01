@@ -1,0 +1,13 @@
+#! /bin/bash
+
+ echo " Enter password "
+ read pass
+
+ while [ $pass != "aman" ]
+  do
+ echo " Wrong password "
+  read pass
+ done
+
+  exit 0
+

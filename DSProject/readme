@@ -1,0 +1,21 @@
+-----DATA STRUCTURES MICROPROJECT-------
+
+---An attempt to model various data structures and their properties in C
+---Used -lncurses for aesthetic factor
+---This uses shared libraries which are dynamically linked at runtime.
+---For statically linked object files, see the mp-obj folder
+
+---Dated 11/14/2014 (DD/MM/YYYY)
+
+---Instructions
+
+Fire up a terminal and type
+$ make
+
+To clean the project folder, type
+$ make clean
+
+Follow instructions as specified
+
+--To report bugs
+ email : amangargcse@outlook.com

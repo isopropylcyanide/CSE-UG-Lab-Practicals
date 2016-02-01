@@ -1,0 +1,19 @@
+all: compile move mlib fin
+
+compile:func/*.c
+
+	@echo -e Individual Functions for stacks
+	@gcc -c -Wall -Werror -fpic func/*.c
+	@echo -e Functions compiled - stacks
+	
+move:
+	@./existsta
+	@echo -e Objects have been added to the folder	
+	
+mlib:
+	@gcc -shared -o ../libstack.so obj/*.o 
+
+fin:
+	@echo -e Lib file Successful for Stack
+	@echo -e
+	@echo -e

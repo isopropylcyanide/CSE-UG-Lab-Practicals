@@ -1,0 +1,33 @@
+Giriraj is very good at C programming but Anu and Harshita has asked Giriraj to compile a C program in Ubuntu but he is finding  it hard in making the object file.Help Giriraj so that he can impress Harshita.
+  
+Jyoti is strong with the linux commands. She challenges her friend Pranita with a question,"Swap names of all the files with their extensions". For example: if the file name is "abc.txt" then change it to "txt.abc". Help Pranita win the challenge.
+   
+Dravid, a very nice man, wants to list all the hidden files(Don't ask why). Help this nice man (:P) ?
+
+Tony and Pepper are very good in using Ubuntu Linux,their teacher has asked them to remove all files from the directory except .c files.Now you have to assis them otherwise they will fall in problem.
+
+Mandy is a team leader of a group of staff working for Starc Enterprises. Singla asks Mandy to create a directory "dir_starc" such that any member of a group can access a file under it but no can delete? Give the required commands to fulfil the task?
+
+Bruce Wayne is the richest man of the Gotham. He wants you to write a scipt to count the number of words in the file without using wc commands?
+
+Scott is very curious about fibonacci series.So he wants to find the nth fibnocci number from the file where (n) is a line separated value in a file .He wants you to write a script to implement this.
+  
+  Logan has just witnessed his friends playing a number guessing game. Since he knows bash scripting, he wants his friends to play with his version. So, write an interactive script that asks his friends to input a value in a specified range and inform them of it being equal,less than or more than a predefined value. At every step , the user should close in the value. Output the current range the user should search the number in followed by the number of steps required to reach the end of the game.
+  E.g. if range is 0-100 and the actual guess: 63
+  		User guesses 71: 0 71 1
+  		User guesses 36: 36 71 2
+  		User guesses 66: 36 66 3
+  		User guesses 51: 51 66 4
+  		User guesses 60: 60 66 5
+  		User guesses 63: 60 66 6
+  		Minimum steps: 6 
+
+ How will you run your own linux command (like ls read) built from C programs or bash scripts. Explain the full procedure?
+
+
+Dr Zorro wants you to write the shebang line and its use,you should give him the answer otherwise he will get angry and turn to beast and destory IT Park.Save the IT Park.
+
+Taylor Swift loves music and wants that, whenever she switches on the laptop, her favourite song "Blank Space.mp3" should play. Write a script to bring a smile to her face.
+
+
+

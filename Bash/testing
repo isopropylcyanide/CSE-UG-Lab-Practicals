@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if  [ -f /bin/bash ] 
+then 
+ echo " File exits "
+fi
+
+ if [ -d /bin/bash ]
+  then 
+ echo " its a directory "
+
+  else
+   echo " its not a directory "
+fi
+exit 0

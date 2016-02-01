@@ -1,0 +1,18 @@
+-----DATA STRUCTURES MICROPROJECT-------
+
+---An attempt to model various data structures and their properties in C
+---Used -lncurses for aesthetic factor
+---This uses dynamic libraries which are dynamically linked at runtime.
+---For dynamically linked object files, see the previous folder
+
+---Dated 11/14/2014 (DD/MM/YYYY)
+
+---Instructions
+
+Fire up a terminal and type
+$ make
+
+Follow instructions as specified
+
+--To report bugs
+ email : amangargcse@outlook.com
