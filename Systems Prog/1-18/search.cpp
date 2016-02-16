@@ -20,7 +20,7 @@ void binarySearch(const vector<int> & input, const int & key){
     int l = 0, r = newInput.size() - 1, mid;
     bool foundState = false;
 
-    while (l < r){
+    while (l <= r){
         mid = (l + r)/2 ;
 
         if (newInput[mid] == key){
@@ -28,7 +28,7 @@ void binarySearch(const vector<int> & input, const int & key){
             break;
         }
         else if (newInput [mid] > key) //Key < [mid]. So, move to left interval
-            r = mid;
+            r = mid - 1;
         else                //Key > [mid]. So, move to right interval
             l = mid + 1;
     }

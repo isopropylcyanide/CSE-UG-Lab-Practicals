@@ -4,7 +4,7 @@ static int substitution_index;
 
 
 char encrypt(char c){
-	
+
 	if (isdigit(c))
 		return (c -'0' +substitution_index)%10 + '0';
 
@@ -40,19 +40,15 @@ void solve(vector<char> & input){
 
 int main(){
 
-	substitution_index=3;
+	cout << "\n Enter Key(shift): \t";
+	cin >> substitution_index;
 
-	ifstream inf("input.txt");
-	char c;
-	vector<char>input;
+	string s;
+	cout <<"\n Enter input string: \t";
+	cin >> s;
+	vector<char>input (s.begin(), s.end());
 
-	while((c=inf.get())!=EOF)
-		input.push_back(c);
-
-	inf.close();
 	solve(input);
-	cout<<endl;
-
-
+	cout<<endl<<endl;
 	return 0;
 }

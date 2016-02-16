@@ -23,6 +23,33 @@ tuple<int, vector< vector<int> > > longestPalDP(string &s){
     return make_tuple(L[0][n -1], L);
 }
 
+// Another approach
+int LongestPalin(string &A){
+    int N = A.size();
+	vector< vector<bool> > dp(N, vector<bool>(N, false));
+
+	int maxlength = 1,start = 0;
+
+	for(int i = N-1; i >= 0;i--){
+		for(int j = i;j < N;j++){
+			if (i == j)
+				dp[i][j] = true;
+			else if (j == i +1 && A[i] == A[j])
+				dp[i][j] = 2;
+			else if (dp[i +1][j -1] && A[i] == A[j])
+				dp[i][j] = true;
+			if (dp[i][j]){
+				if(maxlength < j -i +1){
+					start = i;
+					maxlength = j -i +1;
+				}
+			}
+		}
+	}
+	cout << A.substr(start,maxlength) <<endl;
+	return maxlength;
+}
+
 
 int main(){
     ios :: sync_with_stdio(false);

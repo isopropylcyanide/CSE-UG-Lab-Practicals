@@ -98,13 +98,12 @@ void decrypt(){
 
 int main(){
 
-    cout <<" Enter String: ";
+    cout <<"\n Enter String: ";
     cin >> userStr;
     cout <<" Enter number of rails: ";
     cin >> numRails;
-
     encrypt();
     decrypt();
-
+    cout << endl;
     return 0;
 }

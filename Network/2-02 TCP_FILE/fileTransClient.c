@@ -6,9 +6,10 @@
 #include <netdb.h>
 #include <string.h>
 #include <unistd.h>
+#include <assert.h>
 #include <arpa/inet.h>
 
-#define localhost "127.0.0.1"
+#define localhost "127.0.0.10"
 #define outputFile "ServerOutput"
 #define MAX 1024
 #define PORT 25000
@@ -23,6 +24,7 @@ int main(){
 
     // A socket address structure to hold in the socket
     struct sockaddr_in serv_addr = {0};
+
     // Create TCP Socket: mention domain, stream/datagram and default protocol
     sockFd = socket(AF_INET, SOCK_STREAM, 0);
 
@@ -46,9 +48,10 @@ int main(){
     }
 
     // Read from input and write to socket
-    fprintf(stdout, "\n Storing file received from server: \n\n");
+    fprintf(stdout, "\n Storing file received from server: %s \n\n", inet_ntoa(serv_addr.sin_addr));
 
     FILE * fp = fopen(outputFile, "w");
+    assert(fp);
 
     // Read message from server
     n = read(sockFd, recvBuff, MAX);

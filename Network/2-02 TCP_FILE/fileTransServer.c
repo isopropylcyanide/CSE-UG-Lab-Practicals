@@ -9,6 +9,7 @@
 #include <strings.h>
 #include <sys/types.h>
 #include <stdbool.h>
+#include <assert.h>
 
 #define MAX 1024
 #define PORT 25000
@@ -18,7 +19,7 @@
 // Send a given input file to every client that wishes to connect
 
 int main(){
-    // Createa fd for server and one for client
+    // Create a fd for server and one for client
     int sockFd = 0, clientFd = 0;
 
     // A socket address structure to hold in the socket
@@ -42,18 +43,24 @@ int main(){
     listen(sockFd, MAX_BACKLOG);
 
     while(true){
+        // Socket address structure to hold the client socket
+        struct sockaddr_in addr;
+        socklen_t addr_size = sizeof(struct sockaddr_in);
+
         // accept incoming client connections to the given socket descriptor clientFd
-        clientFd = accept(sockFd, (struct sockaddr *)NULL, NULL);
-        fprintf(stdout, "A new client has connected. Sending file\n");
+        clientFd = accept(sockFd, (struct sockaddr *)&addr, &addr_size);
+        fprintf(stdout, "\nA new client has connected. Sending file\n");
+        fprintf(stdout, "IP Address: %s\n", inet_ntoa(addr.sin_addr) );
 
         FILE *fp = fopen(SERVER_INPUT_FILE, "r");
+        assert (fp);
+
         int readChar;
 
         while (!feof(fp)){
             readChar = fread(sendBuff, 1, MAX, fp);
             write(clientFd, sendBuff, readChar);
         }
-
         fclose(fp);
         close(clientFd);
         sleep(1);

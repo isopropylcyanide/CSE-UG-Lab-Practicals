@@ -1,1 +1,1 @@
-Cryptography means  to  convert our plain  text data 
+Cryptography means  to  convert  our plain text  data into the  unreadable  form. This is the subject  we are  been  taught is  this  semester.  By now you  would  have realised that  I am just playing  with  your mind,  and  I  just  wanted some  words.  Well, I  might  have used  
