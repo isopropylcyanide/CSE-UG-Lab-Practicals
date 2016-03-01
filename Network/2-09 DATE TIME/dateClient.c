@@ -17,7 +17,7 @@ int main(){
     // Set up client sockets, character buffers
     int sockfd = 0, n = 0;
 
-    char sendBuff[MAX] = {' '};
+    char recvBuff[MAX] = {' '};
 
     // A socket address structure to hold in the socket
     struct sockaddr_in serv_addr = {0};
@@ -34,6 +34,9 @@ int main(){
     serv_addr.sin_family = AF_INET;
     serv_addr.sin_port = htons(PORT);
 
+    // Read from input and write to socket
+    fprintf(stdout, "\n Requesting current time from server:  \n\t");
+
     if(inet_pton(AF_INET, localhost, &serv_addr.sin_addr)<=0){
         printf("\n inet_pton error occured\n");
         return 1;
@@ -45,16 +48,11 @@ int main(){
        return 1;
     }
 
-    // Read from input and write to socket
-    fprintf(stdout, "\n Enter the string to send to server:  ");
-    fgets(sendBuff, MAX, stdin);
-    printf("\n Writing to server socket:  %s", sendBuff);
-
-    n = write(sockfd, sendBuff, strlen(sendBuff)) ;
-    if(n < 0)
-        perror("\n Write error \n");
+    n = read(sockfd, recvBuff, MAX);
+    for(int i = 0; i < n; i ++)
+        printf("%c", recvBuff[i]);
 
     printf("\n");
-
+    close(sockfd);
     return 0;
 }

@@ -24,7 +24,7 @@ int main(){
     struct sockaddr_in serv_addr = {0};
 
     // Strings to manipulate incoming and outgoing data
-    char recvBuff[MAX] = {' '};
+    char sendBuff[MAX] = {' '};
 
     // Creates a socket i.e file descriptor within the process table
     listenfd = socket(AF_INET, SOCK_STREAM, 0);
@@ -40,16 +40,16 @@ int main(){
     // listen for incoming connections with a specified backlog queue
     listen(listenfd, MAX_BACKLOG);
 
+    time_t new_time = time(NULL);
+
     while(true){
         // accept incoming client connections to the given socket
         connfd = accept(listenfd, (struct sockaddr*)NULL, NULL);
 
         // Read the message from the socket into a string
-        int readChar = read(connfd, recvBuff, MAX);
-
-        printf("\n New Client Connected with message: \n");
-        for (int i = 0 ; i < readChar; i++)
-            printf("%c",recvBuff[i]);
+        snprintf(sendBuff, MAX, "%s", ctime(&new_time) );
+        printf("\n Client connected. Sending Time : %s\n", sendBuff);
+        write(connfd, sendBuff, strlen(sendBuff));
 
         close(connfd);
         sleep(1);

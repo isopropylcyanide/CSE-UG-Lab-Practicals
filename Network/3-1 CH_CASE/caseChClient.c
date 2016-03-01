@@ -12,12 +12,16 @@
 #define MAX 1024
 #define PORT 25000
 
+// Program to send a string to server. Return the Upper case form of the string
 
 int main(){
     // Set up client sockets, character buffers
     int sockfd = 0, n = 0;
 
-    char sendBuff[MAX] = {' '};
+    // Read input String from the user
+    printf("\n Enter String: ");
+    char sendBuff[MAX] = {' '}, recvBuff[MAX] = {' '};
+    fgets(sendBuff, MAX, stdin);
 
     // A socket address structure to hold in the socket
     struct sockaddr_in serv_addr = {0};
@@ -34,6 +38,8 @@ int main(){
     serv_addr.sin_family = AF_INET;
     serv_addr.sin_port = htons(PORT);
 
+    // Read from input and write to socket
+
     if(inet_pton(AF_INET, localhost, &serv_addr.sin_addr)<=0){
         printf("\n inet_pton error occured\n");
         return 1;
@@ -45,16 +51,16 @@ int main(){
        return 1;
     }
 
-    // Read from input and write to socket
-    fprintf(stdout, "\n Enter the string to send to server:  ");
-    fgets(sendBuff, MAX, stdin);
-    printf("\n Writing to server socket:  %s", sendBuff);
+    printf ("\n Sending : %s" , sendBuff);
+    write(sockfd, sendBuff, MAX);
 
-    n = write(sockfd, sendBuff, strlen(sendBuff)) ;
-    if(n < 0)
-        perror("\n Write error \n");
+    n = read(sockfd, recvBuff, MAX);
+    if (n < 0)
+        perror("Error Reading value from server");
+        
+    printf ("\n Receiving: %s", recvBuff);
 
     printf("\n");
-
+    close(sockfd);
     return 0;
 }

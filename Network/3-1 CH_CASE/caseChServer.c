@@ -10,11 +10,13 @@
 #include <sys/types.h>
 #include <time.h>
 #include <stdbool.h>
+#include <ctype.h>
 
 #define MAX 1024
 #define PORT 25000
 #define MAX_BACKLOG 10
 
+// Receives a string from the user and returns its uppercase
 
 int main(){
     // fd for server side and one fd for the client side
@@ -24,6 +26,7 @@ int main(){
     struct sockaddr_in serv_addr = {0};
 
     // Strings to manipulate incoming and outgoing data
+    char sendBuff[MAX] = {' '};
     char recvBuff[MAX] = {' '};
 
     // Creates a socket i.e file descriptor within the process table
@@ -47,9 +50,13 @@ int main(){
         // Read the message from the socket into a string
         int readChar = read(connfd, recvBuff, MAX);
 
-        printf("\n New Client Connected with message: \n");
-        for (int i = 0 ; i < readChar; i++)
-            printf("%c",recvBuff[i]);
+        printf ("\n Received from client: %s ", recvBuff);
+        for (int i = 0; i < readChar; i++)
+            sendBuff[i] = toupper(recvBuff[i]);
+
+        sendBuff[readChar] = '\0';
+        printf("\n Sending to Client : %s\n", sendBuff);
+        write(connfd, sendBuff, strlen(sendBuff));
 
         close(connfd);
         sleep(1);

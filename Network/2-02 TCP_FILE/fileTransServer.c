@@ -20,7 +20,7 @@
 
 int main(){
     // Create a fd for server and one for client
-    int sockFd = 0, clientFd = 0;
+    int sockFd = 0, clientFd = 0, readChar;
 
     // A socket address structure to hold in the socket
     struct sockaddr_in serv_addr = {0};
@@ -42,6 +42,14 @@ int main(){
     // listen for incoming connections with a specified backlog queue
     listen(sockFd, MAX_BACKLOG);
 
+    // read input from file once
+    FILE *fp = fopen(SERVER_INPUT_FILE, "r");
+    assert (fp);
+    while (!feof(fp))
+        readChar = fread(sendBuff, 1, MAX, fp);
+
+    fclose(fp);
+
     while(true){
         // Socket address structure to hold the client socket
         struct sockaddr_in addr;
@@ -52,16 +60,7 @@ int main(){
         fprintf(stdout, "\nA new client has connected. Sending file\n");
         fprintf(stdout, "IP Address: %s\n", inet_ntoa(addr.sin_addr) );
 
-        FILE *fp = fopen(SERVER_INPUT_FILE, "r");
-        assert (fp);
-
-        int readChar;
-
-        while (!feof(fp)){
-            readChar = fread(sendBuff, 1, MAX, fp);
-            write(clientFd, sendBuff, readChar);
-        }
-        fclose(fp);
+        write(clientFd, sendBuff, readChar);
         close(clientFd);
         sleep(1);
     }

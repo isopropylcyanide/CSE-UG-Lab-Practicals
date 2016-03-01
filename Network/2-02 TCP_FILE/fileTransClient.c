@@ -58,6 +58,9 @@ int main(){
     // Write the message received from server onto file
     fwrite(recvBuff, 1, n, fp);
 
+    // Also display file contents
+    write(0, recvBuff, n);
+
     // Close file
     fclose(fp);
     return 0;

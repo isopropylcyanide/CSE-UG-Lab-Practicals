@@ -1,18 +1,18 @@
-#include<iostream>
-#include<string>
-#include<cstdlib>
-#include<vector>
-#include<list>
-
+#include <iostream>
+#include <string>
+#include <cstdlib>
+#include <vector>
+#include <list>
+#include <map>
 using namespace std;
 
 class node{
- public:		
+ public:
   char data;
   node * next;
   char repr;
 };
-  
+
 class nodeList
 {
   public: node *head;
@@ -23,15 +23,14 @@ class Graph: private node,private nodeList {
   int nature;
 
   nodeList *array;
- 
+
   public:
-std::map<key, value> map;
     Graph(){}
     Graph(int numV,int nature)
      {
       this->numV=numV;
       this->nature=nature;
-      
+
       array=new nodeList[numV];
 
       for(int i=0; i<numV; i++)
@@ -49,21 +48,21 @@ bool Graph:: inRange(int i){
  }
 
 char src,dest;
-  
+
 int main()
 {
    cout<<"\n Enter number of vertices : ";
    int numV;  int nature;
    cin>>numV;
-   
+
    cout<<" Is the graph a digraph(1) or graph(0)? ";
    cin>>nature;
-   
+
    Graph g(numV,nature);
 
    cout<<"\n Enter new edges (source , destination)";
    cout<<"\n Enter 0 0 to quit adding edges \n\n";
-  
+
      while(1)
      {
   	cout<<" Add Edge : ";
@@ -82,7 +81,7 @@ int main()
 }
 
 void Graph:: options()
-{ 
+{
   int i; while(1){
 
   cout<<"\n MENU: \n\n";
@@ -98,9 +97,9 @@ void Graph:: options()
   cout<<"0: EXIT \t";
   cin>>i;
   switch(i){
- 
+
   case 1: system("clear");	printGraph();	system("sleep 1");	break;
-  case 2: system("clear");	dfs();		system("sleep 1");	break;	
+  case 2: system("clear");	dfs();		system("sleep 1");	break;
   case 3: system("clear");	bfs();		system("sleep 1");	break;
   case 4: system("clear");	isConnected();	system("sleep 1");	break;
   case 5: system("clear");	hasEdge();	system("sleep 1");	break;
@@ -122,7 +121,7 @@ int Graph:: not_added(char src,char dest)
    if(!inRange(s) || !inRange(d)){
      cout<<"\t\tEDGE: "<<src<<"-"<<dest<<" OUT OF RANGE\n";
      return -1;}
-     
+
    node *temp=array[s].head;
    while(temp)
      {
@@ -141,27 +140,27 @@ node* Graph :: newListNode(char dest)
  p->next=NULL;
  return p;
 }
-   
+
 void Graph :: addEdge(char src, char dest)
-{ 
+{
   int s=int(src)-65;
   int d=int(dest)-65;
   int flag=0;
 
   if(!inRange(s) || !inRange(d))
   cout<<"\t\tEDGE: "<<src<<"-"<<dest<<" OUT OF RANGE\n";
- 
+
   else{
   node *p,*q;
 
   if(!array[s].head)
-  { 
+  {
      q=newListNode(src);
      array[s].head=q;
   }
 
    if(!array[d].head)
-  { 
+  {
      q=newListNode(dest);
      array[d].head=q;
   }
@@ -178,7 +177,7 @@ void Graph :: addEdge(char src, char dest)
   p=newListNode(src);
 
   while(q->next) q=q->next;
-  q->next=p;  
+  q->next=p;
 
   cout<<"\t\tEDGE: "<<src<<"-"<<dest<<" AND "<<dest<<"-"<<src<<" ADDED \n";
    }
@@ -187,11 +186,11 @@ void Graph :: addEdge(char src, char dest)
 }
 
 
-bool Graph:: hasEdge()				
+bool Graph:: hasEdge()
 {
   cout<<"\n Enter source and destination: ";
   cin>>src>>dest;
-  
+
    if(!inRange(int(src)-65) || !inRange(int(dest)-65))
   cout<<"\t\tEDGE: "<<src<<"-"<<dest<<" OUT OF RANGE\n";
 
@@ -200,16 +199,16 @@ bool Graph:: hasEdge()
 }
 
 
-void Graph:: addNewEdge()			
+void Graph:: addNewEdge()
 {
   cout<<"\n Enter source and destination: ";
   cin>>src>>dest;
-    
+
   if(!inRange(int(src)-65) || !inRange(int(dest)-65))
   cout<<"\t\tEDGE: "<<src<<"-"<<dest<<" OUT OF RANGE\n";
 
   else if(not_added(src,dest))
-        addEdge(src,dest); 	
+        addEdge(src,dest);
   else
 	cout<<"\n EDGE: "<<src<<"-"<<dest<<" ALREADY ADDED\n";
 }
@@ -218,19 +217,19 @@ void Graph:: RemoveEdge()
 {
   cout<<"\n Enter source and destination: ";
   cin>>src>>dest;
- 
+
   if(not_added(src,dest))
 	cout<<"\n EDGE: "<<src<<"-"<<dest<<" NOT PRESENT TO DELETE\n";
   else
-  { 			
+  {
     int s=int(src)-65;
     int d=int(dest)-65;
-   
+
     remove(s,d,dest);
     cout<<"\n\t\t EDGE: "<<src<<"-"<<dest<<" REMOVED\n";
 
     if(this->nature==0){
-    remove(d,s,src); 
+    remove(d,s,src);
     cout<<"\t\t EDGE: "<<dest<<"-"<<src<<" REMOVED\n";
     }
   }
@@ -239,26 +238,26 @@ void Graph:: RemoveEdge()
 void Graph:: remove(int s,int d,char dest)
 {
   node *temp=array[s].head,*temp2,*del;
- 
+
   if(temp->data==dest)
   {
    if(temp->next)
    array[s].head=temp->next;
-   
-   else  
+
+   else
    array[s].head=NULL;
    delete temp;
   }
- 
+
   else{
 
   while(temp->next->data!=dest && temp->next!=NULL && temp!=NULL)
-   temp=temp->next;  	
-  
-  if(temp->next->next &&temp->next) 
-   { 
-     temp2=temp->next->next;  
-     del=temp->next;  
+   temp=temp->next;
+
+  if(temp->next->next &&temp->next)
+   {
+     temp2=temp->next->next;
+     del=temp->next;
      temp->next=temp2;
      delete del;
    }
@@ -267,9 +266,9 @@ void Graph:: remove(int s,int d,char dest)
      del=temp->next;
      temp->next=NULL;
      delete del;
-  } 
+  }
  }
-}	
+}
 
 void Graph::bfs()
 {
@@ -277,12 +276,12 @@ void Graph::bfs()
   cout<<"\n Start BFS from which node : ";
   cin>>x;
 
-  int no=int(x)-65,y; 
+  int no=int(x)-65,y;
 
   cout<<" THE BFS FROM "<<x<<": ";
- 
+
   if(!inRange(no)){
-	cout<<" IS NOT IN RANGE \n"; 
+	cout<<" IS NOT IN RANGE \n";
 	return;}
 
   list<node*> q;
@@ -295,16 +294,16 @@ void Graph::bfs()
   q.push_back(array[no].head);
 
   while (!q.empty())
-  { 
+  {
     cout<<q.front()->data<<" ";
     no=int(q.front()->data)-65;
-  
+
     q.pop_front();
 
         for(it = array[no].head; it !=NULL; it=it->next)
-        {  
+        {
  	   y=int(it->data)-65;
-            if(!visited[y])	
+            if(!visited[y])
             {
               visited[y] = true;
 	      q.push_back(array[y].head);
@@ -325,7 +324,7 @@ void Graph::dfs_rev(int no,vector<bool>&visited)
   {
    no=int(p->data)-65;
    if(!visited[no])
-   dfs_rev(no,visited); 
+   dfs_rev(no,visited);
   }
 }
 
@@ -353,7 +352,7 @@ void Graph::isConnected()
    vector<bool>visited(numV,false);
    cout<<"\n\n Starting DFS from first node : ";
    dfs_rev(0,visited);
- 
+
    for(int i=0; i<visited.size(); i++)
    	if(!visited[i])	{flag=1; break;}
 	else flag=0;
@@ -368,18 +367,18 @@ void Graph:: shortestPath()
 {
  cout<<"\n Enter source and destination: ";
   cin>>src>>dest;
-  
+
   int s=int(src)-65;
     int d=int(dest)-65;
 
    if(!inRange(s) || !inRange(d))
   cout<<"\t\tPATH: "<<src<<"-->"<<dest<<" OUT OF RANGE\n";
-   
+
 }
 
 void Graph:: makeSet()
 {
- node *set[numV]; 
+ node *set[numV];
 
  for(int i=0; i<numV; i++)
  {
@@ -387,32 +386,32 @@ void Graph:: makeSet()
    set[i]=newListNode(dt);
    set[i]->repr=dt;
  }
- 
+
  for(int i=0; i<numV; i++)
  {
   node * temp=array[i].head;
   if(!temp) continue;
-  
+
   char rep_store=char(i+65);
   int set_link=0;
 
   if(set[i]->repr==rep_store)
   {
     while(temp->next)
-     { 
+     {
       	temp=temp->next;
-      	set_link=int(temp->data)-65;  
+      	set_link=int(temp->data)-65;
 
       	if (set[set_link]->repr!=temp->data)
 	   set[i]->repr=set[set_link]->repr;
-	
+
 	else
-	 set[set_link]->repr=set[i]->repr;	 
+	 set[set_link]->repr=set[i]->repr;
        }
-    } 
+    }
  }
 
-cout<<"\n The Sets formed by the above graph are \n\n"<<"{ "; 
+cout<<"\n The Sets formed by the above graph are \n\n"<<"{ ";
 
 for(int j=0; j<numV; j++)
  {
@@ -422,12 +421,12 @@ for(int j=0; j<numV; j++)
  for(int i=0; i<numV; i++)
  {
    node * temp=set[i];
-  
+
   if(temp->repr==rep)
 	 cout<<temp->data<<" ";
-  } 
+  }
    cout<<")";
- } 
+ }
 
  cout<<" }"<<endl<<endl;
 }
@@ -436,13 +435,13 @@ for(int j=0; j<numV; j++)
 void Graph:: printGraph()
 {
  cout<<"\n Printing the adjacency lists. ";
- string s1;  
+ string s1;
 
  if(this->nature==1) s1="DIRECTED";
  else	s1="UNDIRECTED  ";
 
  cout<<"\n Please note that the given graph is: "<<s1<<endl;
- 
+
  for(int i=0; i<numV; i++)
  {
    node * temp=array[i].head;
@@ -454,6 +453,4 @@ void Graph:: printGraph()
    }
  }
  cout<<endl;
-}  
-
-
+}
