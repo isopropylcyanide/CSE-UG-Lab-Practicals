@@ -298,9 +298,11 @@ class Graph {
 	private int cycle_length;
 	private int max_cycle_length;
 	private boolean has_cycle;
-	private int visited[];
+    private int visited[];
+	private String type;
 
- 	public Graph(int num,List<Map<Integer,Integer>>pos){
+ 	public Graph(int num,List<Map<Integer,Integer>>pos, String type){
+        this.type = type;
  		this.pos=pos;
  		this.num_nodes=num;
  		this.total_edges=0;
@@ -316,7 +318,7 @@ class Graph {
  		for(int i=1; i<=num_nodes; i++)
 			adjList.put(i,new LinkedList<Integer>());
 		create_final_graph();
-		// print_final_graph();
+		print_final_graph();
  	}
 
  	private void create_final_graph(){
@@ -334,7 +336,25 @@ class Graph {
  		}
  	}
 
+    public void printGraphMatrix(PrintWriter out){
+        // out.println("\nMatrix for Type: " + type);
+        int [][] array = new int[num_nodes][num_nodes]; 
+
+        for (int i = 0; i < num_nodes; i++){
+            for (int j : adjList.get(i + 1))
+                array[i][j -1] = (type == "Positive") ? 1 : -1;
+        }    
+
+        for (int i = 0; i < num_nodes; i++){
+            for (int j = 0; j < num_nodes; j++)
+                out.print(array[i][j] + " ");
+            out.println();
+        }
+
+    }
+
  	private void print_final_graph(){
+        System.out.println("\nType: " + type);
  		for(int i=1; i<=num_nodes; i++)
  			System.out.println(" "+i+"-> "+adjList.get(i));
  	}
@@ -404,12 +424,14 @@ class main_tester{
 		List<Map<Integer,Integer>>tpos=new LinkedList<Map<Integer,Integer>>();
 		List<Map<Integer,Integer>>tneg=new LinkedList<Map<Integer,Integer>>();
 
-		PrintWriter pos_all=new PrintWriter("../source/pos_all.txt");
-		PrintWriter neg_all=new PrintWriter("../source/neg_all.txt");
-		PrintWriter pos_cyc=new PrintWriter("../source/pos_cyc.txt");
-		PrintWriter neg_cyc=new PrintWriter("../source/neg_cyc.txt");
+		// PrintWriter pos_all=new PrintWriter("../source/pos_all.txt");
+		// PrintWriter neg_all=new PrintWriter("../source/neg_all.txt");
+		// PrintWriter pos_cyc=new PrintWriter("../source/pos_cyc.txt");
+		// PrintWriter neg_cyc=new PrintWriter("../source/neg_cyc.txt");
 		PrintWriter pos_only = new PrintWriter("../source/pos_only.txt");
 		PrintWriter neg_only = new PrintWriter("../source/neg_only.txt");
+
+        PrintWriter graph_maker = new PrintWriter("../source/graph_list.txt");
 
 		String get_comb="python ../source/comb.py "+Integer.toString(num_nodes);
 		Process python_process=Runtime.getRuntime().exec(get_comb);
@@ -419,7 +441,8 @@ class main_tester{
 		String line;
 
 		while((line=br.readLine())!=null){
-
+            System.out.println(line);
+            
 			matched_so_far+=1;
 			sp=line.split(" ");
 
@@ -435,67 +458,75 @@ class main_tester{
 				tneg.add(IG.get(i-1).getNegativeGraph());
 			}
 
-			Graph g1= new Graph(num_nodes,tpos);
-			Graph g2= new Graph(num_nodes,tneg);
+			Graph positiveGraph= new Graph(num_nodes,tpos, "Positive");
+			Graph negativeGraph= new Graph(num_nodes,tneg, "Negative");
 
-				int pos_edges = g1.get_number_edges();
-				int neg_edges = g2.get_number_edges();
+            // graph_maker.println("Graph for: ");
+            // for(int i=1; i<=num_nodes; i++)
+            //     graph_maker.print(sp[i-1]+ " ");
+
+            positiveGraph.printGraphMatrix(graph_maker);
+            negativeGraph.printGraphMatrix(graph_maker);
+
+			int pos_edges = positiveGraph.get_number_edges();
+			int neg_edges = negativeGraph.get_number_edges();
 
 
-				if(pos_edges >0 && neg_edges==0){
-					pos_only.println();
-					for(int p=0; p<num_nodes; p++)
-						pos_only.print(sp[p]+" ");
-					positive_only+=1;
-				}
+			if(pos_edges >0 && neg_edges==0){
+				pos_only.println();
+				for(int p=0; p<num_nodes; p++)
+					pos_only.print(sp[p]+" ");
+				positive_only+=1;
+			}
 
-				if(neg_edges >0 && pos_edges==0){
-					neg_only.println();
-					for(int p=0; p<num_nodes; p++)
-						neg_only.print(sp[p]+" ");
-					negative_only+=1;
+			// if(neg_edges >0 && pos_edges==0){
+			// 	neg_only.println();
+			// 	for(int p=0; p<num_nodes; p++)
+			// 		neg_only.print(sp[p]+" ");
+			// 	negative_only+=1;
 
-				}
+			// }
 
-				if(pos_edges==max_edges){
-					pos_all.println();
-					for(int p=0; p<num_nodes; p++)
-						pos_all.print(sp[p]+" ");
-					positive_matches+=1;
-				}
+			// if(pos_edges==max_edges){
+			// 	pos_all.println();
+			// 	for(int p=0; p<num_nodes; p++)
+			// 		pos_all.print(sp[p]+" ");
+			// 	positive_matches+=1;
+			// }
 
-				if(neg_edges==max_edges){
-					neg_all.println();
-					for(int p=0; p<num_nodes; p++)
-						neg_all.print(sp[p]+" ");
-					negative_matches+=1;
-				}
+			// if(neg_edges==max_edges){
+			// 	neg_all.println();
+			// 	for(int p=0; p<num_nodes; p++)
+			// 		neg_all.print(sp[p]+" ");
+			// 	negative_matches+=1;
+			// }
 
-				if((cyc_len=g1.has_alteast_one_cycle())!=0){
-					pos_cyc.print(cyc_len+" ");
-					for(int p=0; p<num_nodes; p++)
-						pos_cyc.print(sp[p]+" ");
-					pos_cyc.println();
-					positive_cycles+=1;
-				}
+			// if((cyc_len=positiveGraph.has_alteast_one_cycle())!=0){
+			// 	pos_cyc.print(cyc_len+" ");
+			// 	for(int p=0; p<num_nodes; p++)
+			// 		pos_cyc.print(sp[p]+" ");
+			// 	pos_cyc.println();
+			// 	positive_cycles+=1;
+			// }
 
-				if((cyc_len=g2.has_alteast_one_cycle())!=0){
-					neg_cyc.print(cyc_len+" ");
-					for(int p=0; p<num_nodes; p++)
-						neg_cyc.print(sp[p]+" ");
-					neg_cyc.println();
-					negative_cycles+=1;
-				}
+			// if((cyc_len=negativeGraph.has_alteast_one_cycle())!=0){
+			// 	neg_cyc.print(cyc_len+" ");
+			// 	for(int p=0; p<num_nodes; p++)
+			// 		neg_cyc.print(sp[p]+" ");
+			// 	neg_cyc.println();
+			// 	negative_cycles+=1;
+			// }
 
 		// if (matched_so_far%10000==0)System.out.println("Matched: "+matched_so_far+" Current Set: "+line);
 		}
 
-		pos_all.close();
-		neg_all.close();
-		pos_cyc.close();
-		neg_cyc.close();
+		// pos_all.close();
+		// neg_all.close();
+		// pos_cyc.close();
+		// neg_cyc.close();
 		pos_only.close();
 		neg_only.close();
+        graph_maker.close();
 		br.close();
 
 		System.out.print("\n Complete positive matches: "+positive_matches);

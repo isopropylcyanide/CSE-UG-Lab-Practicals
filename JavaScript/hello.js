@@ -13,7 +13,3 @@ function processData(input) {
 }
 
 console.log()
-
-
-// var arr = [1,2,3,4,5];
-// processData([1,2,3,4,5]);

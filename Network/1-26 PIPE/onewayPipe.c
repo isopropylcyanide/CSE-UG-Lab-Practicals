@@ -23,7 +23,6 @@ int main(void){
         case 0:
             /* Child process closes the read end of the pipe */
             close(fd[0]);
-
             /* Send message through the write end of the pipe */
             sprintf(pid, " PID: (%d) ", getpid());
             write(fd[1], strcat(message, pid), (strlen(message) + 1));

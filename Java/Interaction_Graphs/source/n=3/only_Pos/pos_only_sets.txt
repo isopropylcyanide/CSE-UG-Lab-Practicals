@@ -18,5 +18,3 @@
 232
 254
 255
-
-Distinct functions:  20
