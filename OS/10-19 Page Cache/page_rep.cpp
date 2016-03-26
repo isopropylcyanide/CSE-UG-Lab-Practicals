@@ -35,7 +35,7 @@ void lru_replacement(vector<int> & input_pages, const int & page_size){
 				int priority=0;
 				int element_to_be_replaced=0;
 
-				vector<bool>already_marked(input_pages.size(),false);	
+				vector<bool>already_marked(input_pages.size(),false);
 				for(int j=current_index-1; j>=0; j--){
 					if (queue_used.find(input_pages[j])!=queue_used.end() && !already_marked[input_pages[j]]){
 						queue_used[input_pages[j]]=priority++;
@@ -64,7 +64,7 @@ void lru_replacement(vector<int> & input_pages, const int & page_size){
 				cout<<" "<<*qt;
 		}
 
-	}	
+	}
 		cout<<"\n\nTotal page faults: "<<page_fault;
 		cout<<"\nTotal page hits: "<<page_hits<<endl;
 
@@ -85,7 +85,7 @@ void optimal_replacement(vector<int> & input_pages,const int & page_size){
 		cout<<"\n For: "<<*it;
 		if (find(window.begin(),window.end(),*it)!=window.end())
 			page_hits+=1;
-			
+
 		else{
 			page_fault+=1;
 			if(int(window.size())==page_size) {
@@ -132,7 +132,7 @@ void optimal_replacement(vector<int> & input_pages,const int & page_size){
 				cout<<" "<<*qt;
 		}
 
-	}	
+	}
 		cout<<"\n\nTotal page faults: "<<page_fault;
 		cout<<"\nTotal page hits: "<<page_hits<<endl;
 
@@ -153,7 +153,7 @@ void fifo_replacement(vector<int> & input_pages,const int & page_size){
 		cout<<"\n For: "<<*it;
 		if (find(window.begin(),window.end(),*it)!=window.end())
 			page_hits+=1;
-			
+
 		else{
 			page_fault+=1;
 			if(int(window.size())==page_size) window.pop_front();
@@ -163,7 +163,7 @@ void fifo_replacement(vector<int> & input_pages,const int & page_size){
 				cout<<" "<<*qt;
 		}
 
-	}	
+	}
 		cout<<"\n\nTotal page faults: "<<page_fault;
 		cout<<"\nTotal page hits: "<<page_hits<<endl;
 
@@ -192,4 +192,3 @@ int main(){
 
 	return 0;
 }
-
