@@ -1,0 +1,18 @@
+
+-----------OUTPUT OF PASS I------------
+
+SYMBOL TABLE: 
+A	236
+B	239
+LAST	232
+BACK	206
+NEXT	223
+START	200
+LOOP	206
+
+LITERAL TABLE 
+1	223
+5	219
+4	227
+
+-----------OUTPUT OF PASS I-----------

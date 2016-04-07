@@ -27,13 +27,14 @@ int main(){
         return -1;
     }
 
+
     printf("\nIn Parent Sending : %s => %ld\n", sendMsg.mtext, strlen(sendMsg.mtext) +1 );
 
     if (msgsnd(msgQue, &sendMsg, strlen(sendMsg.mtext) +1, IPC_NOWAIT) < 0)
         perror("\nParent message queue error");
 
     else
-        printf("\nParent Message Sent\n");
+        printf("\nParent Message Sent\n\n");
 
     return 0;
 }
