@@ -46,7 +46,6 @@ def positive():
             for i in xrange(30, max_comb):
                 yield [22, 24] + [i]
 
-
         elif max_node == 4:
             for i in xrange(30, 36, max_comb):
                 yield [22, 24] + [i]
@@ -75,8 +74,8 @@ if __name__ == '__main__':
     # lis = [1, 6, 7, 9, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 33, 36, 37, 38, 39, 40]
     # for i in itertools.combinations(lis, 3):
     #     print ' '.join([str(i) for i in list(i)])
-    print '248 249 254'
-    # all_comb()  # Generates all combinations (brute force)
+    # print '248 249 254'
+    all_comb()  # Generates all combinations (brute force)
     # print '31 89 123'
     # print '80 120 220'
     # negative()			#Generates all smart combinations for positive matches

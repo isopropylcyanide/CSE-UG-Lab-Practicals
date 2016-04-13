@@ -318,7 +318,7 @@ class Graph {
  		for(int i=1; i<=num_nodes; i++)
 			adjList.put(i,new LinkedList<Integer>());
 		create_final_graph();
-		print_final_graph();
+		// print_final_graph();
  	}
 
  	private void create_final_graph(){
@@ -338,12 +338,12 @@ class Graph {
 
     public void printGraphMatrix(PrintWriter out){
         // out.println("\nMatrix for Type: " + type);
-        int [][] array = new int[num_nodes][num_nodes]; 
+        int [][] array = new int[num_nodes][num_nodes];
 
         for (int i = 0; i < num_nodes; i++){
             for (int j : adjList.get(i + 1))
                 array[i][j -1] = (type == "Positive") ? 1 : -1;
-        }    
+        }
 
         for (int i = 0; i < num_nodes; i++){
             for (int j = 0; j < num_nodes; j++)
@@ -424,10 +424,10 @@ class main_tester{
 		List<Map<Integer,Integer>>tpos=new LinkedList<Map<Integer,Integer>>();
 		List<Map<Integer,Integer>>tneg=new LinkedList<Map<Integer,Integer>>();
 
-		// PrintWriter pos_all=new PrintWriter("../source/pos_all.txt");
-		// PrintWriter neg_all=new PrintWriter("../source/neg_all.txt");
-		// PrintWriter pos_cyc=new PrintWriter("../source/pos_cyc.txt");
-		// PrintWriter neg_cyc=new PrintWriter("../source/neg_cyc.txt");
+		PrintWriter pos_all=new PrintWriter("../source/pos_all.txt");
+		PrintWriter neg_all=new PrintWriter("../source/neg_all.txt");
+		PrintWriter pos_cyc=new PrintWriter("../source/pos_cyc.txt");
+		PrintWriter neg_cyc=new PrintWriter("../source/neg_cyc.txt");
 		PrintWriter pos_only = new PrintWriter("../source/pos_only.txt");
 		PrintWriter neg_only = new PrintWriter("../source/neg_only.txt");
 
@@ -441,8 +441,8 @@ class main_tester{
 		String line;
 
 		while((line=br.readLine())!=null){
-            System.out.println(line);
-            
+            // System.out.println(line);
+
 			matched_so_far+=1;
 			sp=line.split(" ");
 
@@ -461,9 +461,9 @@ class main_tester{
 			Graph positiveGraph= new Graph(num_nodes,tpos, "Positive");
 			Graph negativeGraph= new Graph(num_nodes,tneg, "Negative");
 
-            // graph_maker.println("Graph for: ");
-            // for(int i=1; i<=num_nodes; i++)
-            //     graph_maker.print(sp[i-1]+ " ");
+            graph_maker.println("Graph for: ");
+            for(int i=1; i<=num_nodes; i++)
+                graph_maker.print(sp[i-1]+ " ");
 
             positiveGraph.printGraphMatrix(graph_maker);
             negativeGraph.printGraphMatrix(graph_maker);
@@ -479,51 +479,52 @@ class main_tester{
 				positive_only+=1;
 			}
 
-			// if(neg_edges >0 && pos_edges==0){
-			// 	neg_only.println();
-			// 	for(int p=0; p<num_nodes; p++)
-			// 		neg_only.print(sp[p]+" ");
-			// 	negative_only+=1;
+			if(neg_edges >0 && pos_edges==0){
+				neg_only.println();
+				for(int p=0; p<num_nodes; p++)
+					neg_only.print(sp[p]+" ");
+				negative_only+=1;
 
-			// }
+			}
 
-			// if(pos_edges==max_edges){
-			// 	pos_all.println();
-			// 	for(int p=0; p<num_nodes; p++)
-			// 		pos_all.print(sp[p]+" ");
-			// 	positive_matches+=1;
-			// }
+			if(pos_edges==max_edges){
+				pos_all.println();
+				for(int p=0; p<num_nodes; p++)
+					pos_all.print(sp[p]+" ");
+				positive_matches+=1;
+			}
 
-			// if(neg_edges==max_edges){
-			// 	neg_all.println();
-			// 	for(int p=0; p<num_nodes; p++)
-			// 		neg_all.print(sp[p]+" ");
-			// 	negative_matches+=1;
-			// }
+			if(neg_edges==max_edges){
+				neg_all.println();
+				for(int p=0; p<num_nodes; p++)
+					neg_all.print(sp[p]+" ");
+				negative_matches+=1;
+			}
 
-			// if((cyc_len=positiveGraph.has_alteast_one_cycle())!=0){
-			// 	pos_cyc.print(cyc_len+" ");
-			// 	for(int p=0; p<num_nodes; p++)
-			// 		pos_cyc.print(sp[p]+" ");
-			// 	pos_cyc.println();
-			// 	positive_cycles+=1;
-			// }
+			if((cyc_len=positiveGraph.has_alteast_one_cycle())!=0){
+				pos_cyc.print(cyc_len+" ");
+				for(int p=0; p<num_nodes; p++)
+					pos_cyc.print(sp[p]+" ");
+				pos_cyc.println();
+				positive_cycles+=1;
+			}
 
-			// if((cyc_len=negativeGraph.has_alteast_one_cycle())!=0){
-			// 	neg_cyc.print(cyc_len+" ");
-			// 	for(int p=0; p<num_nodes; p++)
-			// 		neg_cyc.print(sp[p]+" ");
-			// 	neg_cyc.println();
-			// 	negative_cycles+=1;
-			// }
+			if((cyc_len=negativeGraph.has_alteast_one_cycle())!=0){
+				neg_cyc.print(cyc_len+" ");
+				for(int p=0; p<num_nodes; p++)
+					neg_cyc.print(sp[p]+" ");
+				neg_cyc.println();
+				negative_cycles+=1;
+			}
 
-		// if (matched_so_far%10000==0)System.out.println("Matched: "+matched_so_far+" Current Set: "+line);
+		// if (matched_so_far%10000==0)	//Statutory notifications on reaching a grand outputs
+		// 	System.out.println("Matched: "+matched_so_far+" Current Set: "+line);
 		}
 
-		// pos_all.close();
-		// neg_all.close();
-		// pos_cyc.close();
-		// neg_cyc.close();
+		pos_all.close();
+		neg_all.close();
+		pos_cyc.close();
+		neg_cyc.close();
 		pos_only.close();
 		neg_only.close();
         graph_maker.close();

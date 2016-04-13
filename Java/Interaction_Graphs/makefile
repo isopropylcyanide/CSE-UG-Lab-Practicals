@@ -11,8 +11,6 @@ compile:
 run:
 	@cd classes; \
 	java -jar igraph.jar $(nodes);
-	
+
 clean:
 	@rm classes/*.*
-
-
