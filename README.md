@@ -7,3 +7,15 @@ functional decomposition of a function in respect to other given functions, mode
 depicts the flow between any two functions. The interaction graph is further broke down into subsets
 which include the graphs with complete edges as well as the graph with at least a single cycle. The inputs
 are the combinations of n functions. Ulterior motive is to generalize the results for n functions.
+
+
+Compile with : (in parent directory)
+  $ time make nodes=N
+  
+  where N is the Nodes i.e simultaneous boolean functions
+  
+  
+  Modify the comb.py file in /sources/comb.py for individual results, brute force results and for special cases.
+  Read me has been updated for Nodes = 1, 2, 3, 4
+  
+  For 4, the brute force will take an estimate 1600 years on a single i5 multicore CPU, thus extrapolation had to be required to reach a common ground for N = 4
