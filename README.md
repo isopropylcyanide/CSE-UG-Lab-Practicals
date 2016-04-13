@@ -19,3 +19,6 @@ Compile with : (in parent directory)
   Read me has been updated for Nodes = 1, 2, 3, 4
   
   For 4, the brute force will take an estimate 1600 years on a single i5 multicore CPU, thus extrapolation had to be required to reach a common ground for N = 4
+
+
+  For more details, see the screenshot attached
