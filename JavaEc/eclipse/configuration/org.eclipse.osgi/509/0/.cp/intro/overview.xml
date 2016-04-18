@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<introContent>
+  	<extensionContent id="jrebelremoting-introExtension" style="css/overview.css" alt-style="css/overview.properties" name="JRebel remote server support" path="overview/@">
+		<group style-id="content-group" id="jrebelremoting-introLink-group">
+       		<link label="JRebel remote server support" url="http://manuals.zeroturnaround.com/jrebel/remoteserver/eclipse.html" id="jrebelremoting-introLink" style-id="content-link">
+          		<text>JRebel remote server support allows the reloading of Java classes and resources on remote and cloud servers. The plugin uploads code changes to a remote server with JRebel enabled. Click to learn more.</text>
+       		</link>
+       	</group>
+  	</extensionContent>
+</introContent>

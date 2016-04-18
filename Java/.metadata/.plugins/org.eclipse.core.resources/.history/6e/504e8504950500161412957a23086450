@@ -1,0 +1,48 @@
+import java.util.*;
+
+public class jumpGame {
+	/*Given an array of non-negative integers, you are initially positioned at the first index of the array.
+		Each element in the array represents your maximum jump length at that position.
+		Determine if you are able to reach the last index*/
+	
+	
+	public int canJump(ArrayList<Integer> a) {
+		if (a.size() == 1)
+			return a.get(0) == 0 ? 1 : 0;
+		
+		int n = a.size();
+		int T[][] = new int[n][n];
+		
+		for (int i = 0; i < n; i++)
+			T[i][i] = a.get(i > 0 ? 1 : 0;
+			
+		for (int col = 1; col < n; col++){
+			for (int i = 0; i < n; i++){
+				int j = i + col;
+				
+				if ((T[i][j -1] & T[j -1][j]) == 1)
+					T[i][j] = 1;
+				
+				else if (j <= i + a.get(i))
+					T[i][j] = 1;
+				else
+					T[i][j] = 0;
+			}
+		}
+		
+		for (int i = 0; i < n; i++){
+        	for (int j = 0; j < n; j++)
+        		System.out.print(T[i][j] + " ");
+        	System.out.println();
+        }
+		
+		return T[0][n -1];
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		System.out.println(new jumpGame().canJump(new ArrayList<Integer>(Arrays.asList(2, 3, 1, 1, 4))));
+		System.out.println(new jumpGame().canJump(new ArrayList<Integer>(Arrays.asList(3, 2, 1, 0, 4))));
+	}
+
+}

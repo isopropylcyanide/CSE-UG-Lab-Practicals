@@ -1,0 +1,24 @@
+import java.lang.*;
+import java.util.*;
+import java.io.*;
+
+public class coinSum {
+	
+	int mod;
+	
+	public int coinchange2(ArrayList<Integer> a, int b) {
+		mod = 1000007;
+		
+		ArrayList<Integer> T = new ArrayList<>(b+ 1);
+		T.set(0, 1);
+		
+		
+		
+		return 0;
+    }
+	
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		
+	}
+
+}

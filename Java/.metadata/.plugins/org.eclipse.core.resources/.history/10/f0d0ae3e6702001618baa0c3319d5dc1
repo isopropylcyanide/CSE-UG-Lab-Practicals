@@ -1,0 +1,42 @@
+import java.lang.*;
+import java.util.*;
+import java.io.*;
+
+public class coinSum {
+
+	
+	public int coinchange2(ArrayList<Integer> a, int b) {
+		int mod = 1000007;
+		int T[][] = new int[a.size()][b +1];
+		
+		for (int i = 0; i < a.size(); i++)
+			T[i][0] = 1;
+		
+		for (int i = 0; i <= b; i++)
+			T[0][i] = 1;
+		
+		for (int i = 1; i < a.size(); i++){
+			for (int j = 1; j <= b; j++){
+				if (j < a.get(i))
+					T[i][j] = T[i -1][j];
+				else
+					T[i][j] = (T[i -1][j] + T[i][j - a.get(i)]) % mod;
+			}
+		}
+		
+		for (int i = 0; i < a.size(); i++){
+			for (int j = 0; j <= b; j++)
+				System.out.println(j + " ");
+			System.out.println();
+		}
+			
+		return T[a.size() -1][b];
+    }
+	
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		
+		ArrayList<Integer> t = new ArrayList<>(Arrays.asList(1, 2, 3));
+		System.out.println(new coinSum().coinchange2(t, 4));
+	}
+
+}

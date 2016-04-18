@@ -1,0 +1,15 @@
+import java.util.*;
+import java.io.*;
+
+
+public class minSumPathTria {
+	
+	public int minimumTotal(ArrayList<ArrayList<Integer>> a) {
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

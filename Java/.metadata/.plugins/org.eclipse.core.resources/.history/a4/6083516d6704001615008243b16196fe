@@ -1,0 +1,38 @@
+import java.io.*;
+import java.util.*;
+public class waysToDecode {
+		
+	public int numDecodings(String a) {
+		int n = a.length();
+		int T[][] = new int[n][n];
+		
+		for (int i = 0; i < n; i++)
+			T[i][i] = 1;
+		
+		for (int i = 0; i < n; i++){
+			for (int j = i + 1; j < n; j++){
+				
+				int formed = Character.getNumericValue(a.charAt(j -1)) * 10 + Character.getNumericValue(a.charAt(j));
+				System.out.println("Formed: " + formed + " at i: " + i + " j: " + j);
+				if (formed >= 1 && formed <= 26)
+					T[i][j] = T[i +1][j] + T[i][j -1];
+				else
+					T[i][j] = Math.max(T[i +1][j], T[i][j -1]);
+				
+			}
+		}
+		
+		for (int i = 0; i < n; i++){
+        	for (int j = 0; j < n; j++)
+        		System.out.print(T[i][j] + " ");
+        	System.out.println();
+        }
+		
+		return T[0][n -1];
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(new waysToDecode().numDecodings("1326"));
+	}
+
+}

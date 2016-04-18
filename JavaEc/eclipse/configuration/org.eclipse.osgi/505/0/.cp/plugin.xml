@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.6"?>
+<plugin>
+   <extension-point id="org.zeroturnaround.eclipse.config.serversTab" name="JRebel Configuration Servers Tab" schema="schema/org.zeroturnaround.eclipse.config.serversTab.exsd"/>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="org.zeroturnaround.eclipse.config.ui.JRebelConfigPerspective"
+            icon="icons/jrebel_16x16.png"
+            id="org.zeroturnaround.eclipse.config.ui.JRebelConfigPerspective"
+            name="JRebel Configuration">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            allowMultiple="false"
+            class="org.zeroturnaround.eclipse.config.ui.JRebelConfigView"
+            icon="icons/jrebel_16x16.png"
+            id="org.zeroturnaround.eclipse.config.ui.JRebelConfigView"
+            name="JRebel Configuration">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="menu:help?before=about">
+         <command
+               commandId="org.zeroturnaround.eclipse.commands.configureJRebel"
+               icon="icons/jrebel_16x16.png"
+               id="org.zeroturnaround.eclipse.menus.configureJRebel"
+               label="JRebel Configuration"
+               mnemonic="J"
+               style="push">
+         </command>
+         <command
+               commandId="org.zeroturnaround.eclipse.commands.activateJRebelPopup"
+               icon="icons/jrebel_16x16.png"
+               id="org.zeroturnaround.eclipse.menus.activateJRebelPopup"
+               label="JRebel Activation"
+               style="push">
+         </command>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            id="org.zeroturnaround.eclipse.commands.configureJRebel"
+            name="JRebel Configuration">
+      </command>
+      <command
+            id="org.zeroturnaround.eclipse.commands.configureJRebelAdvanced"
+            name="JRebel Configuration Advanced Page">
+      </command>
+      <command
+            id="org.zeroturnaround.eclipse.commands.configureJRebelProjects"
+            name="JRebel Configuration Projects Page">
+      </command>
+      <command
+            id="org.zeroturnaround.eclipse.commands.configureJRebelRemoteServers"
+            name="JRebel Configuration Remote Servers Page">
+      </command>
+      <command
+            id="org.zeroturnaround.eclipse.commands.configureJRebelStartup"
+            name="JRebel Configuration Startup Page">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="org.zeroturnaround.eclipse.config.handlers.ConfigureJRebelHandler"
+            commandId="org.zeroturnaround.eclipse.commands.configureJRebel">
+      </handler>
+      <handler
+            class="org.zeroturnaround.eclipse.config.handlers.ConfigureJRebelAdvancedHandler"
+            commandId="org.zeroturnaround.eclipse.commands.configureJRebelAdvanced">
+      </handler>
+      <handler
+            class="org.zeroturnaround.eclipse.config.handlers.ConfigureJRebelProjectsHandler"
+            commandId="org.zeroturnaround.eclipse.commands.configureJRebelProjects">
+      </handler>
+      <handler
+            class="org.zeroturnaround.eclipse.config.handlers.ConfigureJRebelRemoteServersHandler"
+            commandId="org.zeroturnaround.eclipse.commands.configureJRebelRemoteServers">
+      </handler>
+      <handler
+            class="org.zeroturnaround.eclipse.config.handlers.ConfigureJRebelStartupHandler"
+            commandId="org.zeroturnaround.eclipse.commands.configureJRebelStartup">
+      </handler>
+      <handler
+            class="org.zeroturnaround.eclipse.config.handlers.ActivateJRebelHandler"
+            commandId="org.zeroturnaround.eclipse.commands.activateJRebel">
+      </handler>
+      <handler
+            class="org.zeroturnaround.eclipse.config.handlers.ActivateJRebelPopupHandler"
+            commandId="org.zeroturnaround.eclipse.commands.activateJRebelPopup">
+      </handler>
+   </extension>
+    <extension
+          point="org.eclipse.ui.intro.configExtension">
+       <configExtension
+             configId="org.eclipse.ui.intro.universalConfig"
+             content="intro/overview.xml">
+       </configExtension>
+    </extension>
+    <extension
+          point="org.eclipse.ui.startup">
+       <startup
+             class="org.zeroturnaround.eclipse.config.Startup">
+       </startup>
+    </extension>
+
+</plugin>

@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+jrebel.eclipse.plugin.version=6.4.2.SR1
+jrebel.eclipse.plugin.wtp.autoenabled=true
+jrebelNoProjectsOrServersCheck=false

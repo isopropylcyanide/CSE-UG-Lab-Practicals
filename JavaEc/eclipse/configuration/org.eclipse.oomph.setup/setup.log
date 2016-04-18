@@ -1,0 +1,1821 @@
+[2016-04-14 12:39:54] Executing bootstrap tasks
+[2016-04-14 12:39:54] Product org.eclipse.products.epp.package.java.mars
+[2016-04-14 12:39:54] Bundle org.eclipse.oomph.setup 1.3.0.v20160213-0953, build=2199, branch=7194e06d06a87ced95779121a8281b59b9abdf81, commit=7194e06d06a87ced95779121a8281b59b9abdf81
+[2016-04-14 12:39:54] Bundle org.eclipse.oomph.setup.core 1.3.0.v20160213-0953, build=2199, branch=7194e06d06a87ced95779121a8281b59b9abdf81, commit=7194e06d06a87ced95779121a8281b59b9abdf81
+[2016-04-14 12:39:54] Bundle org.eclipse.oomph.setup.p2 1.3.0.v20160213-0953, build=2199, branch=7194e06d06a87ced95779121a8281b59b9abdf81, commit=7194e06d06a87ced95779121a8281b59b9abdf81
+[2016-04-14 12:39:54] Performing P2 Director (Eclipse IDE for Java Developers (Mars))
+[2016-04-14 12:39:54] Offline = false
+[2016-04-14 12:39:54] Mirrors = true
+[2016-04-14 12:39:54] Resolving 5 requirements from 3 repositories to /home/aman/Desktop/prog/JavaEc/eclipse
+[2016-04-14 12:39:54] Requirement epp.package.java [4.5.0,4.6.0)
+[2016-04-14 12:39:54] Requirement org.eclipse.platform.feature.group [4.5.0,4.6.0)
+[2016-04-14 12:39:54] Requirement org.eclipse.rcp.feature.group [4.5.0,4.6.0)
+[2016-04-14 12:39:54] Requirement org.eclipse.jdt.feature.group [3.11.0,3.12.0)
+[2016-04-14 12:39:54] Requirement org.eclipse.oomph.setup.feature.group
+[2016-04-14 12:39:54] Repository http://download.eclipse.org/technology/epp/packages/mars
+[2016-04-14 12:39:54] Repository http://download.eclipse.org/releases/mars/201602261000
+[2016-04-14 12:39:54] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2016-04-14 12:40:02] Calculating requirements and dependencies.
+[2016-04-14 12:40:03] Computing prerequisite plan
+[2016-04-14 12:40:07] Fetching compositeArtifacts.jar from http://download.eclipse.org/oomph/updates/milestone/latest/
+[2016-04-14 12:40:08] Fetching artifacts.jar from http://download.eclipse.org/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/
+[2016-04-14 12:40:09] Fetching artifacts.xml.xz from http://download.eclipse.org/technology/epp/packages/mars/
+[2016-04-14 12:40:10] Fetching artifacts.jar from http://download.eclipse.org/releases/mars/201602261000/
+[2016-04-14 12:40:19] Downloading org.apache.commons.codec
+[2016-04-14 12:40:19] Downloading org.apache.commons.logging
+[2016-04-14 12:40:19] Downloading org.apache.httpcomponents.httpclient
+[2016-04-14 12:40:19] Downloading org.apache.httpcomponents.httpcore
+[2016-04-14 12:40:20] Fetching S20160324-055722-1.4.0-M6a&countryCode=in&timeZone=5&format=xml from http://www.eclipse.org/downloads/download.php?file=/oomph/drops/milestone/
+[2016-04-14 12:40:20] Fetching org.apache.commons.logging_1.1.1.v201101211721.jar.pack.gz from http://download.eclipse.org/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:20] Fetching org.apache.httpcomponents.httpclient_4.3.6.v201411290715.jar.pack.gz from http://download.eclipse.org/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:21] Fetching org.apache.commons.codec_1.6.0.v201305230611.jar.pack.gz from http://eclipse.c3sl.ufpr.br/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:21] Fetching org.apache.httpcomponents.httpcore_4.3.3.v201411290715.jar.pack.gz from http://eclipse.c3sl.ufpr.br/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:21] Downloading org.eclipse.nebula.widgets.tablecombo
+[2016-04-14 12:40:22] Downloading org.eclipse.oomph.base
+[2016-04-14 12:40:22] Downloading org.eclipse.oomph.base.edit
+[2016-04-14 12:40:22] Fetching org.eclipse.nebula.widgets.tablecombo_1.0.0.201602191853.jar from http://ftp.kaist.ac.kr/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:22] Fetching org.eclipse.oomph.base_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:22] Downloading org.eclipse.oomph.extractor.lib
+[2016-04-14 12:40:23] Fetching org.eclipse.oomph.base.edit_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:23] Downloading org.eclipse.oomph.jreinfo
+[2016-04-14 12:40:23] Downloading org.eclipse.oomph.jreinfo.ui
+[2016-04-14 12:40:23] Fetching org.eclipse.oomph.jreinfo_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:23] Downloading org.eclipse.oomph.p2
+[2016-04-14 12:40:23] Fetching org.eclipse.oomph.jreinfo.ui_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:23] Fetching org.eclipse.oomph.extractor.lib_1.1.0.v20160323-1057.jar.pack.gz from http://eclipse.c3sl.ufpr.br/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:23] Downloading org.eclipse.oomph.p2.core
+[2016-04-14 12:40:24] Downloading org.eclipse.oomph.p2.doc
+[2016-04-14 12:40:24] Fetching org.eclipse.oomph.p2_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:24] Fetching org.eclipse.oomph.p2.core_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:24] Downloading org.eclipse.oomph.p2.edit
+[2016-04-14 12:40:24] Fetching org.eclipse.oomph.p2.edit_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:24] Downloading org.eclipse.oomph.p2
+[2016-04-14 12:40:24] Fetching org.eclipse.oomph.p2.doc_1.4.0.v20160323-1057.jar from http://eclipse.c3sl.ufpr.br/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:25] Downloading org.eclipse.oomph.p2.ui
+[2016-04-14 12:40:25] Downloading org.eclipse.oomph.predicates
+[2016-04-14 12:40:25] Fetching org.eclipse.oomph.p2_1.4.0.v20160323-1057.jar from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/features/
+[2016-04-14 12:40:25] Fetching org.eclipse.oomph.predicates_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:25] Fetching org.eclipse.oomph.p2.ui_1.4.0.v20160323-1057.jar.pack.gz from http://download.eclipse.org/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:25] Downloading org.eclipse.oomph.predicates.edit
+[2016-04-14 12:40:25] Downloading org.eclipse.oomph.preferences
+[2016-04-14 12:40:26] Fetching org.eclipse.oomph.preferences_1.4.0.v20160323-1057.jar.pack.gz from http://download.eclipse.org/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:26] Downloading org.eclipse.oomph.resources
+[2016-04-14 12:40:26] Fetching org.eclipse.oomph.predicates.edit_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.kaist.ac.kr/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:26] Downloading org.eclipse.oomph.resources.edit
+[2016-04-14 12:40:27] Fetching org.eclipse.oomph.resources_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:27] Downloading org.eclipse.oomph.setup
+[2016-04-14 12:40:27] Downloading org.eclipse.oomph.setup.core
+[2016-04-14 12:40:27] Fetching org.eclipse.oomph.resources.edit_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.kaist.ac.kr/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:27] Fetching org.eclipse.oomph.setup.core_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:28] Fetching org.eclipse.oomph.setup_1.4.0.v20160324-0842.jar.pack.gz from http://eclipse.c3sl.ufpr.br/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:28] Downloading org.eclipse.oomph.setup.core
+[2016-04-14 12:40:28] Downloading org.eclipse.oomph.setup.doc
+[2016-04-14 12:40:28] Fetching org.eclipse.oomph.setup.core_1.4.0.v20160324-0842.jar from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/features/
+[2016-04-14 12:40:28] Downloading org.eclipse.oomph.setup.edit
+[2016-04-14 12:40:29] Fetching org.eclipse.oomph.setup.doc_1.4.0.v20160323-1057.jar from http://eclipse.c3sl.ufpr.br/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:29] Downloading org.eclipse.oomph.setup.editor
+[2016-04-14 12:40:29] Downloading org.eclipse.oomph.setup
+[2016-04-14 12:40:29] Fetching org.eclipse.oomph.setup.editor_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:29] Fetching org.eclipse.oomph.setup.edit_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.kaist.ac.kr/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:30] Downloading org.eclipse.oomph.setup.p2
+[2016-04-14 12:40:30] Fetching org.eclipse.oomph.setup_1.4.0.v20160324-0842.jar from http://ftp.kaist.ac.kr/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/features/
+[2016-04-14 12:40:30] Fetching org.eclipse.oomph.setup.p2_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:31] Downloading org.eclipse.oomph.setup.p2.edit
+[2016-04-14 12:40:31] Fetching org.eclipse.oomph.setup.p2.edit_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:31] Downloading org.eclipse.oomph.setup.sync
+[2016-04-14 12:40:31] Downloading org.eclipse.oomph.setup.ui
+[2016-04-14 12:40:31] Fetching org.eclipse.oomph.setup.sync_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:32] Fetching org.eclipse.oomph.setup.ui_1.4.0.v20160323-1057.jar.pack.gz from http://download.eclipse.org/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:32] Downloading org.eclipse.oomph.setup.ui.questionnaire
+[2016-04-14 12:40:32] Downloading org.eclipse.oomph.ui
+[2016-04-14 12:40:32] Fetching org.eclipse.oomph.ui_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:33] Fetching org.eclipse.oomph.setup.ui.questionnaire_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.kaist.ac.kr/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:33] Downloading org.eclipse.oomph.util
+[2016-04-14 12:40:34] Downloading org.eclipse.oomph.workingsets
+[2016-04-14 12:40:34] Fetching org.eclipse.oomph.workingsets_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:34] Fetching org.eclipse.oomph.util_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.kaist.ac.kr/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:34] Downloading org.eclipse.oomph.workingsets.edit
+[2016-04-14 12:40:35] Fetching org.eclipse.oomph.workingsets.edit_1.4.0.v20160323-1057.jar.pack.gz from http://download.eclipse.org/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:35] Downloading org.eclipse.oomph.workingsets.editor
+[2016-04-14 12:40:36] Fetching org.eclipse.oomph.workingsets.editor_1.4.0.v20160323-1057.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:36] Downloading org.eclipse.userstorage
+[2016-04-14 12:40:37] Downloading org.eclipse.userstorage.ui
+[2016-04-14 12:40:37] Fetching org.eclipse.userstorage.ui_1.0.0.v20151216-0912.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:38] Fetching org.eclipse.userstorage_1.0.0.v20151212-0935.jar.pack.gz from http://ftp.kaist.ac.kr/eclipse/oomph/drops/milestone/S20160324-055722-1.4.0-M6a/plugins/
+[2016-04-14 12:40:40] Downloading epp.package.java.executable.gtk.linux.x86_64
+[2016-04-14 12:40:40] Downloading org.eclipse.epp.logging.aeri.core
+[2016-04-14 12:40:40] Downloading org.eclipse.epp.logging.aeri.feature
+[2016-04-14 12:40:40] Downloading org.eclipse.epp.logging.aeri.ide
+[2016-04-14 12:40:41] Fetching mars&format=xml&countryCode=in&timeZone=5&format=xml from http://www.eclipse.org/downloads/download.php?file=/technology/epp/packages/
+[2016-04-14 12:40:42] Fetching org.eclipse.epp.logging.aeri.ide_1.100.0.v20160217-0435.jar.pack.gz from http://download.eclipse.org/technology/epp/packages/mars/plugins/
+[2016-04-14 12:40:42] Fetching org.eclipse.epp.logging.aeri.core_1.100.0.v20160211-1103.jar.pack.gz from http://download.eclipse.org/technology/epp/packages/mars/plugins/
+[2016-04-14 12:40:42] Fetching epp.package.java.executable.gtk.linux.x86_64_4.5.2.20160218-0600 from http://download.eclipse.org/technology/epp/packages/mars/binary/
+[2016-04-14 12:40:42] Fetching org.eclipse.epp.logging.aeri.feature_1.100.0.v20160217-0435.jar from http://mirror.ufs.ac.za/eclipse/technology/epp/packages/mars/features/
+[2016-04-14 12:40:43] Downloading org.eclipse.epp.package.common.feature
+[2016-04-14 12:40:43] Downloading org.eclipse.epp.package.java
+[2016-04-14 12:40:43] Downloading org.eclipse.epp.package.java.feature
+[2016-04-14 12:40:43] Fetching org.eclipse.epp.package.common.feature_4.5.2.20160218-0600.jar from http://ftp.jaist.ac.jp/pub/eclipse/technology/epp/packages/mars/features/
+[2016-04-14 12:40:43] Fetching org.eclipse.epp.package.java_4.5.2.20160218-0600.jar.pack.gz from http://mirror.ufs.ac.za/eclipse/technology/epp/packages/mars/plugins/
+[2016-04-14 12:40:43] Fetching org.eclipse.epp.package.java.feature_4.5.2.20160218-0600.jar from http://ftp.jaist.ac.jp/pub/eclipse/technology/epp/packages/mars/features/
+[2016-04-14 12:40:44] Downloading org.eclipse.equinox.launcher.gtk.linux.x86_64
+[2016-04-14 12:40:44] Fetching org.eclipse.equinox.launcher.gtk.linux.x86_64_1.1.300.v20150602-1417.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/technology/epp/packages/mars/plugins/
+[2016-04-14 12:40:45] Downloading ch.qos.logback.classic
+[2016-04-14 12:40:45] Downloading ch.qos.logback.core
+[2016-04-14 12:40:45] Downloading ch.qos.logback.slf4j
+[2016-04-14 12:40:45] Downloading com.google.gson
+[2016-04-14 12:40:46] Fetching 201602261000&countryCode=in&timeZone=5&format=xml from http://www.eclipse.org/downloads/download.php?format=xml&file=/releases/mars/
+[2016-04-14 12:40:46] Fetching com.google.gson_2.2.4.v201311231704.jar.pack.gz from http://download.eclipse.org/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:46] Fetching ch.qos.logback.core_1.0.7.v20121108-1250.jar.pack.gz from http://download.eclipse.org/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:46] Fetching ch.qos.logback.slf4j_1.0.7.v201505121915.jar.pack.gz from http://eclipse.c3sl.ufpr.br/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:47] Fetching ch.qos.logback.classic_1.0.7.v20121108-1250.jar.pack.gz from http://eclipse.c3sl.ufpr.br/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:47] Downloading com.google.guava
+[2016-04-14 12:40:47] Fetching com.google.guava_15.0.0.v201403281430.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:47] Downloading com.google.inject
+[2016-04-14 12:40:48] Downloading com.google.inject.multibindings
+[2016-04-14 12:40:48] Fetching com.google.inject.multibindings_3.0.0.v201402270930.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:48] Fetching com.google.inject_3.0.0.v201312141243.jar.pack.gz from http://eclipse.c3sl.ufpr.br/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:48] Downloading com.gradleware.tooling.client
+[2016-04-14 12:40:49] Fetching com.gradleware.tooling.client_0.8.1.v201512100932.jar.pack.gz from http://download.eclipse.org/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:49] Downloading com.gradleware.tooling.model
+[2016-04-14 12:40:50] Downloading com.gradleware.tooling.utils
+[2016-04-14 12:40:50] Fetching com.gradleware.tooling.model_0.8.1.v201512100932.jar.pack.gz from http://download.eclipse.org/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:50] Downloading com.ibm.icu
+[2016-04-14 12:40:50] Fetching com.ibm.icu_54.1.1.v201501272100.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:51] Fetching com.gradleware.tooling.utils_0.8.1.v201512100932.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:51] Downloading com.jcraft.jsch
+[2016-04-14 12:40:51] Downloading com.sun.el
+[2016-04-14 12:40:51] Downloading javaewah
+[2016-04-14 12:40:51] Fetching com.jcraft.jsch_0.1.53.v201508180515.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:52] Fetching com.sun.el_2.2.0.v201303151357.jar.pack.gz from http://download.eclipse.org/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:52] Fetching javaewah_0.7.9.v201401101600.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:52] Downloading javax.annotation
+[2016-04-14 12:40:53] Downloading javax.el
+[2016-04-14 12:40:53] Downloading javax.inject
+[2016-04-14 12:40:53] Fetching javax.annotation_1.2.0.v201401042248.jar.pack.gz from http://eclipse.c3sl.ufpr.br/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:54] Downloading javax.servlet
+[2016-04-14 12:40:54] Fetching javax.inject_1.0.0.v20091030.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:54] Downloading javax.servlet.jsp
+[2016-04-14 12:40:54] Fetching javax.el_2.2.0.v201303151357.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:40:55] Fetching javax.servlet_3.1.0.v201410161800.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:55] Fetching javax.servlet.jsp_2.2.0.v201112011158.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:55] Downloading javax.xml
+[2016-04-14 12:40:55] Downloading org.apache.ant
+[2016-04-14 12:40:56] Downloading org.apache.batik.css
+[2016-04-14 12:40:56] Fetching org.apache.ant_1.9.6.v201510161327.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:56] Fetching org.apache.batik.css_1.7.0.v201011041433.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:57] Fetching javax.xml_1.3.4.v201005080400.jar from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:58] Downloading org.apache.batik.util
+[2016-04-14 12:40:59] Downloading org.apache.batik.util.gui
+[2016-04-14 12:40:59] Fetching org.apache.batik.util_1.7.0.v201011041433.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:40:59] Fetching org.apache.batik.util.gui_1.7.0.v200903091627.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:00] Downloading org.apache.commons.compress
+[2016-04-14 12:41:00] Downloading org.apache.commons.httpclient
+[2016-04-14 12:41:01] Fetching org.apache.commons.httpclient_3.1.0.v201012070820.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:01] Fetching org.apache.commons.compress_1.6.0.v201310281400.jar.pack.gz from http://eclipse.c3sl.ufpr.br/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:02] Downloading org.apache.commons.io
+[2016-04-14 12:41:02] Fetching org.apache.commons.io_2.2.0.v201405211200.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:03] Downloading org.apache.commons.jxpath
+[2016-04-14 12:41:03] Downloading org.apache.commons.lang
+[2016-04-14 12:41:04] Fetching org.apache.commons.jxpath_1.3.0.v200911051830.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:41:04] Fetching org.apache.commons.lang_2.6.0.v201404270220.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:06] Downloading org.apache.commons.lang3
+[2016-04-14 12:41:06] Fetching org.apache.commons.lang3_3.1.0.v201403281430.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:08] Downloading org.apache.commons.math
+[2016-04-14 12:41:08] Fetching org.apache.commons.math_2.1.0.v201105210652.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:41:08] Downloading org.apache.commons.pool
+[2016-04-14 12:41:09] Fetching org.apache.commons.pool_1.6.0.v201204271246.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:09] Downloading org.apache.felix.gogo.command
+[2016-04-14 12:41:10] Fetching org.apache.felix.gogo.command_0.10.0.v201209301215.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:10] Downloading org.apache.felix.gogo.runtime
+[2016-04-14 12:41:11] Fetching org.apache.felix.gogo.runtime_0.10.0.v201209301036.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:11] Downloading org.apache.felix.gogo.shell
+[2016-04-14 12:41:11] Fetching org.apache.felix.gogo.shell_0.10.0.v201212101605.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:11] Downloading org.apache.jasper.glassfish
+[2016-04-14 12:41:11] Downloading org.apache.log4j
+[2016-04-14 12:41:12] Downloading org.apache.lucene.analysis
+[2016-04-14 12:41:12] Fetching org.apache.jasper.glassfish_2.2.2.v201501141630.jar from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:41:12] Fetching org.apache.log4j_1.2.15.v201012070815.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:13] Fetching org.apache.lucene.analysis_3.5.0.v20120725-1805.jar from http://eclipse.c3sl.ufpr.br/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:14] Downloading org.apache.lucene.core
+[2016-04-14 12:41:15] Fetching org.apache.lucene.core_3.5.0.v20120725-1805.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:17] Downloading org.apache.solr.client.solrj
+[2016-04-14 12:41:18] Fetching org.apache.solr.client.solrj_3.5.0.v20150506-0844.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:19] Downloading org.apache.ws.commons.util
+[2016-04-14 12:41:20] Fetching org.apache.ws.commons.util_1.0.1.v20100518-1140.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:20] Downloading org.apache.xerces
+[2016-04-14 12:41:21] Fetching org.apache.xerces_2.9.0.v201101211617.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:26] Downloading org.apache.xml.resolver
+[2016-04-14 12:41:27] Fetching org.apache.xml.resolver_1.2.0.v201005080400.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:27] Downloading org.apache.xml.serializer
+[2016-04-14 12:41:27] Downloading org.apache.xmlrpc
+[2016-04-14 12:41:28] Fetching org.apache.xmlrpc_3.0.0.v20100427-1100.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:28] Fetching org.apache.xml.serializer_2.7.1.v201005080400.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:28] Downloading org.eclipse.aether.api
+[2016-04-14 12:41:29] Downloading org.eclipse.aether.connector.basic
+[2016-04-14 12:41:29] Fetching org.eclipse.aether.api_1.0.1.v20141111.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:29] Fetching org.eclipse.aether.connector.basic_1.0.1.v20141111.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:30] Downloading org.eclipse.aether.connector.basic.feature
+[2016-04-14 12:41:30] Downloading org.eclipse.aether.feature
+[2016-04-14 12:41:30] Fetching org.eclipse.aether.connector.basic.feature_1.0.1.v20141111.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:41:30] Downloading org.eclipse.aether.impl
+[2016-04-14 12:41:31] Fetching org.eclipse.aether.impl_1.0.1.v20141111.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:31] Fetching org.eclipse.aether.feature_1.0.1.v20141111.jar from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:41:31] Downloading org.eclipse.aether.maven
+[2016-04-14 12:41:32] Downloading org.eclipse.aether.maven.feature
+[2016-04-14 12:41:32] Fetching org.eclipse.aether.maven_3.1.0.v20140706-2237.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:32] Fetching org.eclipse.aether.maven.feature_3.1.0.20140706-2237.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:41:32] Downloading org.eclipse.aether.spi
+[2016-04-14 12:41:33] Fetching org.eclipse.aether.spi_1.0.1.v20141111.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:33] Downloading org.eclipse.aether.transport.file
+[2016-04-14 12:41:33] Fetching org.eclipse.aether.transport.file_1.0.1.v20141111.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:34] Downloading org.eclipse.aether.transport.file.feature
+[2016-04-14 12:41:34] Fetching org.eclipse.aether.transport.file.feature_1.0.1.v20141111.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:41:34] Downloading org.eclipse.aether.transport.http
+[2016-04-14 12:41:34] Downloading org.eclipse.aether.transport.http.feature
+[2016-04-14 12:41:35] Fetching org.eclipse.aether.transport.http.feature_1.0.1.v20141111.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:41:35] Downloading org.eclipse.aether.util
+[2016-04-14 12:41:35] Fetching org.eclipse.aether.transport.http_1.0.1.v20141111.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:41:36] Fetching org.eclipse.aether.util_1.0.1.v20141111.jar.pack.gz from http://download.eclipse.org/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:36] Downloading org.eclipse.ant.core
+[2016-04-14 12:41:37] Fetching org.eclipse.ant.core_3.4.0.v20150428-1928.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:37] Downloading org.eclipse.ant.launching
+[2016-04-14 12:41:37] Downloading org.eclipse.ant.ui
+[2016-04-14 12:41:37] Downloading org.eclipse.buildship.branding
+[2016-04-14 12:41:38] Fetching org.eclipse.ant.launching_1.1.101.v20160203-1242.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:38] Fetching org.eclipse.ant.ui_3.6.101.v20160203-1242.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:38] Fetching org.eclipse.buildship.branding_1.0.8.v20160201-1803.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:41:38] Downloading org.eclipse.buildship.core
+[2016-04-14 12:41:38] Downloading org.eclipse.buildship
+[2016-04-14 12:41:38] Fetching org.eclipse.buildship.core_1.0.8.v20160201-1803.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:39] Fetching org.eclipse.buildship_1.0.8.v20160201-1803.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:41:39] Downloading org.eclipse.buildship.ui
+[2016-04-14 12:41:39] Downloading org.eclipse.compare
+[2016-04-14 12:41:40] Downloading org.eclipse.compare.core
+[2016-04-14 12:41:40] Fetching org.eclipse.compare.core_3.5.500.v20150505-1058.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:40] Fetching org.eclipse.buildship.ui_1.0.8.v20160201-1803.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:40] Downloading org.eclipse.core.commands
+[2016-04-14 12:41:41] Fetching org.eclipse.compare_3.5.600.v20150420-1449.jar.pack.gz from http://eclipse.c3sl.ufpr.br/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:41] Fetching org.eclipse.core.commands_3.7.0.v20150422-0725.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:41] Downloading org.eclipse.core.contenttype
+[2016-04-14 12:41:41] Downloading org.eclipse.core.databinding
+[2016-04-14 12:41:42] Fetching org.eclipse.core.databinding_1.5.0.v20150422-0725.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:42] Fetching org.eclipse.core.contenttype_3.5.0.v20150421-2214.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:41:42] Downloading org.eclipse.core.databinding.beans
+[2016-04-14 12:41:42] Downloading org.eclipse.core.databinding.observable
+[2016-04-14 12:41:43] Fetching org.eclipse.core.databinding.beans_1.3.0.v20150422-0725.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:43] Fetching org.eclipse.core.databinding.observable_1.5.0.v20150422-0725.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:43] Downloading org.eclipse.core.databinding.property
+[2016-04-14 12:41:43] Downloading org.eclipse.core.expressions
+[2016-04-14 12:41:43] Downloading org.eclipse.core.externaltools
+[2016-04-14 12:41:44] Fetching org.eclipse.core.databinding.property_1.5.0.v20150422-0725.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:44] Fetching org.eclipse.core.expressions_3.5.0.v20150421-2214.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:44] Fetching org.eclipse.core.externaltools_1.0.300.v20140219-0051.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:44] Downloading org.eclipse.core.filebuffers
+[2016-04-14 12:41:44] Downloading org.eclipse.core.filesystem
+[2016-04-14 12:41:44] Downloading org.eclipse.core.filesystem.java7
+[2016-04-14 12:41:45] Fetching org.eclipse.core.filebuffers_3.5.500.v20140723-1040.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:45] Fetching org.eclipse.core.filesystem_1.5.0.v20150725-1910.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:45] Downloading org.eclipse.core.filesystem.linux.x86_64
+[2016-04-14 12:41:45] Downloading org.eclipse.core.jobs
+[2016-04-14 12:41:46] Fetching org.eclipse.core.filesystem.linux.x86_64_1.2.200.v20140124-1940.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:46] Fetching org.eclipse.core.jobs_3.7.0.v20150330-2103.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:46] Fetching org.eclipse.core.filesystem.java7_1.0.100.v20150423-0754.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:46] Downloading org.eclipse.core.net
+[2016-04-14 12:41:46] Downloading org.eclipse.core.net.linux.x86_64
+[2016-04-14 12:41:46] Fetching org.eclipse.core.net_1.2.300.v20141118-1725.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:46] Downloading org.eclipse.core.resources
+[2016-04-14 12:41:46] Fetching org.eclipse.core.net.linux.x86_64_1.1.100.v20140124-2013.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:41:47] Downloading org.eclipse.core.runtime
+[2016-04-14 12:41:47] Fetching org.eclipse.core.resources_3.10.1.v20150725-1910.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:47] Fetching org.eclipse.core.runtime_3.11.1.v20150903-1804.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:47] Downloading org.eclipse.core.runtime.compatibility
+[2016-04-14 12:41:48] Fetching org.eclipse.core.runtime.compatibility_3.2.300.v20150423-0821.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:48] Downloading org.eclipse.core.runtime.compatibility.registry
+[2016-04-14 12:41:48] Downloading org.eclipse.core.variables
+[2016-04-14 12:41:49] Fetching org.eclipse.core.variables_3.2.800.v20130819-1716.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:49] Fetching org.eclipse.core.runtime.compatibility.registry_3.6.0.v20150318-1505.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:49] Downloading org.eclipse.debug.core
+[2016-04-14 12:41:49] Downloading org.eclipse.debug.ui
+[2016-04-14 12:41:49] Downloading org.eclipse.draw2d
+[2016-04-14 12:41:49] Fetching org.eclipse.debug.core_3.10.0.v20150303-1130.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:49] Fetching org.eclipse.debug.ui_3.11.101.v20160203-1230.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:50] Fetching org.eclipse.draw2d_3.10.1.201508170204.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:50] Downloading org.eclipse.e4.core.commands
+[2016-04-14 12:41:51] Fetching org.eclipse.e4.core.commands_0.11.0.v20150422-0725.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:51] Downloading org.eclipse.e4.core.contexts
+[2016-04-14 12:41:51] Fetching org.eclipse.e4.core.contexts_1.4.0.v20150828-0818.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:51] Downloading org.eclipse.e4.core.di
+[2016-04-14 12:41:52] Fetching org.eclipse.e4.core.di_1.5.0.v20150421-2214.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:52] Downloading org.eclipse.e4.core.di.annotations
+[2016-04-14 12:41:53] Downloading org.eclipse.e4.core.di.extensions
+[2016-04-14 12:41:53] Fetching org.eclipse.e4.core.di.extensions_0.13.0.v20150421-2214.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:54] Downloading org.eclipse.e4.core.services
+[2016-04-14 12:41:54] Downloading org.eclipse.e4.emf.xpath
+[2016-04-14 12:41:54] Fetching org.eclipse.e4.emf.xpath_0.1.100.v20150513-0856.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:54] Fetching org.eclipse.e4.core.services_2.0.0.v20150403-1912.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:54] Downloading org.eclipse.e4.rcp
+[2016-04-14 12:41:55] Fetching org.eclipse.e4.rcp_1.4.1.v20160212-1350.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:41:55] Downloading org.eclipse.e4.ui.bindings
+[2016-04-14 12:41:55] Downloading org.eclipse.e4.ui.css.core
+[2016-04-14 12:41:55] Fetching org.eclipse.e4.ui.bindings_0.11.0.v20150422-0725.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:55] Fetching org.eclipse.e4.ui.css.core_0.11.0.v20150511-1937.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:56] Downloading org.eclipse.e4.ui.css.swt
+[2016-04-14 12:41:56] Fetching org.eclipse.e4.ui.css.swt_0.12.0.v20150511-1003.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:57] Downloading org.eclipse.e4.ui.css.swt.theme
+[2016-04-14 12:41:57] Downloading org.eclipse.e4.ui.di
+[2016-04-14 12:41:57] Fetching org.eclipse.e4.ui.css.swt.theme_0.10.0.v20150422-0725.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:57] Downloading org.eclipse.e4.ui.dialogs
+[2016-04-14 12:41:57] Fetching org.eclipse.e4.ui.di_1.1.0.v20150422-0725.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:58] Downloading org.eclipse.e4.ui.model.workbench
+[2016-04-14 12:41:58] Downloading org.eclipse.e4.ui.services
+[2016-04-14 12:41:58] Fetching org.eclipse.e4.ui.dialogs_1.0.0.v20150513-0856.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:58] Fetching org.eclipse.e4.ui.services_1.2.0.v20150422-0725.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:58] Downloading org.eclipse.e4.ui.swt.gtk
+[2016-04-14 12:41:58] Fetching org.eclipse.e4.ui.model.workbench_1.1.100.v20150407-1430.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:58] Downloading org.eclipse.e4.ui.widgets
+[2016-04-14 12:41:59] Fetching org.eclipse.e4.ui.widgets_1.1.0.v20150427-1751.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:59] Downloading org.eclipse.e4.ui.workbench
+[2016-04-14 12:41:59] Fetching org.eclipse.e4.ui.swt.gtk_1.0.1.v20150708-1529.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:41:59] Downloading org.eclipse.e4.ui.workbench.addons.swt
+[2016-04-14 12:41:59] Fetching org.eclipse.e4.ui.workbench_1.3.1.v20160203-0951.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:41:59] Downloading org.eclipse.e4.ui.workbench.renderers.swt
+[2016-04-14 12:42:00] Fetching org.eclipse.e4.ui.workbench.renderers.swt_0.13.0.v20150901-1347.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:00] Downloading org.eclipse.e4.ui.workbench.swt
+[2016-04-14 12:42:01] Downloading org.eclipse.e4.ui.workbench3
+[2016-04-14 12:42:01] Fetching org.eclipse.e4.ui.workbench3_0.13.0.v20150422-0725.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:01] Downloading org.eclipse.ecf
+[2016-04-14 12:42:01] Fetching org.eclipse.ecf_3.7.0.v20151130-0157.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:02] Fetching org.eclipse.e4.core.di.annotations_1.4.0.v20150528-1451.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:02] Downloading org.eclipse.ecf.core.feature
+[2016-04-14 12:42:02] Downloading org.eclipse.ecf.core.ssl.feature
+[2016-04-14 12:42:02] Fetching org.eclipse.ecf.core.ssl.feature_1.1.0.v20151130-0157.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:42:02] Fetching org.eclipse.ecf.core.feature_1.2.0.v20151130-0157.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:42:03] Downloading org.eclipse.ecf.filetransfer
+[2016-04-14 12:42:03] Downloading org.eclipse.ecf.filetransfer.feature
+[2016-04-14 12:42:03] Fetching org.eclipse.ecf.filetransfer_5.0.0.v20151130-0157.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:03] Downloading org.eclipse.ecf.filetransfer.httpclient4.feature
+[2016-04-14 12:42:04] Fetching org.eclipse.ecf.filetransfer.httpclient4.feature_3.12.0.v20151130-0157.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:42:04] Downloading org.eclipse.ecf.filetransfer.httpclient4.ssl.feature
+[2016-04-14 12:42:04] Fetching org.eclipse.ecf.filetransfer.httpclient4.ssl.feature_1.1.0.v20151130-0157.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:42:04] Downloading org.eclipse.ecf.filetransfer.ssl.feature
+[2016-04-14 12:42:05] Fetching org.eclipse.ecf.filetransfer.ssl.feature_1.1.0.v20151130-0157.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:42:05] Downloading org.eclipse.ecf.identity
+[2016-04-14 12:42:10] Fetching org.eclipse.ecf.identity_3.6.0.v20151130-0157.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:10] Downloading org.eclipse.ecf.provider.filetransfer
+[2016-04-14 12:42:10] Fetching org.eclipse.ecf.provider.filetransfer_3.2.200.v20151130-0157.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:11] Downloading org.eclipse.ecf.provider.filetransfer.httpclient4
+[2016-04-14 12:42:12] Fetching org.eclipse.ecf.provider.filetransfer.httpclient4_1.1.0.v20151130-0157.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:12] Downloading org.eclipse.ecf.provider.filetransfer.httpclient4.ssl
+[2016-04-14 12:42:12] Fetching org.eclipse.ecf.filetransfer.feature_3.12.0.v20151130-0157.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:42:12] Downloading org.eclipse.ecf.provider.filetransfer.ssl
+[2016-04-14 12:42:13] Fetching org.eclipse.ecf.provider.filetransfer.httpclient4.ssl_1.1.0.v20151130-0157.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:13] Downloading org.eclipse.ecf.ssl
+[2016-04-14 12:42:13] Fetching org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20151130-0157.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:13] Fetching org.eclipse.ecf.ssl_1.2.0.v20151130-0157.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:13] Downloading org.eclipse.egit
+[2016-04-14 12:42:13] Downloading org.eclipse.egit.core
+[2016-04-14 12:42:14] Fetching org.eclipse.egit_4.1.1.201511131810-r.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:14] Fetching org.eclipse.egit.core_4.1.1.201511131810-r.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:14] Downloading org.eclipse.egit.doc
+[2016-04-14 12:42:14] Fetching org.eclipse.egit.doc_4.1.1.201511131810-r.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:15] Downloading org.eclipse.egit
+[2016-04-14 12:42:16] Fetching org.eclipse.egit_4.1.1.201511131810-r.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:42:20] Downloading org.eclipse.egit.mylyn
+[2016-04-14 12:42:20] Fetching org.eclipse.egit.mylyn_4.1.1.201511131810-r.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:42:21] Fetching org.eclipse.e4.ui.workbench.addons.swt_1.2.0.v20150512-1414.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:21] Downloading org.eclipse.egit.mylyn.ui
+[2016-04-14 12:42:21] Downloading org.eclipse.egit.ui
+[2016-04-14 12:42:21] Fetching org.eclipse.e4.ui.workbench.swt_0.13.0.v20150504-0621.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:22] Fetching org.eclipse.egit.mylyn.ui_4.1.1.201511131810-r.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:22] Fetching org.eclipse.egit.ui_4.1.1.201511131810-r.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:23] Downloading org.eclipse.emf.common
+[2016-04-14 12:42:23] Fetching org.eclipse.emf.common_2.11.1.v20160208-0816.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:24] Downloading org.eclipse.emf.common
+[2016-04-14 12:42:25] Fetching org.eclipse.emf.common_2.11.1.v20160208-0816.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:42:25] Downloading org.eclipse.emf.common.ui
+[2016-04-14 12:42:25] Downloading org.eclipse.emf.databinding
+[2016-04-14 12:42:26] Fetching org.eclipse.emf.common.ui_2.10.1.v20160208-0841.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:42:26] Fetching org.eclipse.emf.databinding_1.3.0.v20160208-0841.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:26] Downloading org.eclipse.emf.ecore
+[2016-04-14 12:42:27] Fetching org.eclipse.emf.ecore_2.11.2.v20160208-0816.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:28] Downloading org.eclipse.emf.ecore.change
+[2016-04-14 12:42:29] Fetching org.eclipse.emf.ecore.change_2.11.0.v20160208-0816.jar.pack.gz from http://download.eclipse.org/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:29] Downloading org.eclipse.emf.ecore.edit
+[2016-04-14 12:42:30] Fetching org.eclipse.emf.ecore.edit_2.9.0.v20160208-0841.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:30] Downloading org.eclipse.emf.ecore
+[2016-04-14 12:42:31] Downloading org.eclipse.emf.ecore.xmi
+[2016-04-14 12:42:31] Fetching org.eclipse.emf.ecore.xmi_2.11.1.v20160208-0816.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:32] Fetching org.eclipse.emf.ecore_2.11.2.v20160208-0816.jar from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/features/
+[2016-04-14 12:42:32] Downloading org.eclipse.emf.edit
+[2016-04-14 12:42:33] Fetching org.eclipse.emf.edit_2.11.1.v20160208-0841.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:33] Downloading org.eclipse.emf.edit.ui
+[2016-04-14 12:42:33] Downloading org.eclipse.epp.mpc.core
+[2016-04-14 12:42:34] Downloading org.eclipse.epp.mpc
+[2016-04-14 12:42:34] Fetching org.eclipse.emf.edit.ui_2.11.1.v20160208-0841.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:34] Fetching org.eclipse.epp.mpc.core_1.4.2.v20160210-1948.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:42:34] Downloading org.eclipse.epp.mpc.help.ui
+[2016-04-14 12:42:34] Fetching org.eclipse.epp.mpc_1.4.2.v20160210-2005.jar from http://eclipse.stu.edu.tw/releases/mars/201602261000/features/
+[2016-04-14 12:42:35] Downloading org.eclipse.epp.mpc.ui
+[2016-04-14 12:42:35] Fetching org.eclipse.epp.mpc.help.ui_1.4.2.v20160120-1701.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:36] Fetching org.eclipse.epp.mpc.ui_1.4.2.v20160210-2005.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:36] Downloading org.eclipse.equinox.app
+[2016-04-14 12:42:36] Downloading org.eclipse.equinox.bidi
+[2016-04-14 12:42:36] Fetching org.eclipse.equinox.app_1.3.300.v20150423-1356.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:37] Downloading org.eclipse.equinox.common
+[2016-04-14 12:42:37] Fetching org.eclipse.equinox.bidi_0.10.0.v20130327-1442.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:37] Fetching org.eclipse.equinox.common_3.7.0.v20150402-1709.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:38] Downloading org.eclipse.equinox.concurrent
+[2016-04-14 12:42:38] Downloading org.eclipse.equinox.console
+[2016-04-14 12:42:38] Fetching org.eclipse.equinox.concurrent_1.1.0.v20130327-1442.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:38] Fetching org.eclipse.equinox.console_1.1.100.v20141023-1406.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:38] Downloading org.eclipse.equinox.ds
+[2016-04-14 12:42:39] Fetching org.eclipse.equinox.ds_1.4.300.v20150423-1356.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:40] Downloading org.eclipse.equinox.event
+[2016-04-14 12:42:40] Downloading org.eclipse.equinox.frameworkadmin
+[2016-04-14 12:42:40] Downloading org.eclipse.equinox.frameworkadmin.equinox
+[2016-04-14 12:42:40] Downloading org.eclipse.equinox.http.jetty
+[2016-04-14 12:42:40] Fetching org.eclipse.equinox.event_1.3.100.v20140115-1647.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:40] Downloading org.eclipse.equinox.http.registry
+[2016-04-14 12:42:40] Fetching org.eclipse.equinox.frameworkadmin.equinox_1.0.600.v20150522-2234.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:40] Fetching org.eclipse.equinox.frameworkadmin_2.0.200.v20150423-1455.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:40] Fetching org.eclipse.equinox.http.jetty_3.1.2.v20160115-1350.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:41] Downloading org.eclipse.equinox.http.servlet
+[2016-04-14 12:42:41] Downloading org.eclipse.equinox.jsp.jasper
+[2016-04-14 12:42:41] Downloading org.eclipse.equinox.jsp.jasper.registry
+[2016-04-14 12:42:41] Fetching org.eclipse.equinox.http.servlet_1.2.2.v20160202-2102.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:41] Fetching org.eclipse.equinox.jsp.jasper_1.0.500.v20150119-1358.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:41] Fetching org.eclipse.equinox.jsp.jasper.registry_1.0.300.v20130327-1442.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:42:41] Downloading org.eclipse.equinox.launcher
+[2016-04-14 12:42:41] Fetching org.eclipse.equinox.http.registry_1.1.300.v20130402-1529.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:42] Downloading org.eclipse.equinox.p2.artifact.repository
+[2016-04-14 12:42:42] Downloading org.eclipse.equinox.p2.console
+[2016-04-14 12:42:42] Downloading org.eclipse.equinox.p2.core
+[2016-04-14 12:42:42] Fetching org.eclipse.equinox.p2.artifact.repository_1.1.400.v20150513-2116.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:42] Fetching org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:42] Fetching org.eclipse.equinox.p2.console_1.0.400.v20150423-1455.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:42] Fetching org.eclipse.equinox.p2.core_2.4.0.v20150527-1706.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:43] Downloading org.eclipse.equinox.p2.core.feature
+[2016-04-14 12:42:43] Downloading org.eclipse.equinox.p2.director
+[2016-04-14 12:42:43] Downloading org.eclipse.equinox.p2.director.app
+[2016-04-14 12:42:43] Downloading org.eclipse.equinox.p2.directorywatcher
+[2016-04-14 12:42:43] Fetching org.eclipse.equinox.p2.director_2.3.200.v20150423-1455.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:43] Fetching org.eclipse.equinox.p2.core.feature_1.3.100.v20150527-1706.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:42:44] Downloading org.eclipse.equinox.p2.discovery
+[2016-04-14 12:42:44] Fetching org.eclipse.equinox.p2.director.app_1.0.400.v20150423-1455.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:44] Fetching org.eclipse.equinox.p2.directorywatcher_1.1.100.v20150423-1455.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:44] Downloading org.eclipse.equinox.p2.discovery.compatibility
+[2016-04-14 12:42:44] Fetching org.eclipse.equinox.p2.discovery_1.0.300.v20131210-1027.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:44] Downloading org.eclipse.equinox.p2.discovery.feature
+[2016-04-14 12:42:44] Downloading org.eclipse.equinox.p2.engine
+[2016-04-14 12:42:45] Downloading org.eclipse.equinox.p2.extensionlocation
+[2016-04-14 12:42:45] Fetching org.eclipse.equinox.p2.discovery.compatibility_1.0.200.v20131211-1531.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:45] Fetching org.eclipse.equinox.p2.engine_2.4.0.v20150511-1532.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:45] Fetching org.eclipse.equinox.p2.discovery.feature_1.0.300.v20150430-1836.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:42:45] Downloading org.eclipse.equinox.p2.extras.feature
+[2016-04-14 12:42:45] Fetching org.eclipse.equinox.p2.extensionlocation_1.2.201.v20160129-0947.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:46] Downloading org.eclipse.equinox.p2.garbagecollector
+[2016-04-14 12:42:46] Downloading org.eclipse.equinox.p2.jarprocessor
+[2016-04-14 12:42:46] Fetching org.eclipse.equinox.p2.extras.feature_1.2.101.v20160129-0947.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:42:46] Downloading org.eclipse.equinox.p2.metadata
+[2016-04-14 12:42:46] Fetching org.eclipse.equinox.p2.garbagecollector_1.0.200.v20131115-1210.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:46] Fetching org.eclipse.equinox.p2.jarprocessor_1.0.400.v20150430-1836.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:46] Downloading org.eclipse.equinox.p2.metadata.repository
+[2016-04-14 12:42:46] Downloading org.eclipse.equinox.p2.operations
+[2016-04-14 12:42:46] Fetching org.eclipse.equinox.p2.metadata_2.3.0.v20150511-1532.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:42:46] Downloading org.eclipse.equinox.p2.publisher
+[2016-04-14 12:42:47] Fetching org.eclipse.equinox.p2.operations_2.4.100.v20150423-1455.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:47] Fetching org.eclipse.equinox.p2.metadata.repository_1.2.200.v20150428-1613.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:47] Downloading org.eclipse.equinox.p2.publisher.eclipse
+[2016-04-14 12:42:47] Fetching org.eclipse.equinox.p2.publisher_1.4.0.v20141117-0929.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:47] Fetching org.eclipse.equinox.p2.publisher.eclipse_1.2.0.v20150601-1708.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:48] Downloading org.eclipse.equinox.p2.rcp.feature
+[2016-04-14 12:42:48] Downloading org.eclipse.equinox.p2.reconciler.dropins
+[2016-04-14 12:42:48] Fetching org.eclipse.equinox.p2.rcp.feature_1.2.101.v20150826-1318.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:42:49] Downloading org.eclipse.equinox.p2.repository
+[2016-04-14 12:42:49] Downloading org.eclipse.equinox.p2.repository.tools
+[2016-04-14 12:42:49] Fetching org.eclipse.equinox.p2.reconciler.dropins_1.1.300.v20150423-1455.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:49] Fetching org.eclipse.equinox.p2.repository_2.3.100.v20150428-1613.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:49] Fetching org.eclipse.equinox.p2.repository.tools_2.1.100.v20150423-1455.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:49] Downloading org.eclipse.equinox.p2.touchpoint.eclipse
+[2016-04-14 12:42:50] Downloading org.eclipse.equinox.p2.touchpoint.natives
+[2016-04-14 12:42:50] Fetching org.eclipse.equinox.p2.touchpoint.eclipse_2.1.300.v20150423-1455.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:50] Downloading org.eclipse.equinox.p2.transport.ecf
+[2016-04-14 12:42:50] Fetching org.eclipse.equinox.p2.touchpoint.natives_1.2.0.v20150519-1136.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:51] Downloading org.eclipse.equinox.p2.ui
+[2016-04-14 12:42:51] Downloading org.eclipse.equinox.p2.ui.discovery
+[2016-04-14 12:42:51] Fetching org.eclipse.equinox.p2.transport.ecf_1.1.100.v20150521-1342.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:51] Downloading org.eclipse.equinox.p2.ui.importexport
+[2016-04-14 12:42:51] Downloading org.eclipse.equinox.p2.ui.sdk
+[2016-04-14 12:42:51] Fetching org.eclipse.equinox.p2.ui_2.4.0.v20150425-0422.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:52] Fetching org.eclipse.equinox.p2.ui.discovery_1.0.100.v20131210-1027.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:52] Fetching org.eclipse.equinox.p2.ui.importexport_1.1.100.v20150423-1455.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:52] Downloading org.eclipse.equinox.p2.ui.sdk.scheduler
+[2016-04-14 12:42:52] Fetching org.eclipse.equinox.p2.ui.sdk_1.0.400.v20150423-1455.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:52] Downloading org.eclipse.equinox.p2.updatechecker
+[2016-04-14 12:42:52] Fetching org.eclipse.equinox.p2.ui.sdk.scheduler_1.2.100.v20150423-1455.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:52] Downloading org.eclipse.equinox.p2.updatesite
+[2016-04-14 12:42:53] Fetching org.eclipse.equinox.p2.updatechecker_1.1.200.v20131119-0908.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:53] Downloading org.eclipse.equinox.p2.user.ui
+[2016-04-14 12:42:53] Downloading org.eclipse.equinox.preferences
+[2016-04-14 12:42:53] Fetching org.eclipse.equinox.p2.updatesite_1.0.500.v20150423-1455.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:53] Downloading org.eclipse.equinox.registry
+[2016-04-14 12:42:53] Fetching org.eclipse.equinox.p2.user.ui_2.2.102.v20160129-0947.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:42:53] Fetching org.eclipse.equinox.preferences_3.5.300.v20150408-1437.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:54] Downloading org.eclipse.equinox.security
+[2016-04-14 12:42:54] Fetching org.eclipse.equinox.registry_3.6.0.v20150318-1503.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:54] Downloading org.eclipse.equinox.security.ui
+[2016-04-14 12:42:55] Downloading org.eclipse.equinox.simpleconfigurator
+[2016-04-14 12:42:55] Fetching org.eclipse.equinox.security_1.2.100.v20150423-1356.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:55] Fetching org.eclipse.equinox.security.ui_1.1.201.v20150803-1228.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:55] Downloading org.eclipse.equinox.simpleconfigurator.manipulator
+[2016-04-14 12:42:55] Fetching org.eclipse.equinox.simpleconfigurator_1.1.100.v20150423-1455.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:56] Downloading org.eclipse.equinox.util
+[2016-04-14 12:42:56] Downloading org.eclipse.gef
+[2016-04-14 12:42:56] Fetching org.eclipse.equinox.simpleconfigurator.manipulator_2.0.100.v20150423-1455.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:56] Downloading org.eclipse.help
+[2016-04-14 12:42:56] Fetching org.eclipse.equinox.util_1.0.500.v20130404-1337.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:57] Fetching org.eclipse.help_3.6.0.v20130326-1254.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:57] Downloading org.eclipse.help.base
+[2016-04-14 12:42:57] Downloading org.eclipse.help
+[2016-04-14 12:42:57] Fetching org.eclipse.gef_3.10.1.201508170204.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:42:57] Fetching org.eclipse.help_2.1.2.v20160212-1500.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:42:57] Fetching org.eclipse.help.base_4.0.301.v20160212-1500.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:58] Downloading org.eclipse.help.ui
+[2016-04-14 12:42:58] Downloading org.eclipse.help.webapp
+[2016-04-14 12:42:58] Fetching org.eclipse.help.ui_4.0.100.v20140401-0608.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:58] Fetching org.eclipse.help.webapp_3.7.0.v20150425-0643.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:42:59] Downloading org.eclipse.jdt
+[2016-04-14 12:42:59] Downloading org.eclipse.jdt.annotation
+[2016-04-14 12:42:59] Fetching org.eclipse.jdt_3.11.2.v20160212-1500.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:00] Downloading org.eclipse.jdt.annotation
+[2016-04-14 12:43:00] Fetching org.eclipse.jdt.annotation_1.1.100.v20140704-0625.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:00] Downloading org.eclipse.jdt.apt.core
+[2016-04-14 12:43:00] Downloading org.eclipse.jdt.apt.pluggable.core
+[2016-04-14 12:43:00] Fetching org.eclipse.jdt.annotation_2.0.100.v20150311-1658.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:01] Downloading org.eclipse.jdt.apt.ui
+[2016-04-14 12:43:01] Fetching org.eclipse.jdt.apt.pluggable.core_1.1.0.v20150423-0947.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:01] Fetching org.eclipse.jdt.apt.core_3.4.0.v20150518-1201.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:01] Downloading org.eclipse.jdt.compiler.apt
+[2016-04-14 12:43:01] Fetching org.eclipse.jdt.apt.ui_3.4.0.v20150423-0947.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:01] Downloading org.eclipse.jdt.compiler.tool
+[2016-04-14 12:43:02] Fetching org.eclipse.jdt.compiler.tool_1.1.0.v20150513-2007.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:02] Downloading org.eclipse.jdt.core
+[2016-04-14 12:43:03] Downloading org.eclipse.jdt.core.manipulation
+[2016-04-14 12:43:03] Fetching org.eclipse.jdt.core_3.11.2.v20160128-0629.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:03] Fetching org.eclipse.jdt.core.manipulation_1.5.100.v20141002-1241.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:04] Downloading org.eclipse.jdt.debug
+[2016-04-14 12:43:05] Fetching org.eclipse.jdt.debug_3.9.1.v20160128-1343.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:05] Fetching org.eclipse.jdt.compiler.apt_1.2.0.v20150514-0146.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:08] Downloading org.eclipse.jdt.debug.ui
+[2016-04-14 12:43:08] Fetching org.eclipse.jdt.debug.ui_3.7.101.v20160203-1236.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:09] Downloading org.eclipse.jdt.doc.user
+[2016-04-14 12:43:09] Fetching org.eclipse.jdt.doc.user_3.11.1.v20150819-1130.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:15] Downloading org.eclipse.jdt
+[2016-04-14 12:43:16] Fetching org.eclipse.jdt_3.11.2.v20160212-1500.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:43:16] Downloading org.eclipse.jdt.junit
+[2016-04-14 12:43:17] Fetching org.eclipse.jdt.junit_3.8.0.v20150428-1340.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:17] Downloading org.eclipse.jdt.junit.core
+[2016-04-14 12:43:18] Fetching org.eclipse.jdt.junit.core_3.7.400.v20150423-0747.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:18] Downloading org.eclipse.jdt.junit.runtime
+[2016-04-14 12:43:18] Downloading org.eclipse.jdt.junit4.runtime
+[2016-04-14 12:43:19] Fetching org.eclipse.jdt.junit.runtime_3.4.500.v20140527-1138.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:43:19] Fetching org.eclipse.jdt.junit4.runtime_1.1.500.v20150423-0747.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:19] Downloading org.eclipse.jdt.launching
+[2016-04-14 12:43:20] Downloading org.eclipse.jdt.ui
+[2016-04-14 12:43:20] Fetching org.eclipse.jdt.ui_3.11.2.v20151123-1510.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:20] Fetching org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:23] Downloading org.eclipse.jem.util
+[2016-04-14 12:43:25] Fetching org.eclipse.jem.util_2.1.200.v201404021757.jar.pack.gz from http://eclipse.c3sl.ufpr.br/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:25] Downloading org.eclipse.jetty.continuation
+[2016-04-14 12:43:26] Fetching org.eclipse.jetty.continuation_9.2.13.v20150730.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:27] Downloading org.eclipse.jetty.http
+[2016-04-14 12:43:28] Fetching org.eclipse.jetty.http_9.2.13.v20150730.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:29] Downloading org.eclipse.jetty.io
+[2016-04-14 12:43:30] Fetching org.eclipse.jetty.io_9.2.13.v20150730.jar.pack.gz from http://download.eclipse.org/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:33] Downloading org.eclipse.jetty.security
+[2016-04-14 12:43:34] Fetching org.eclipse.jetty.security_9.2.13.v20150730.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:37] Downloading org.eclipse.jetty.server
+[2016-04-14 12:43:38] Fetching org.eclipse.jetty.server_9.2.13.v20150730.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:43] Downloading org.eclipse.jetty.servlet
+[2016-04-14 12:43:43] Fetching org.eclipse.jetty.servlet_9.2.13.v20150730.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:44] Downloading org.eclipse.jetty.util
+[2016-04-14 12:43:45] Fetching org.eclipse.jetty.util_9.2.13.v20150730.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:47] Downloading org.eclipse.jface
+[2016-04-14 12:43:50] Downloading org.eclipse.jface.databinding
+[2016-04-14 12:43:50] Downloading org.eclipse.jface.text
+[2016-04-14 12:43:50] Fetching org.eclipse.jface.databinding_1.7.0.v20150406-2148.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:51] Fetching org.eclipse.jface.text_3.10.0.v20150603-1752.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:51] Downloading org.eclipse.jgit
+[2016-04-14 12:43:51] Fetching org.eclipse.jgit_4.1.1.201511131810-r.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:52] Fetching org.eclipse.jface_3.11.1.v20160128-1644.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:43:53] Downloading org.eclipse.jgit.archive
+[2016-04-14 12:43:53] Fetching org.eclipse.jgit.archive_4.1.1.201511131810-r.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:43:54] Downloading org.eclipse.jgit
+[2016-04-14 12:43:54] Fetching org.eclipse.jgit_4.1.1.201511131810-r.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:43:58] Downloading org.eclipse.jsch.core
+[2016-04-14 12:43:59] Fetching org.eclipse.jsch.core_1.2.0.v20141202-1415.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:00] Downloading org.eclipse.jsch.ui
+[2016-04-14 12:44:02] Downloading org.eclipse.ltk.core.refactoring
+[2016-04-14 12:44:02] Fetching org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:04] Downloading org.eclipse.ltk.ui.refactoring
+[2016-04-14 12:44:04] Fetching org.eclipse.jsch.ui_1.2.0.v20141202-1415.jar.pack.gz from http://ftp.kaist.ac.kr/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:04] Fetching org.eclipse.ltk.ui.refactoring_3.7.200.v20140625-1835.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:06] Downloading org.eclipse.m2e.archetype.common
+[2016-04-14 12:44:06] Downloading org.eclipse.m2e.core
+[2016-04-14 12:44:06] Downloading org.eclipse.m2e.core.ui
+[2016-04-14 12:44:07] Fetching org.eclipse.m2e.core_1.6.2.20150902-0002.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:07] Fetching org.eclipse.m2e.archetype.common_1.6.2.20150902-0001.jar from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:44:07] Fetching org.eclipse.m2e.core.ui_1.6.2.20150902-0002.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:08] Downloading org.eclipse.m2e.discovery
+[2016-04-14 12:44:08] Downloading org.eclipse.m2e.editor
+[2016-04-14 12:44:08] Fetching org.eclipse.m2e.discovery_1.6.2.20150902-0002.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:09] Downloading org.eclipse.m2e.editor.xml
+[2016-04-14 12:44:09] Fetching org.eclipse.m2e.editor_1.6.2.20150902-0002.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:44:09] Downloading org.eclipse.m2e.feature
+[2016-04-14 12:44:09] Fetching org.eclipse.m2e.feature_1.6.2.20150902-0002.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:44:10] Downloading org.eclipse.m2e.jdt
+[2016-04-14 12:44:10] Fetching org.eclipse.m2e.editor.xml_1.6.2.20150902-0002.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:10] Fetching org.eclipse.m2e.jdt_1.6.2.20150902-0002.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:11] Downloading org.eclipse.m2e.jdt.ui
+[2016-04-14 12:44:11] Downloading org.eclipse.m2e.launching
+[2016-04-14 12:44:11] Fetching org.eclipse.m2e.jdt.ui_1.6.2.20150902-0002.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:12] Downloading org.eclipse.m2e.lifecyclemapping.defaults
+[2016-04-14 12:44:12] Fetching org.eclipse.m2e.launching_1.6.2.20150902-0002.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:12] Fetching org.eclipse.m2e.lifecyclemapping.defaults_1.6.2.20150902-0002.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:12] Downloading org.eclipse.m2e.logback.appender
+[2016-04-14 12:44:12] Downloading org.eclipse.m2e.logback.configuration
+[2016-04-14 12:44:13] Fetching org.eclipse.m2e.logback.appender_1.6.2.20150902-0002.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:13] Downloading org.eclipse.m2e.logback.feature
+[2016-04-14 12:44:13] Fetching org.eclipse.m2e.logback.feature_1.6.2.20150902-0002.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:44:14] Downloading org.eclipse.m2e.maven.indexer
+[2016-04-14 12:44:14] Fetching org.eclipse.m2e.logback.configuration_1.6.2.20150902-0002.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:14] Downloading org.eclipse.m2e.maven.runtime
+[2016-04-14 12:44:14] Fetching org.eclipse.m2e.maven.indexer_1.6.2.20150902-0001.jar from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:15] Fetching org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:15] Downloading org.eclipse.m2e.maven.runtime.slf4j.simple
+[2016-04-14 12:44:16] Fetching org.eclipse.m2e.maven.runtime.slf4j.simple_1.6.2.20150902-0001.jar from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:16] Downloading org.eclipse.m2e.model.edit
+[2016-04-14 12:44:17] Fetching org.eclipse.m2e.model.edit_1.6.2.20150902-0002.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:19] Downloading org.eclipse.m2e.profiles.core
+[2016-04-14 12:44:19] Fetching org.eclipse.m2e.profiles.core_1.6.2.20150902-0002.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:19] Downloading org.eclipse.m2e.profiles.ui
+[2016-04-14 12:44:20] Fetching org.eclipse.m2e.profiles.ui_1.6.2.20150902-0002.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:21] Downloading org.eclipse.m2e.refactoring
+[2016-04-14 12:44:22] Fetching org.eclipse.m2e.refactoring_1.6.2.20150902-0002.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:22] Downloading org.eclipse.m2e.scm
+[2016-04-14 12:44:22] Downloading org.eclipse.m2e.workspace.cli
+[2016-04-14 12:44:22] Fetching org.eclipse.m2e.scm_1.6.2.20150902-0002.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:23] Downloading org.eclipse.mylyn.bugzilla.core
+[2016-04-14 12:44:23] Fetching org.eclipse.m2e.workspace.cli_0.3.1.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:23] Downloading org.eclipse.mylyn.bugzilla.ide
+[2016-04-14 12:44:23] Fetching org.eclipse.mylyn.bugzilla.core_3.18.0.v20151009-2340.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:23] Fetching org.eclipse.mylyn.bugzilla.ide_3.18.0.v20151013-1847.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:24] Downloading org.eclipse.mylyn.bugzilla.ui
+[2016-04-14 12:44:24] Fetching org.eclipse.mylyn.bugzilla.ui_3.18.0.v20151009-2340.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:25] Downloading org.eclipse.mylyn.bugzilla_feature
+[2016-04-14 12:44:26] Downloading org.eclipse.mylyn.builds.core
+[2016-04-14 12:44:26] Fetching org.eclipse.mylyn.builds.core_1.10.0.v20151013-2221.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:27] Downloading org.eclipse.mylyn.builds
+[2016-04-14 12:44:28] Fetching org.eclipse.mylyn.builds_1.10.0.v20151211-2137.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:44:29] Fetching org.eclipse.mylyn.bugzilla_feature_3.18.0.v20151009-2340.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:44:31] Downloading org.eclipse.mylyn.builds.ui
+[2016-04-14 12:44:32] Fetching org.eclipse.mylyn.builds.ui_1.10.0.v20151211-2137.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:32] Downloading org.eclipse.mylyn.commons.core
+[2016-04-14 12:44:32] Downloading org.eclipse.mylyn.commons
+[2016-04-14 12:44:32] Fetching org.eclipse.mylyn.commons.core_3.18.0.v20151019-2227.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:32] Fetching org.eclipse.mylyn.commons_3.18.0.v20151116-1930.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:44:33] Downloading org.eclipse.mylyn.commons.identity.core
+[2016-04-14 12:44:33] Fetching org.eclipse.mylyn.commons.identity.core_1.10.0.v20151009-1724.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:33] Downloading org.eclipse.mylyn.commons.identity
+[2016-04-14 12:44:33] Downloading org.eclipse.mylyn.commons.net
+[2016-04-14 12:44:33] Downloading org.eclipse.mylyn.commons.notifications.core
+[2016-04-14 12:44:34] Fetching org.eclipse.mylyn.commons.identity_1.10.0.v20151009-1724.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:44:34] Fetching org.eclipse.mylyn.commons.net_3.18.0.v20151009-1724.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:34] Fetching org.eclipse.mylyn.commons.notifications.core_1.10.0.v20151009-1724.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:34] Downloading org.eclipse.mylyn.commons.notifications
+[2016-04-14 12:44:34] Downloading org.eclipse.mylyn.commons.notifications.feed
+[2016-04-14 12:44:34] Downloading org.eclipse.mylyn.commons.notifications.ui
+[2016-04-14 12:44:34] Fetching org.eclipse.mylyn.commons.notifications.feed_1.10.0.v20151009-1724.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:35] Fetching org.eclipse.mylyn.commons.notifications_1.10.0.v20151102-1814.jar from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:44:35] Downloading org.eclipse.mylyn.commons.repositories.core
+[2016-04-14 12:44:35] Fetching org.eclipse.mylyn.commons.notifications.ui_1.10.0.v20151102-1814.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:44:35] Fetching org.eclipse.mylyn.commons.repositories.core_1.10.0.v20151009-1724.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:35] Downloading org.eclipse.mylyn.commons.repositories
+[2016-04-14 12:44:36] Downloading org.eclipse.mylyn.commons.repositories.http.core
+[2016-04-14 12:44:36] Fetching org.eclipse.mylyn.commons.repositories_1.10.0.v20151116-1930.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:44:36] Downloading org.eclipse.mylyn.commons.repositories.http
+[2016-04-14 12:44:36] Fetching org.eclipse.mylyn.commons.repositories.http.core_1.10.0.v20151009-1724.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:37] Downloading org.eclipse.mylyn.commons.repositories.ui
+[2016-04-14 12:44:37] Fetching org.eclipse.mylyn.commons.repositories.http_1.10.0.v20151009-1724.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:44:37] Fetching org.eclipse.mylyn.commons.repositories.ui_1.10.0.v20151116-1930.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:37] Downloading org.eclipse.mylyn.commons.screenshots
+[2016-04-14 12:44:37] Fetching org.eclipse.mylyn.commons.screenshots_3.18.0.v20151009-1724.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:37] Downloading org.eclipse.mylyn.commons.ui
+[2016-04-14 12:44:37] Downloading org.eclipse.mylyn.commons.workbench
+[2016-04-14 12:44:38] Fetching org.eclipse.mylyn.commons.ui_3.18.0.v20151116-1930.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:38] Fetching org.eclipse.mylyn.commons.workbench_3.18.0.v20151102-1813.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:38] Downloading org.eclipse.mylyn.commons.xmlrpc
+[2016-04-14 12:44:38] Fetching org.eclipse.mylyn.commons.xmlrpc_3.18.0.v20151009-1724.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:39] Downloading org.eclipse.mylyn.context.core
+[2016-04-14 12:44:39] Downloading org.eclipse.mylyn.context.tasks.ui
+[2016-04-14 12:44:39] Downloading org.eclipse.mylyn.context.ui
+[2016-04-14 12:44:39] Fetching org.eclipse.mylyn.context.tasks.ui_3.18.0.v20151013-1847.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:39] Fetching org.eclipse.mylyn.context.core_3.18.0.v20151013-1847.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:39] Fetching org.eclipse.mylyn.context.ui_3.18.0.v20151014-2324.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:40] Downloading org.eclipse.mylyn.context_feature
+[2016-04-14 12:44:40] Downloading org.eclipse.mylyn.debug.ui
+[2016-04-14 12:44:40] Fetching org.eclipse.mylyn.context_feature_3.18.0.v20151014-2324.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:44:40] Fetching org.eclipse.mylyn.debug.ui_3.18.0.v20151013-1847.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:40] Downloading org.eclipse.mylyn.discovery.core
+[2016-04-14 12:44:41] Downloading org.eclipse.mylyn.discovery
+[2016-04-14 12:44:41] Fetching org.eclipse.mylyn.discovery.core_3.18.0.v20151009-1724.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:41] Downloading org.eclipse.mylyn.discovery.ui
+[2016-04-14 12:44:41] Fetching org.eclipse.mylyn.discovery.ui_3.18.0.v20151009-1724.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:41] Downloading org.eclipse.mylyn.git.core
+[2016-04-14 12:44:42] Downloading org.eclipse.mylyn.git
+[2016-04-14 12:44:42] Fetching org.eclipse.mylyn.git.core_1.10.0.v20151009-2340.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:42] Downloading org.eclipse.mylyn.git.ui
+[2016-04-14 12:44:42] Fetching org.eclipse.mylyn.git_1.10.0.v20151009-2340.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:44:42] Fetching org.eclipse.mylyn.git.ui_1.10.0.v20151009-2340.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:43] Downloading org.eclipse.mylyn.help.ui
+[2016-04-14 12:44:43] Downloading org.eclipse.mylyn.hudson.core
+[2016-04-14 12:44:43] Fetching org.eclipse.mylyn.help.ui_3.18.0.v20151009-2340.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:43] Fetching org.eclipse.mylyn.hudson.core_1.10.0.v20151013-2221.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:44] Fetching org.eclipse.mylyn.discovery_3.18.0.v20151009-1724.jar from http://eclipse.stu.edu.tw/releases/mars/201602261000/features/
+[2016-04-14 12:44:44] Downloading org.eclipse.mylyn.hudson
+[2016-04-14 12:44:45] Fetching org.eclipse.mylyn.hudson_1.10.0.v20151013-2221.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:44:45] Downloading org.eclipse.mylyn.hudson.ui
+[2016-04-14 12:44:45] Fetching org.eclipse.mylyn.hudson.ui_1.10.0.v20151013-2221.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:45] Downloading org.eclipse.mylyn.ide.ant
+[2016-04-14 12:44:46] Downloading org.eclipse.mylyn.ide.ui
+[2016-04-14 12:44:46] Fetching org.eclipse.mylyn.ide.ant_3.18.0.v20151013-1847.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:46] Fetching org.eclipse.mylyn.ide.ui_3.18.0.v20151013-1847.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:46] Downloading org.eclipse.mylyn.ide_feature
+[2016-04-14 12:44:46] Downloading org.eclipse.mylyn.java.tasks
+[2016-04-14 12:44:47] Fetching org.eclipse.mylyn.ide_feature_3.18.0.v20151013-1847.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:44:47] Fetching org.eclipse.mylyn.java.tasks_3.18.0.v20151013-1847.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:47] Downloading org.eclipse.mylyn.java.ui
+[2016-04-14 12:44:48] Downloading org.eclipse.mylyn.java_feature
+[2016-04-14 12:44:48] Downloading org.eclipse.mylyn.monitor.core
+[2016-04-14 12:44:48] Fetching org.eclipse.mylyn.java.ui_3.18.0.v20151013-1847.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:48] Fetching org.eclipse.mylyn.java_feature_3.18.0.v20151013-1847.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:44:49] Fetching org.eclipse.mylyn.monitor.core_3.18.0.v20151009-1724.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:49] Downloading org.eclipse.mylyn.monitor
+[2016-04-14 12:44:49] Downloading org.eclipse.mylyn.monitor.ui
+[2016-04-14 12:44:49] Downloading org.eclipse.mylyn.resources.ui
+[2016-04-14 12:44:49] Fetching org.eclipse.mylyn.monitor_3.18.0.v20151009-1724.jar from http://eclipse.stu.edu.tw/releases/mars/201602261000/features/
+[2016-04-14 12:44:49] Fetching org.eclipse.mylyn.monitor.ui_3.18.0.v20151009-1724.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:50] Fetching org.eclipse.mylyn.resources.ui_3.18.0.v20151013-1847.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:50] Downloading org.eclipse.mylyn.tasks.bugs
+[2016-04-14 12:44:50] Fetching org.eclipse.mylyn.tasks.bugs_3.18.0.v20151009-2340.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:50] Downloading org.eclipse.mylyn.tasks.core
+[2016-04-14 12:44:50] Downloading org.eclipse.mylyn.tasks.ide
+[2016-04-14 12:44:51] Downloading org.eclipse.mylyn.tasks.index.core
+[2016-04-14 12:44:51] Fetching org.eclipse.mylyn.tasks.ide_3.18.0.v20151009-2340.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:44:51] Fetching org.eclipse.mylyn.tasks.core_3.18.0.v20151202-0115.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:52] Downloading org.eclipse.mylyn.tasks.index.ui
+[2016-04-14 12:44:53] Downloading org.eclipse.mylyn.tasks.search
+[2016-04-14 12:44:53] Fetching org.eclipse.mylyn.tasks.search_3.18.0.v20151009-2340.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:53] Downloading org.eclipse.mylyn.tasks.ui
+[2016-04-14 12:44:54] Fetching org.eclipse.mylyn.tasks.ui_3.18.0.v20151211-2235.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:54] Fetching org.eclipse.mylyn.tasks.index.core_3.18.0.v20151012-1647.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:55] Downloading org.eclipse.mylyn.team.ui
+[2016-04-14 12:44:55] Fetching org.eclipse.mylyn.tasks.index.ui_3.18.0.v20151009-2340.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:55] Fetching org.eclipse.mylyn.team.ui_3.18.0.v20151120-2228.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:55] Downloading org.eclipse.mylyn.team_feature
+[2016-04-14 12:44:56] Fetching org.eclipse.mylyn.team_feature_3.18.0.v20151120-2228.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:44:56] Downloading org.eclipse.mylyn.versions.core
+[2016-04-14 12:44:56] Fetching org.eclipse.mylyn.versions.core_1.10.0.v20151125-0025.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:57] Downloading org.eclipse.mylyn.versions
+[2016-04-14 12:44:57] Downloading org.eclipse.mylyn.versions.ui
+[2016-04-14 12:44:57] Fetching org.eclipse.mylyn.versions_1.10.0.v20151125-0025.jar from http://eclipse.stu.edu.tw/releases/mars/201602261000/features/
+[2016-04-14 12:44:57] Fetching org.eclipse.mylyn.versions.ui_1.10.0.v20151009-2340.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:57] Downloading org.eclipse.mylyn.wikitext.confluence.core
+[2016-04-14 12:44:58] Fetching org.eclipse.mylyn.wikitext.confluence.core_2.7.0.v20151009-1723.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:58] Downloading org.eclipse.mylyn.wikitext.confluence.ui
+[2016-04-14 12:44:58] Downloading org.eclipse.mylyn.wikitext.context.ui
+[2016-04-14 12:44:59] Fetching org.eclipse.mylyn.wikitext.confluence.ui_2.7.0.v20151009-1723.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:59] Fetching org.eclipse.mylyn.wikitext.context.ui_2.7.0.v20151009-1723.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:59] Downloading org.eclipse.mylyn.wikitext.core
+[2016-04-14 12:44:59] Downloading org.eclipse.mylyn.wikitext.core.ant
+[2016-04-14 12:44:59] Downloading org.eclipse.mylyn.wikitext.core.osgi
+[2016-04-14 12:44:59] Fetching org.eclipse.mylyn.wikitext.core_2.7.0.v20151015-1452.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:44:59] Fetching org.eclipse.mylyn.wikitext.core.ant_2.7.0.v20151009-1723.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:00] Fetching org.eclipse.mylyn.wikitext.core.osgi_2.7.0.v20151009-1723.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:00] Downloading org.eclipse.mylyn.wikitext.help.ui
+[2016-04-14 12:45:00] Downloading org.eclipse.mylyn.wikitext.html.core
+[2016-04-14 12:45:00] Fetching org.eclipse.mylyn.wikitext.help.ui_2.7.0.v20151009-1723.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:00] Fetching org.eclipse.mylyn.wikitext.html.core_2.7.0.v20151015-1452.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:01] Downloading org.eclipse.mylyn.wikitext.markdown.core
+[2016-04-14 12:45:01] Fetching org.eclipse.mylyn.wikitext.markdown.core_2.7.0.v20151009-1723.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:02] Downloading org.eclipse.mylyn.wikitext.markdown.ui
+[2016-04-14 12:45:02] Downloading org.eclipse.mylyn.wikitext.mediawiki.core
+[2016-04-14 12:45:02] Downloading org.eclipse.mylyn.wikitext.mediawiki.ui
+[2016-04-14 12:45:02] Fetching org.eclipse.mylyn.wikitext.markdown.ui_2.7.0.v20151009-1723.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:02] Fetching org.eclipse.mylyn.wikitext.mediawiki.ui_2.7.0.v20151009-1723.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:02] Fetching org.eclipse.mylyn.wikitext.mediawiki.core_2.7.0.v20151009-1723.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:02] Downloading org.eclipse.mylyn.wikitext.tasks.ui
+[2016-04-14 12:45:03] Downloading org.eclipse.mylyn.wikitext.textile.core
+[2016-04-14 12:45:03] Fetching org.eclipse.mylyn.wikitext.tasks.ui_2.7.0.v20151009-1723.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:03] Fetching org.eclipse.mylyn.wikitext.textile.core_2.7.0.v20151009-1723.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:03] Downloading org.eclipse.mylyn.wikitext.textile.ui
+[2016-04-14 12:45:04] Downloading org.eclipse.mylyn.wikitext.tracwiki.core
+[2016-04-14 12:45:04] Fetching org.eclipse.mylyn.wikitext.textile.ui_2.7.0.v20151009-1723.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:04] Downloading org.eclipse.mylyn.wikitext.tracwiki.ui
+[2016-04-14 12:45:04] Downloading org.eclipse.mylyn.wikitext.twiki.core
+[2016-04-14 12:45:04] Fetching org.eclipse.mylyn.wikitext.tracwiki.core_2.7.0.v20151009-1723.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:05] Fetching org.eclipse.mylyn.wikitext.tracwiki.ui_2.7.0.v20151009-1723.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:05] Fetching org.eclipse.mylyn.wikitext.twiki.core_2.7.0.v20151009-1723.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:05] Downloading org.eclipse.mylyn.wikitext.twiki.ui
+[2016-04-14 12:45:05] Downloading org.eclipse.mylyn.wikitext.ui
+[2016-04-14 12:45:06] Downloading org.eclipse.mylyn.wikitext_feature
+[2016-04-14 12:45:06] Fetching org.eclipse.mylyn.wikitext.twiki.ui_2.7.0.v20151009-1723.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:06] Downloading org.eclipse.mylyn_feature
+[2016-04-14 12:45:06] Fetching org.eclipse.mylyn.wikitext.ui_2.7.0.v20151009-1723.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:06] Fetching org.eclipse.mylyn.wikitext_feature_2.7.0.v20151015-1452.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:45:08] Fetching org.eclipse.mylyn_feature_3.18.0.v20151211-2235.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:45:09] Downloading org.eclipse.osgi
+[2016-04-14 12:45:09] Downloading org.eclipse.osgi.compatibility.state
+[2016-04-14 12:45:10] Fetching org.eclipse.osgi_3.10.102.v20160118-1700.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:10] Downloading org.eclipse.osgi.services
+[2016-04-14 12:45:10] Fetching org.eclipse.osgi.compatibility.state_1.0.100.v20150402-1551.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:11] Fetching org.eclipse.osgi.services_3.5.0.v20150519-2006.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:11] Downloading org.eclipse.osgi.util
+[2016-04-14 12:45:11] Downloading org.eclipse.platform
+[2016-04-14 12:45:12] Downloading org.eclipse.platform.doc.user
+[2016-04-14 12:45:12] Fetching org.eclipse.osgi.util_3.3.100.v20150423-1351.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:12] Downloading org.eclipse.platform
+[2016-04-14 12:45:12] Fetching org.eclipse.platform.doc.user_4.5.1.v20150819-1130.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:12] Fetching org.eclipse.platform_4.5.2.v20160212-1500.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:13] Fetching org.eclipse.platform_4.5.2.v20160212-1500.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:45:13] Downloading org.eclipse.platform.ide.executable.gtk.linux.x86_64
+[2016-04-14 12:45:14] Fetching org.eclipse.platform.ide.executable.gtk.linux.x86_64_4.5.2.M20160212-1500 from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/binary/
+[2016-04-14 12:45:15] Downloading org.eclipse.platform_root
+[2016-04-14 12:45:16] Downloading org.eclipse.rcp
+[2016-04-14 12:45:16] Fetching org.eclipse.platform_root_4.5.2.v20160212-1500 from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/binary/
+[2016-04-14 12:45:16] Downloading org.eclipse.rcp
+[2016-04-14 12:45:17] Fetching org.eclipse.rcp_4.5.2.v20160212-1500.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:17] Fetching org.eclipse.rcp_4.5.2.v20160212-1500.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:45:17] Downloading org.eclipse.rcp_root
+[2016-04-14 12:45:17] Downloading org.eclipse.recommenders.apidocs
+[2016-04-14 12:45:18] Fetching org.eclipse.recommenders.apidocs_2.3.0.v20160216-1255.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:18] Fetching org.eclipse.rcp_root_4.5.2.v20160212-1500 from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/binary/
+[2016-04-14 12:45:18] Downloading org.eclipse.recommenders.apidocs.rcp
+[2016-04-14 12:45:18] Downloading org.eclipse.recommenders.calls
+[2016-04-14 12:45:18] Downloading org.eclipse.recommenders.calls.rcp
+[2016-04-14 12:45:18] Fetching org.eclipse.recommenders.calls_2.3.0.v20160216-1255.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:19] Fetching org.eclipse.recommenders.apidocs.rcp_2.3.0.v20160216-1255.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:19] Downloading org.eclipse.recommenders.chain.rcp
+[2016-04-14 12:45:19] Fetching org.eclipse.recommenders.calls.rcp_2.3.0.v20160216-1255.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:19] Fetching org.eclipse.recommenders.chain.rcp_2.3.0.v20160216-1255.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:19] Downloading org.eclipse.recommenders.completion.rcp
+[2016-04-14 12:45:19] Downloading org.eclipse.recommenders.constructors
+[2016-04-14 12:45:19] Downloading org.eclipse.recommenders.constructors.rcp
+[2016-04-14 12:45:20] Fetching org.eclipse.recommenders.completion.rcp_2.3.0.v20160216-1255.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:20] Fetching org.eclipse.recommenders.constructors.rcp_2.3.0.v20160216-1255.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:20] Fetching org.eclipse.recommenders.constructors_2.3.0.v20160216-1255.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:20] Downloading org.eclipse.recommenders.coordinates
+[2016-04-14 12:45:20] Downloading org.eclipse.recommenders.coordinates.rcp
+[2016-04-14 12:45:20] Fetching org.eclipse.recommenders.coordinates_2.3.0.v20160216-1255.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:21] Fetching org.eclipse.recommenders.coordinates.rcp_2.3.0.v20160216-1255.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:21] Downloading org.eclipse.recommenders.injection
+[2016-04-14 12:45:21] Downloading org.eclipse.recommenders.jayes
+[2016-04-14 12:45:21] Downloading org.eclipse.recommenders.jayes.io
+[2016-04-14 12:45:21] Fetching org.eclipse.recommenders.jayes_2.3.0.v20160216-1255.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:22] Fetching org.eclipse.recommenders.injection_2.3.0.v20160216-1255.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:22] Fetching org.eclipse.recommenders.jayes.io_2.3.0.v20160216-1255.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:22] Downloading org.eclipse.recommenders.jdt
+[2016-04-14 12:45:22] Downloading org.eclipse.recommenders.models
+[2016-04-14 12:45:22] Downloading org.eclipse.recommenders.models.rcp
+[2016-04-14 12:45:22] Fetching org.eclipse.recommenders.models.rcp_2.3.0.v20160216-1255.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:22] Fetching org.eclipse.recommenders.models_2.3.0.v20160216-1255.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:23] Fetching org.eclipse.recommenders.jdt_2.3.0.v20160216-1255.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:23] Downloading org.eclipse.recommenders.mylyn.rcp
+[2016-04-14 12:45:23] Downloading org.eclipse.recommenders.mylyn.rcp.feature
+[2016-04-14 12:45:24] Downloading org.eclipse.recommenders.net
+[2016-04-14 12:45:24] Fetching org.eclipse.recommenders.mylyn.rcp_2.3.0.v20160216-1255.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:24] Fetching org.eclipse.recommenders.mylyn.rcp.feature_2.3.0.v20160216-1255.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:45:24] Downloading org.eclipse.recommenders.overrides
+[2016-04-14 12:45:24] Fetching org.eclipse.recommenders.net_2.3.0.v20160216-1255.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:24] Fetching org.eclipse.recommenders.overrides_2.3.0.v20160216-1255.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:24] Downloading org.eclipse.recommenders.overrides.rcp
+[2016-04-14 12:45:25] Downloading org.eclipse.recommenders.rcp
+[2016-04-14 12:45:25] Downloading org.eclipse.recommenders.rcp.feature
+[2016-04-14 12:45:25] Fetching org.eclipse.recommenders.overrides.rcp_2.3.0.v20160216-1255.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:25] Downloading org.eclipse.recommenders.snipmatch
+[2016-04-14 12:45:25] Fetching org.eclipse.recommenders.rcp_2.3.0.v20160216-1255.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:25] Fetching org.eclipse.recommenders.rcp.feature_2.3.0.v20160216-1255.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:45:25] Fetching org.eclipse.recommenders.snipmatch_2.3.0.v20160216-1255.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:26] Downloading org.eclipse.recommenders.snipmatch.rcp
+[2016-04-14 12:45:26] Downloading org.eclipse.recommenders.snipmatch.rcp.feature
+[2016-04-14 12:45:26] Fetching org.eclipse.recommenders.snipmatch.rcp_2.3.0.v20160216-1255.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:26] Downloading org.eclipse.recommenders.subwords.rcp
+[2016-04-14 12:45:27] Fetching org.eclipse.recommenders.subwords.rcp_2.3.0.v20160216-1255.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:27] Fetching org.eclipse.recommenders.snipmatch.rcp.feature_2.3.0.v20160216-1255.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:45:27] Downloading org.eclipse.recommenders.types.rcp
+[2016-04-14 12:45:27] Downloading org.eclipse.recommenders.utils
+[2016-04-14 12:45:27] Fetching org.eclipse.recommenders.utils_2.3.0.v20160216-1255.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:27] Downloading org.eclipse.recommenders.utils.rcp
+[2016-04-14 12:45:28] Fetching org.eclipse.recommenders.utils.rcp_2.3.0.v20160216-1255.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:28] Downloading org.eclipse.search
+[2016-04-14 12:45:28] Downloading org.eclipse.swt
+[2016-04-14 12:45:29] Fetching org.eclipse.swt_3.104.2.v20160212-1350.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:29] Fetching org.eclipse.search_3.10.0.v20150318-0856.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:29] Downloading org.eclipse.swt.gtk.linux.x86_64
+[2016-04-14 12:45:29] Fetching org.eclipse.swt.gtk.linux.x86_64_3.104.2.v20160212-1350.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:30] Downloading org.eclipse.team.core
+[2016-04-14 12:45:31] Fetching org.eclipse.recommenders.types.rcp_2.3.0.v20160216-1255.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:31] Fetching org.eclipse.team.core_3.7.100.v20150203-1452.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:31] Downloading org.eclipse.team.ui
+[2016-04-14 12:45:32] Fetching org.eclipse.team.ui_3.7.200.v20150203-1452.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:33] Downloading org.eclipse.text
+[2016-04-14 12:45:33] Fetching org.eclipse.text_3.5.400.v20150505-1044.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:35] Downloading org.eclipse.ui
+[2016-04-14 12:45:35] Downloading org.eclipse.ui.browser
+[2016-04-14 12:45:35] Fetching org.eclipse.ui.browser_3.4.300.v20150429-0602.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:36] Downloading org.eclipse.ui.cheatsheets
+[2016-04-14 12:45:38] Downloading org.eclipse.ui.console
+[2016-04-14 12:45:38] Fetching org.eclipse.ui_3.107.0.v20150507-1945.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:39] Fetching org.eclipse.ui.console_3.6.100.v20150822-1912.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:39] Downloading org.eclipse.ui.editors
+[2016-04-14 12:45:40] Fetching org.eclipse.ui.editors_3.9.0.v20150213-1939.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:40] Downloading org.eclipse.ui.externaltools
+[2016-04-14 12:45:41] Fetching org.eclipse.ui.externaltools_3.3.0.v20150302-1002.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:41] Downloading org.eclipse.ui.forms
+[2016-04-14 12:45:41] Downloading org.eclipse.ui.ide
+[2016-04-14 12:45:42] Fetching org.eclipse.ui.forms_3.6.200.v20150506-2029.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:42] Fetching org.eclipse.ui.ide_3.11.0.v20150825-2158.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:43] Downloading org.eclipse.ui.ide.application
+[2016-04-14 12:45:43] Fetching org.eclipse.ui.ide.application_1.1.0.v20150422-0725.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:44] Downloading org.eclipse.ui.intro
+[2016-04-14 12:45:45] Fetching org.eclipse.ui.intro_3.4.300.v20141007-1449.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:45] Downloading org.eclipse.ui.intro.universal
+[2016-04-14 12:45:46] Fetching org.eclipse.ui.cheatsheets_3.4.200.v20131227-1524.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:46] Downloading org.eclipse.ui.monitoring
+[2016-04-14 12:45:46] Fetching org.eclipse.ui.intro.universal_3.2.800.v20150325-0952.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:46] Fetching org.eclipse.ui.monitoring_1.0.0.v20150512-1436.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:47] Downloading org.eclipse.ui.navigator
+[2016-04-14 12:45:47] Downloading org.eclipse.ui.navigator.resources
+[2016-04-14 12:45:48] Fetching org.eclipse.ui.navigator_3.6.0.v20150422-0725.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:45:48] Fetching org.eclipse.ui.navigator.resources_3.5.1.v20160128-1644.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:49] Downloading org.eclipse.ui.net
+[2016-04-14 12:45:49] Downloading org.eclipse.ui.themes
+[2016-04-14 12:45:49] Fetching org.eclipse.ui.themes_1.1.1.v20151026-1355.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:50] Fetching org.eclipse.ui.net_1.2.200.v20120807-0927.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:50] Downloading org.eclipse.ui.views
+[2016-04-14 12:45:50] Downloading org.eclipse.ui.views.log
+[2016-04-14 12:45:50] Fetching org.eclipse.ui.views_3.8.0.v20150422-0725.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:51] Downloading org.eclipse.ui.views.properties.tabbed
+[2016-04-14 12:45:52] Fetching org.eclipse.ui.views.properties.tabbed_3.6.100.v20150423-0822.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:52] Downloading org.eclipse.ui.workbench
+[2016-04-14 12:45:53] Downloading org.eclipse.ui.workbench.texteditor
+[2016-04-14 12:45:53] Fetching org.eclipse.ui.workbench_3.107.1.v20160120-2131.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:53] Fetching org.eclipse.ui.workbench.texteditor_3.9.100.v20141023-1946.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:54] Fetching org.eclipse.ui.views.log_1.0.600.v20150513-1840.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:54] Downloading org.eclipse.update.configurator
+[2016-04-14 12:45:55] Downloading org.eclipse.wb.core
+[2016-04-14 12:45:55] Fetching org.eclipse.update.configurator_3.3.300.v20140518-1928.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:56] Downloading org.eclipse.wb.core.databinding
+[2016-04-14 12:45:56] Fetching org.eclipse.wb.core_1.8.0.r45x201506110820.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:56] Downloading org.eclipse.wb.core.feature
+[2016-04-14 12:45:56] Fetching org.eclipse.wb.core.databinding_1.8.0.r45x201506110821.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:57] Fetching org.eclipse.wb.core.feature_1.8.0.r45x201506110820.jar from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:45:57] Downloading org.eclipse.wb.core.java
+[2016-04-14 12:45:58] Downloading org.eclipse.wb.core.java.feature
+[2016-04-14 12:45:58] Fetching org.eclipse.wb.core.java_1.8.0.r45x201506110821.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:45:58] Fetching org.eclipse.wb.core.java.feature_1.8.0.r45x201506110821.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:45:58] Downloading org.eclipse.wb.core.lib
+[2016-04-14 12:45:59] Fetching org.eclipse.wb.core.lib_1.8.0.r45x201506110820.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:01] Downloading org.eclipse.wb.core.ui
+[2016-04-14 12:46:01] Downloading org.eclipse.wb.core.ui.feature
+[2016-04-14 12:46:02] Fetching org.eclipse.wb.core.ui_1.8.0.r45x201506110822.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:02] Fetching org.eclipse.wb.core.ui.feature_1.8.0.r45x201506110822.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:46:02] Downloading org.eclipse.wb.layout.group
+[2016-04-14 12:46:02] Downloading org.eclipse.wb.layout.group.feature
+[2016-04-14 12:46:02] Downloading org.eclipse.wb.os
+[2016-04-14 12:46:03] Fetching org.eclipse.wb.layout.group_1.8.0.r45x201506110824.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:03] Fetching org.eclipse.wb.os_1.8.0.r45x201506110820.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:03] Downloading org.eclipse.wb.os.linux
+[2016-04-14 12:46:03] Fetching org.eclipse.wb.layout.group.feature_1.8.0.r45x201506110824.jar from http://eclipse.stu.edu.tw/releases/mars/201602261000/features/
+[2016-04-14 12:46:04] Fetching org.eclipse.wb.os.linux_1.8.0.r45x201506110820.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:04] Downloading org.eclipse.wb.runtime
+[2016-04-14 12:46:04] Downloading org.eclipse.wb.runtime.lib
+[2016-04-14 12:46:04] Fetching org.eclipse.wb.runtime_1.8.0.r45x201506110820.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:04] Downloading org.eclipse.wb.swing
+[2016-04-14 12:46:05] Fetching org.eclipse.wb.runtime.lib_1.8.0.r45x201506110820.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:05] Fetching org.eclipse.wb.swing_1.8.0.r45x201506110826.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:06] Downloading org.eclipse.wb.swing.FormLayout
+[2016-04-14 12:46:06] Fetching org.eclipse.wb.swing.FormLayout_1.8.0.r45x201506110826.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:07] Downloading org.eclipse.wb.swing.FormLayout.lib
+[2016-04-14 12:46:07] Downloading org.eclipse.wb.swing.MigLayout
+[2016-04-14 12:46:07] Downloading org.eclipse.wb.swing.MigLayout.lib
+[2016-04-14 12:46:07] Fetching org.eclipse.wb.swing.FormLayout.lib_1.8.0.r45x201506110826.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:08] Fetching org.eclipse.wb.swing.MigLayout_1.8.0.r45x201506110826.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:08] Fetching org.eclipse.wb.swing.MigLayout.lib_1.8.0.r45x201506110826.jar from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:08] Downloading org.eclipse.wb.swing.databinding
+[2016-04-14 12:46:09] Fetching org.eclipse.wb.swing.databinding_1.8.0.r45x201506110826.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:09] Downloading org.eclipse.wb.swing.feature
+[2016-04-14 12:46:10] Downloading org.eclipse.wb.swing.java6
+[2016-04-14 12:46:10] Downloading org.eclipse.wb.swing.jsr296
+[2016-04-14 12:46:10] Fetching org.eclipse.wb.swing.feature_1.8.0.r45x201506110826.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:46:10] Fetching org.eclipse.wb.swing.java6_1.8.0.r45x201506110826.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:10] Downloading org.eclipse.wst.common.core
+[2016-04-14 12:46:10] Fetching org.eclipse.wb.swing.jsr296_1.8.0.r45x201506110826.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:10] Downloading org.eclipse.wst.common.emf
+[2016-04-14 12:46:10] Downloading org.eclipse.wst.common.emfworkbench.integration
+[2016-04-14 12:46:10] Fetching org.eclipse.wst.common.core_1.2.0.v200908251833.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:11] Fetching org.eclipse.wst.common.emfworkbench.integration_1.2.101.v201107081800.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:11] Downloading org.eclipse.wst.common.environment
+[2016-04-14 12:46:11] Fetching org.eclipse.wst.common.emf_1.2.400.v201505132009.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:11] Downloading org.eclipse.wst.common.frameworks
+[2016-04-14 12:46:12] Fetching org.eclipse.wst.common.frameworks_1.2.200.v201304241450.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:12] Downloading org.eclipse.wst.common.frameworks.ui
+[2016-04-14 12:46:12] Downloading org.eclipse.wst.common.infopop
+[2016-04-14 12:46:13] Fetching org.eclipse.wst.common.frameworks.ui_1.2.400.v201504292002.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:13] Downloading org.eclipse.wst.common.modulecore
+[2016-04-14 12:46:13] Fetching org.eclipse.wst.common.modulecore_1.2.401.v201408132036.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:14] Downloading org.eclipse.wst.common.modulecore.ui
+[2016-04-14 12:46:17] Fetching org.eclipse.wst.common.environment_1.0.400.v200912181831.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:17] Fetching org.eclipse.wst.common.infopop_1.0.300.v201309101952.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:17] Downloading org.eclipse.wst.common.project.facet.core
+[2016-04-14 12:46:17] Downloading org.eclipse.wst.common.snippets
+[2016-04-14 12:46:18] Fetching org.eclipse.wst.common.project.facet.core_1.4.300.v201111030423.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:18] Fetching org.eclipse.wst.common.snippets_1.2.200.v201208080420.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:18] Fetching org.eclipse.wst.common.modulecore.ui_1.0.300.v201505072128.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:18] Downloading org.eclipse.wst.common.ui
+[2016-04-14 12:46:19] Downloading org.eclipse.wst.common.uriresolver
+[2016-04-14 12:46:19] Fetching org.eclipse.wst.common.ui_1.1.500.v200911182011.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:19] Downloading org.eclipse.wst.common_core.feature
+[2016-04-14 12:46:19] Fetching org.eclipse.wst.common.uriresolver_1.2.200.v201505132009.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:19] Fetching org.eclipse.wst.common_core.feature_3.7.1.v201508262220.jar from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:46:19] Downloading org.eclipse.wst.common_ui.feature
+[2016-04-14 12:46:20] Downloading org.eclipse.wst.dtd.core
+[2016-04-14 12:46:20] Downloading org.eclipse.wst.dtd.ui
+[2016-04-14 12:46:20] Fetching org.eclipse.wst.dtd.core_1.1.700.v201211012112.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:20] Fetching org.eclipse.wst.common_ui.feature_3.7.2.v201510130022.jar from http://eclipse.stu.edu.tw/releases/mars/201602261000/features/
+[2016-04-14 12:46:21] Fetching org.eclipse.wst.dtd.ui_1.0.801.v201308100602.jar.pack.gz from http://mirrors.opencas.cn/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:46:21] Downloading org.eclipse.wst.dtd.ui.infopop
+[2016-04-14 12:46:22] Fetching org.eclipse.wst.dtd.ui.infopop_1.0.400.v201309112106.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:22] Downloading org.eclipse.wst.dtdeditor.doc.user
+[2016-04-14 12:46:22] Downloading org.eclipse.wst.internet.cache
+[2016-04-14 12:46:22] Fetching org.eclipse.wst.internet.cache_1.0.701.v201510130022.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:22] Downloading org.eclipse.wst.server.core
+[2016-04-14 12:46:23] Fetching org.eclipse.wst.server.core_1.8.0.v201601132216.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:24] Downloading org.eclipse.wst.server.discovery
+[2016-04-14 12:46:25] Fetching org.eclipse.wst.server.discovery_1.2.0.v201601132216.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:25] Fetching org.eclipse.wst.dtdeditor.doc.user_1.0.700.v201208081537.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:26] Downloading org.eclipse.wst.sse.core
+[2016-04-14 12:46:26] Fetching org.eclipse.wst.sse.core_1.1.901.v201510130005.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:27] Downloading org.eclipse.wst.sse.doc.user
+[2016-04-14 12:46:27] Fetching org.eclipse.wst.sse.doc.user_1.1.100.v201208081537.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:28] Downloading org.eclipse.wst.sse.ui
+[2016-04-14 12:46:28] Downloading org.eclipse.wst.sse.ui.infopop
+[2016-04-14 12:46:28] Downloading org.eclipse.wst.standard.schemas
+[2016-04-14 12:46:28] Fetching org.eclipse.wst.sse.ui_1.3.401.v201510130005.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:29] Fetching org.eclipse.wst.sse.ui.infopop_1.0.300.v201309112106.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:29] Fetching org.eclipse.wst.standard.schemas_1.0.700.v201304171715.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:29] Downloading org.eclipse.wst.validation
+[2016-04-14 12:46:29] Downloading org.eclipse.wst.validation.infopop
+[2016-04-14 12:46:29] Fetching org.eclipse.wst.validation_1.2.700.v201508251749.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:29] Fetching org.eclipse.wst.validation.infopop_1.0.300.v201309101952.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:29] Downloading org.eclipse.wst.validation.ui
+[2016-04-14 12:46:30] Downloading org.eclipse.wst.xml.core
+[2016-04-14 12:46:30] Fetching org.eclipse.wst.validation.ui_1.2.500.v201310231452.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:30] Downloading org.eclipse.wst.xml.ui
+[2016-04-14 12:46:30] Downloading org.eclipse.wst.xml.ui.infopop
+[2016-04-14 12:46:31] Downloading org.eclipse.wst.xml_core.feature
+[2016-04-14 12:46:31] Fetching org.eclipse.wst.xml.core_1.1.902.v201501211904.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:31] Fetching org.eclipse.wst.xml.ui_1.1.501.v201501212057.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:31] Fetching org.eclipse.wst.xml_core.feature_3.7.2.v201510130005.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:46:31] Fetching org.eclipse.wst.xml.ui.infopop_1.0.400.v201309112106.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:32] Downloading org.eclipse.wst.xml_ui.feature
+[2016-04-14 12:46:32] Downloading org.eclipse.wst.xml_userdoc.feature
+[2016-04-14 12:46:32] Fetching org.eclipse.wst.xml_userdoc.feature_3.6.0.v201405062147.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:46:32] Downloading org.eclipse.wst.xmleditor.doc.user
+[2016-04-14 12:46:32] Downloading org.eclipse.wst.xsd.core
+[2016-04-14 12:46:32] Fetching org.eclipse.wst.xml_ui.feature_3.7.2.v201511240257.jar from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/features/
+[2016-04-14 12:46:33] Fetching org.eclipse.wst.xmleditor.doc.user_1.0.700.v201208081537.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:33] Fetching org.eclipse.wst.xsd.core_1.1.900.v201401141857.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:33] Downloading org.eclipse.wst.xsd.ui
+[2016-04-14 12:46:34] Downloading org.eclipse.wst.xsdeditor.doc.user
+[2016-04-14 12:46:34] Downloading org.eclipse.xsd
+[2016-04-14 12:46:34] Downloading org.eclipse.xsd.edit
+[2016-04-14 12:46:34] Fetching org.eclipse.xsd_2.11.0.v20160208-0841.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:34] Fetching org.eclipse.wst.xsdeditor.doc.user_1.0.800.v201208081537.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:34] Fetching org.eclipse.wst.xsd.ui_1.2.510.v201511240257.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:34] Fetching org.eclipse.xsd.edit_2.8.0.v20160208-0841.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:35] Downloading org.gradle.toolingapi
+[2016-04-14 12:46:35] Downloading org.hamcrest.core
+[2016-04-14 12:46:35] Fetching org.hamcrest.core_1.3.0.v201303031735.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:36] Downloading org.jsoup
+[2016-04-14 12:46:36] Fetching org.gradle.toolingapi_2.9.0.v201512100932.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/mars/201602261000/plugins/
+[2016-04-14 12:46:36] Fetching org.jsoup_1.7.2.v201411291515.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:37] Downloading org.junit
+[2016-04-14 12:46:37] Downloading org.sat4j.core
+[2016-04-14 12:46:37] Downloading org.sat4j.pb
+[2016-04-14 12:46:37] Fetching org.junit_4.12.0.v201504281640.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:37] Fetching org.sat4j.core_2.3.5.v201308161310.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:37] Fetching org.sat4j.pb_2.3.5.v201404071733.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:38] Downloading org.slf4j.api
+[2016-04-14 12:46:38] Downloading org.slf4j.impl.log4j12
+[2016-04-14 12:46:38] Fetching org.slf4j.api_1.7.2.v20121108-1250.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:39] Downloading org.tukaani.xz
+[2016-04-14 12:46:39] Downloading org.w3c.css.sac
+[2016-04-14 12:46:39] Fetching org.tukaani.xz_1.3.0.v201308270617.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:39] Fetching org.slf4j.impl.log4j12_1.7.2.v20131105-2200.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:39] Downloading org.w3c.dom.events
+[2016-04-14 12:46:40] Fetching org.w3c.css.sac_1.3.1.v200903091627.jar from http://ftp.daumkakao.com/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:40] Downloading org.w3c.dom.smil
+[2016-04-14 12:46:40] Fetching org.w3c.dom.events_3.0.0.draft20060413_v201105210656.jar from http://mirror.rise.ph/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:40] Downloading org.w3c.dom.svg
+[2016-04-14 12:46:40] Fetching org.w3c.dom.smil_1.0.1.v200903091627.jar.pack.gz from http://eclipse.stu.edu.tw/releases/mars/201602261000/plugins/
+[2016-04-14 12:46:40] Fetching org.w3c.dom.svg_1.1.0.v201011041433.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/mars/201602261000/plugins/
+[2016-04-14 12:48:17] The engine operation was cancelled and the changes are being rolled back.
+[2016-04-14 12:48:17] 
+[2016-04-14 12:48:50] Executing bootstrap tasks
+[2016-04-14 12:48:50] Product org.eclipse.products.epp.package.java.mars
+[2016-04-14 12:48:50] Bundle org.eclipse.oomph.setup 1.3.0.v20160213-0953, build=2199, branch=7194e06d06a87ced95779121a8281b59b9abdf81, commit=7194e06d06a87ced95779121a8281b59b9abdf81
+[2016-04-14 12:48:50] Bundle org.eclipse.oomph.setup.core 1.3.0.v20160213-0953, build=2199, branch=7194e06d06a87ced95779121a8281b59b9abdf81, commit=7194e06d06a87ced95779121a8281b59b9abdf81
+[2016-04-14 12:48:50] Bundle org.eclipse.oomph.setup.p2 1.3.0.v20160213-0953, build=2199, branch=7194e06d06a87ced95779121a8281b59b9abdf81, commit=7194e06d06a87ced95779121a8281b59b9abdf81
+[2016-04-14 12:48:50] Performing P2 Director (Eclipse IDE for Java Developers (Mars))
+[2016-04-14 12:48:50] Offline = false
+[2016-04-14 12:48:50] Mirrors = true
+[2016-04-14 12:48:50] Resolving 5 requirements from 3 repositories to /home/aman/Desktop/prog/JavaEc/eclipse
+[2016-04-14 12:48:50] Requirement epp.package.java [4.5.0,4.6.0)
+[2016-04-14 12:48:50] Requirement org.eclipse.platform.feature.group [4.5.0,4.6.0)
+[2016-04-14 12:48:50] Requirement org.eclipse.rcp.feature.group [4.5.0,4.6.0)
+[2016-04-14 12:48:50] Requirement org.eclipse.jdt.feature.group [3.11.0,3.12.0)
+[2016-04-14 12:48:50] Requirement org.eclipse.oomph.setup.feature.group
+[2016-04-14 12:48:50] Repository http://download.eclipse.org/technology/epp/packages/mars
+[2016-04-14 12:48:50] Repository http://download.eclipse.org/releases/mars/201602261000
+[2016-04-14 12:48:50] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2016-04-14 12:49:09] Calculating requirements and dependencies.
+[2016-04-14 12:49:10] Computing prerequisite plan
+[2016-04-14 12:49:12] Downloading epp.package.java.executable.gtk.linux.x86_64
+[2016-04-14 12:49:12] Downloading org.eclipse.platform.ide.executable.gtk.linux.x86_64
+[2016-04-14 12:49:12] Downloading org.eclipse.rcp_root
+[2016-04-14 12:49:12] Downloading org.eclipse.platform_root
+[2016-04-14 12:49:59] Installing a.jre.javase [1.6.0]
+[2016-04-14 12:49:59] Installing ch.qos.logback.classic [1.0.7.v20121108-1250]
+[2016-04-14 12:49:59] Installing ch.qos.logback.core [1.0.7.v20121108-1250]
+[2016-04-14 12:49:59] Installing ch.qos.logback.slf4j [1.0.7.v201505121915]
+[2016-04-14 12:49:59] Installing com.google.gson [2.2.4.v201311231704]
+[2016-04-14 12:49:59] Installing com.google.guava [15.0.0.v201403281430]
+[2016-04-14 12:49:59] Installing com.google.inject [3.0.0.v201312141243]
+[2016-04-14 12:49:59] Installing com.google.inject.multibindings [3.0.0.v201402270930]
+[2016-04-14 12:49:59] Installing com.gradleware.tooling.client [0.8.1.v201512100932]
+[2016-04-14 12:49:59] Installing com.gradleware.tooling.model [0.8.1.v201512100932]
+[2016-04-14 12:49:59] Installing com.gradleware.tooling.utils [0.8.1.v201512100932]
+[2016-04-14 12:49:59] Installing com.ibm.icu [54.1.1.v201501272100]
+[2016-04-14 12:49:59] Installing com.jcraft.jsch [0.1.53.v201508180515]
+[2016-04-14 12:49:59] Installing com.sun.el [2.2.0.v201303151357]
+[2016-04-14 12:49:59] Installing config.a.jre.javase [1.6.0]
+[2016-04-14 12:49:59] Installing epp.package.java [4.5.2.20160218-0600]
+[2016-04-14 12:49:59] Installing epp.package.java.executable.gtk.linux.x86_64 [4.5.2.20160218-0600]
+[2016-04-14 12:49:59] Installing epp.package.java.executable.gtk.linux.x86_64.eclipse [4.5.2.20160218-0600]
+[2016-04-14 12:49:59] Installing javaewah [0.7.9.v201401101600]
+[2016-04-14 12:49:59] Installing javax.annotation [1.2.0.v201401042248]
+[2016-04-14 12:49:59] Installing javax.el [2.2.0.v201303151357]
+[2016-04-14 12:49:59] Installing javax.inject [1.0.0.v20091030]
+[2016-04-14 12:49:59] Installing javax.servlet [3.1.0.v201410161800]
+[2016-04-14 12:49:59] Installing javax.servlet.jsp [2.2.0.v201112011158]
+[2016-04-14 12:49:59] Installing javax.xml [1.3.4.v201005080400]
+[2016-04-14 12:49:59] Installing org.apache.ant [1.9.6.v201510161327]
+[2016-04-14 12:49:59] Installing org.apache.batik.css [1.7.0.v201011041433]
+[2016-04-14 12:49:59] Installing org.apache.batik.util [1.7.0.v201011041433]
+[2016-04-14 12:49:59] Installing org.apache.batik.util.gui [1.7.0.v200903091627]
+[2016-04-14 12:49:59] Installing org.apache.commons.codec [1.6.0.v201305230611]
+[2016-04-14 12:49:59] Installing org.apache.commons.compress [1.6.0.v201310281400]
+[2016-04-14 12:49:59] Installing org.apache.commons.httpclient [3.1.0.v201012070820]
+[2016-04-14 12:49:59] Installing org.apache.commons.io [2.2.0.v201405211200]
+[2016-04-14 12:49:59] Installing org.apache.commons.jxpath [1.3.0.v200911051830]
+[2016-04-14 12:49:59] Installing org.apache.commons.lang [2.6.0.v201404270220]
+[2016-04-14 12:49:59] Installing org.apache.commons.lang3 [3.1.0.v201403281430]
+[2016-04-14 12:49:59] Installing org.apache.commons.logging [1.1.1.v201101211721]
+[2016-04-14 12:49:59] Installing org.apache.commons.math [2.1.0.v201105210652]
+[2016-04-14 12:49:59] Installing org.apache.commons.pool [1.6.0.v201204271246]
+[2016-04-14 12:49:59] Installing org.apache.felix.gogo.command [0.10.0.v201209301215]
+[2016-04-14 12:49:59] Installing org.apache.felix.gogo.runtime [0.10.0.v201209301036]
+[2016-04-14 12:49:59] Installing org.apache.felix.gogo.shell [0.10.0.v201212101605]
+[2016-04-14 12:49:59] Installing org.apache.httpcomponents.httpclient [4.3.6.v201411290715]
+[2016-04-14 12:49:59] Installing org.apache.httpcomponents.httpcore [4.3.3.v201411290715]
+[2016-04-14 12:49:59] Installing org.apache.jasper.glassfish [2.2.2.v201501141630]
+[2016-04-14 12:49:59] Installing org.apache.log4j [1.2.15.v201012070815]
+[2016-04-14 12:49:59] Installing org.apache.lucene.analysis [3.5.0.v20120725-1805]
+[2016-04-14 12:49:59] Installing org.apache.lucene.core [3.5.0.v20120725-1805]
+[2016-04-14 12:49:59] Installing org.apache.solr.client.solrj [3.5.0.v20150506-0844]
+[2016-04-14 12:49:59] Installing org.apache.ws.commons.util [1.0.1.v20100518-1140]
+[2016-04-14 12:49:59] Installing org.apache.xerces [2.9.0.v201101211617]
+[2016-04-14 12:49:59] Installing org.apache.xml.resolver [1.2.0.v201005080400]
+[2016-04-14 12:49:59] Installing org.apache.xml.serializer [2.7.1.v201005080400]
+[2016-04-14 12:49:59] Installing org.apache.xmlrpc [3.0.0.v20100427-1100]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.api [1.0.1.v20141111]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.connector.basic [1.0.1.v20141111]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.connector.basic.feature.feature.group [1.0.1.v20141111]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.connector.basic.feature.feature.jar [1.0.1.v20141111]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.feature.feature.group [1.0.1.v20141111]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.feature.feature.jar [1.0.1.v20141111]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.impl [1.0.1.v20141111]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.maven [3.1.0.v20140706-2237]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.maven.feature.feature.group [3.1.0.20140706-2237]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.maven.feature.feature.jar [3.1.0.20140706-2237]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.spi [1.0.1.v20141111]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.transport.file [1.0.1.v20141111]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.transport.file.feature.feature.group [1.0.1.v20141111]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.transport.file.feature.feature.jar [1.0.1.v20141111]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.transport.http [1.0.1.v20141111]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.transport.http.feature.feature.group [1.0.1.v20141111]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.transport.http.feature.feature.jar [1.0.1.v20141111]
+[2016-04-14 12:49:59] Installing org.eclipse.aether.util [1.0.1.v20141111]
+[2016-04-14 12:49:59] Installing org.eclipse.ant.core [3.4.0.v20150428-1928]
+[2016-04-14 12:49:59] Installing org.eclipse.ant.launching [1.1.101.v20160203-1242]
+[2016-04-14 12:49:59] Installing org.eclipse.ant.ui [3.6.101.v20160203-1242]
+[2016-04-14 12:49:59] Installing org.eclipse.buildship.branding [1.0.8.v20160201-1803]
+[2016-04-14 12:49:59] Installing org.eclipse.buildship.core [1.0.8.v20160201-1803]
+[2016-04-14 12:49:59] Installing org.eclipse.buildship.feature.group [1.0.8.v20160201-1803]
+[2016-04-14 12:49:59] Installing org.eclipse.buildship.feature.jar [1.0.8.v20160201-1803]
+[2016-04-14 12:49:59] Installing org.eclipse.buildship.ui [1.0.8.v20160201-1803]
+[2016-04-14 12:49:59] Installing org.eclipse.compare [3.5.600.v20150420-1449]
+[2016-04-14 12:49:59] Installing org.eclipse.compare.core [3.5.500.v20150505-1058]
+[2016-04-14 12:49:59] Installing org.eclipse.core.commands [3.7.0.v20150422-0725]
+[2016-04-14 12:49:59] Installing org.eclipse.core.contenttype [3.5.0.v20150421-2214]
+[2016-04-14 12:49:59] Installing org.eclipse.core.databinding [1.5.0.v20150422-0725]
+[2016-04-14 12:49:59] Installing org.eclipse.core.databinding.beans [1.3.0.v20150422-0725]
+[2016-04-14 12:49:59] Installing org.eclipse.core.databinding.observable [1.5.0.v20150422-0725]
+[2016-04-14 12:49:59] Installing org.eclipse.core.databinding.property [1.5.0.v20150422-0725]
+[2016-04-14 12:49:59] Installing org.eclipse.core.expressions [3.5.0.v20150421-2214]
+[2016-04-14 12:49:59] Installing org.eclipse.core.externaltools [1.0.300.v20140219-0051]
+[2016-04-14 12:49:59] Installing org.eclipse.core.filebuffers [3.5.500.v20140723-1040]
+[2016-04-14 12:49:59] Installing org.eclipse.core.filesystem [1.5.0.v20150725-1910]
+[2016-04-14 12:49:59] Installing org.eclipse.core.filesystem.java7 [1.0.100.v20150423-0754]
+[2016-04-14 12:49:59] Installing org.eclipse.core.filesystem.linux.x86_64 [1.2.200.v20140124-1940]
+[2016-04-14 12:49:59] Installing org.eclipse.core.jobs [3.7.0.v20150330-2103]
+[2016-04-14 12:49:59] Installing org.eclipse.core.net [1.2.300.v20141118-1725]
+[2016-04-14 12:49:59] Installing org.eclipse.core.net.linux.x86_64 [1.1.100.v20140124-2013]
+[2016-04-14 12:49:59] Installing org.eclipse.core.resources [3.10.1.v20150725-1910]
+[2016-04-14 12:49:59] Installing org.eclipse.core.runtime [3.11.1.v20150903-1804]
+[2016-04-14 12:49:59] Installing org.eclipse.core.runtime.compatibility [3.2.300.v20150423-0821]
+[2016-04-14 12:49:59] Installing org.eclipse.core.runtime.compatibility.registry [3.6.0.v20150318-1505]
+[2016-04-14 12:49:59] Installing org.eclipse.core.variables [3.2.800.v20130819-1716]
+[2016-04-14 12:49:59] Installing org.eclipse.debug.core [3.10.0.v20150303-1130]
+[2016-04-14 12:49:59] Installing org.eclipse.debug.ui [3.11.101.v20160203-1230]
+[2016-04-14 12:49:59] Installing org.eclipse.draw2d [3.10.1.201508170204]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.core.commands [0.11.0.v20150422-0725]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.core.contexts [1.4.0.v20150828-0818]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.core.di [1.5.0.v20150421-2214]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.core.di.annotations [1.4.0.v20150528-1451]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.core.di.extensions [0.13.0.v20150421-2214]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.core.services [2.0.0.v20150403-1912]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.emf.xpath [0.1.100.v20150513-0856]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.rcp.feature.group [1.4.1.v20160212-1350]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.rcp.feature.jar [1.4.1.v20160212-1350]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.ui.bindings [0.11.0.v20150422-0725]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.ui.css.core [0.11.0.v20150511-1937]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.ui.css.swt [0.12.0.v20150511-1003]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.ui.css.swt.theme [0.10.0.v20150422-0725]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.ui.di [1.1.0.v20150422-0725]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.ui.dialogs [1.0.0.v20150513-0856]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.ui.model.workbench [1.1.100.v20150407-1430]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.ui.services [1.2.0.v20150422-0725]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.ui.swt.gtk [1.0.1.v20150708-1529]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.ui.widgets [1.1.0.v20150427-1751]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.ui.workbench [1.3.1.v20160203-0951]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.ui.workbench.addons.swt [1.2.0.v20150512-1414]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.ui.workbench.renderers.swt [0.13.0.v20150901-1347]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.ui.workbench.swt [0.13.0.v20150504-0621]
+[2016-04-14 12:49:59] Installing org.eclipse.e4.ui.workbench3 [0.13.0.v20150422-0725]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf [3.7.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.core.feature.feature.group [1.2.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.core.feature.feature.jar [1.2.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.core.ssl.feature.feature.group [1.1.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.core.ssl.feature.feature.jar [1.1.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.filetransfer [5.0.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.filetransfer.feature.feature.group [3.12.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.filetransfer.feature.feature.jar [3.12.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.filetransfer.httpclient4.feature.feature.group [3.12.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.filetransfer.httpclient4.feature.feature.jar [3.12.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.filetransfer.httpclient4.ssl.feature.feature.group [1.1.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.filetransfer.httpclient4.ssl.feature.feature.jar [1.1.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.filetransfer.ssl.feature.feature.group [1.1.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.filetransfer.ssl.feature.feature.jar [1.1.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.identity [3.6.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.provider.filetransfer [3.2.200.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.provider.filetransfer.httpclient4 [1.1.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.provider.filetransfer.httpclient4.ssl [1.1.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.provider.filetransfer.ssl [1.0.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.ecf.ssl [1.2.0.v20151130-0157]
+[2016-04-14 12:49:59] Installing org.eclipse.egit [4.1.1.201511131810-r]
+[2016-04-14 12:49:59] Installing org.eclipse.egit.core [4.1.1.201511131810-r]
+[2016-04-14 12:49:59] Installing org.eclipse.egit.doc [4.1.1.201511131810-r]
+[2016-04-14 12:49:59] Installing org.eclipse.egit.feature.group [4.1.1.201511131810-r]
+[2016-04-14 12:49:59] Installing org.eclipse.egit.feature.jar [4.1.1.201511131810-r]
+[2016-04-14 12:49:59] Installing org.eclipse.egit.mylyn.feature.group [4.1.1.201511131810-r]
+[2016-04-14 12:49:59] Installing org.eclipse.egit.mylyn.feature.jar [4.1.1.201511131810-r]
+[2016-04-14 12:49:59] Installing org.eclipse.egit.mylyn.ui [4.1.1.201511131810-r]
+[2016-04-14 12:49:59] Installing org.eclipse.egit.ui [4.1.1.201511131810-r]
+[2016-04-14 12:49:59] Installing org.eclipse.emf.common [2.11.1.v20160208-0816]
+[2016-04-14 12:49:59] Installing org.eclipse.emf.common.feature.group [2.11.1.v20160208-0816]
+[2016-04-14 12:49:59] Installing org.eclipse.emf.common.feature.jar [2.11.1.v20160208-0816]
+[2016-04-14 12:49:59] Installing org.eclipse.emf.common.ui [2.10.1.v20160208-0841]
+[2016-04-14 12:49:59] Installing org.eclipse.emf.databinding [1.3.0.v20160208-0841]
+[2016-04-14 12:49:59] Installing org.eclipse.emf.ecore [2.11.2.v20160208-0816]
+[2016-04-14 12:49:59] Installing org.eclipse.emf.ecore.change [2.11.0.v20160208-0816]
+[2016-04-14 12:49:59] Installing org.eclipse.emf.ecore.edit [2.9.0.v20160208-0841]
+[2016-04-14 12:49:59] Installing org.eclipse.emf.ecore.feature.group [2.11.2.v20160208-0816]
+[2016-04-14 12:49:59] Installing org.eclipse.emf.ecore.feature.jar [2.11.2.v20160208-0816]
+[2016-04-14 12:49:59] Installing org.eclipse.emf.ecore.xmi [2.11.1.v20160208-0816]
+[2016-04-14 12:49:59] Installing org.eclipse.emf.edit [2.11.1.v20160208-0841]
+[2016-04-14 12:49:59] Installing org.eclipse.emf.edit.ui [2.11.1.v20160208-0841]
+[2016-04-14 12:49:59] Installing org.eclipse.epp.logging.aeri.core [1.100.0.v20160211-1103]
+[2016-04-14 12:49:59] Installing org.eclipse.epp.logging.aeri.feature.feature.group [1.100.0.v20160217-0435]
+[2016-04-14 12:49:59] Installing org.eclipse.epp.logging.aeri.feature.feature.jar [1.100.0.v20160217-0435]
+[2016-04-14 12:49:59] Installing org.eclipse.epp.logging.aeri.ide [1.100.0.v20160217-0435]
+[2016-04-14 12:49:59] Installing org.eclipse.epp.mpc.core [1.4.2.v20160210-1948]
+[2016-04-14 12:49:59] Installing org.eclipse.epp.mpc.feature.group [1.4.2.v20160210-2005]
+[2016-04-14 12:49:59] Installing org.eclipse.epp.mpc.feature.jar [1.4.2.v20160210-2005]
+[2016-04-14 12:49:59] Installing org.eclipse.epp.mpc.help.ui [1.4.2.v20160120-1701]
+[2016-04-14 12:49:59] Installing org.eclipse.epp.mpc.ui [1.4.2.v20160210-2005]
+[2016-04-14 12:49:59] Installing org.eclipse.epp.package.common.feature.feature.group [4.5.2.20160218-0600]
+[2016-04-14 12:49:59] Installing org.eclipse.epp.package.common.feature.feature.jar [4.5.2.20160218-0600]
+[2016-04-14 12:49:59] Installing org.eclipse.epp.package.java [4.5.2.20160218-0600]
+[2016-04-14 12:49:59] Installing org.eclipse.epp.package.java.feature.feature.group [4.5.2.20160218-0600]
+[2016-04-14 12:49:59] Installing org.eclipse.epp.package.java.feature.feature.jar [4.5.2.20160218-0600]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.app [1.3.300.v20150423-1356]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.bidi [0.10.0.v20130327-1442]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.common [3.7.0.v20150402-1709]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.concurrent [1.1.0.v20130327-1442]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.console [1.1.100.v20141023-1406]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.ds [1.4.300.v20150423-1356]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.event [1.3.100.v20140115-1647]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.frameworkadmin [2.0.200.v20150423-1455]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.frameworkadmin.equinox [1.0.600.v20150522-2234]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.http.jetty [3.1.2.v20160115-1350]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.http.registry [1.1.300.v20130402-1529]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.http.servlet [1.2.2.v20160202-2102]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.jsp.jasper [1.0.500.v20150119-1358]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.jsp.jasper.registry [1.0.300.v20130327-1442]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.launcher [1.3.100.v20150511-1540]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.launcher.gtk.linux.x86_64 [1.1.300.v20150602-1417]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.artifact.repository [1.1.400.v20150513-2116]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.console [1.0.400.v20150423-1455]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.core [2.4.0.v20150527-1706]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.core.feature.feature.group [1.3.100.v20150527-1706]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.core.feature.feature.jar [1.3.100.v20150527-1706]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.director [2.3.200.v20150423-1455]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.director.app [1.0.400.v20150423-1455]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.directorywatcher [1.1.100.v20150423-1455]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.discovery [1.0.300.v20131210-1027]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.discovery.compatibility [1.0.200.v20131211-1531]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.discovery.feature.feature.group [1.0.300.v20150430-1836]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.discovery.feature.feature.jar [1.0.300.v20150430-1836]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.engine [2.4.0.v20150511-1532]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.extensionlocation [1.2.201.v20160129-0947]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.extras.feature.feature.group [1.2.101.v20160129-0947]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.extras.feature.feature.jar [1.2.101.v20160129-0947]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.garbagecollector [1.0.200.v20131115-1210]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.jarprocessor [1.0.400.v20150430-1836]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.metadata [2.3.0.v20150511-1532]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.metadata.repository [1.2.200.v20150428-1613]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.operations [2.4.100.v20150423-1455]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.publisher [1.4.0.v20141117-0929]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.publisher.eclipse [1.2.0.v20150601-1708]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.rcp.feature.feature.group [1.2.101.v20150826-1318]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.rcp.feature.feature.jar [1.2.101.v20150826-1318]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.reconciler.dropins [1.1.300.v20150423-1455]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.repository [2.3.100.v20150428-1613]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.repository.tools [2.1.100.v20150423-1455]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.touchpoint.eclipse [2.1.300.v20150423-1455]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.touchpoint.natives [1.2.0.v20150519-1136]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.transport.ecf [1.1.100.v20150521-1342]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.ui [2.4.0.v20150425-0422]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.ui.discovery [1.0.100.v20131210-1027]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.ui.importexport [1.1.100.v20150423-1455]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.ui.sdk [1.0.400.v20150423-1455]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.ui.sdk.scheduler [1.2.100.v20150423-1455]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.updatechecker [1.1.200.v20131119-0908]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.updatesite [1.0.500.v20150423-1455]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.user.ui.feature.group [2.2.102.v20160129-0947]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.p2.user.ui.feature.jar [2.2.102.v20160129-0947]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.preferences [3.5.300.v20150408-1437]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.registry [3.6.0.v20150318-1503]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.security [1.2.100.v20150423-1356]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.security.ui [1.1.201.v20150803-1228]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.simpleconfigurator [1.1.100.v20150423-1455]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.simpleconfigurator.manipulator [2.0.100.v20150423-1455]
+[2016-04-14 12:49:59] Installing org.eclipse.equinox.util [1.0.500.v20130404-1337]
+[2016-04-14 12:49:59] Installing org.eclipse.gef [3.10.1.201508170204]
+[2016-04-14 12:49:59] Installing org.eclipse.help [3.6.0.v20130326-1254]
+[2016-04-14 12:49:59] Installing org.eclipse.help.base [4.0.301.v20160212-1500]
+[2016-04-14 12:49:59] Installing org.eclipse.help.feature.group [2.1.2.v20160212-1500]
+[2016-04-14 12:49:59] Installing org.eclipse.help.feature.jar [2.1.2.v20160212-1500]
+[2016-04-14 12:49:59] Installing org.eclipse.help.ui [4.0.100.v20140401-0608]
+[2016-04-14 12:49:59] Installing org.eclipse.help.webapp [3.7.0.v20150425-0643]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt [3.11.2.v20160212-1500]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.annotation [2.0.100.v20150311-1658]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.apt.core [3.4.0.v20150518-1201]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.apt.pluggable.core [1.1.0.v20150423-0947]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.apt.ui [3.4.0.v20150423-0947]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.compiler.apt [1.2.0.v20150514-0146]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.compiler.tool [1.1.0.v20150513-2007]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.core [3.11.2.v20160128-0629]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.core.manipulation [1.5.100.v20141002-1241]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.debug [3.9.1.v20160128-1343]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.debug.ui [3.7.101.v20160203-1236]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.doc.user [3.11.1.v20150819-1130]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.feature.group [3.11.2.v20160212-1500]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.feature.jar [3.11.2.v20160212-1500]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.junit [3.8.0.v20150428-1340]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.junit.core [3.7.400.v20150423-0747]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.junit.runtime [3.4.500.v20140527-1138]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.junit4.runtime [1.1.500.v20150423-0747]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.launching [3.8.0.v20150527-0946]
+[2016-04-14 12:49:59] Installing org.eclipse.jdt.ui [3.11.2.v20151123-1510]
+[2016-04-14 12:49:59] Installing org.eclipse.jem.util [2.1.200.v201404021757]
+[2016-04-14 12:49:59] Installing org.eclipse.jetty.continuation [9.2.13.v20150730]
+[2016-04-14 12:49:59] Installing org.eclipse.jetty.http [9.2.13.v20150730]
+[2016-04-14 12:49:59] Installing org.eclipse.jetty.io [9.2.13.v20150730]
+[2016-04-14 12:49:59] Installing org.eclipse.jetty.security [9.2.13.v20150730]
+[2016-04-14 12:49:59] Installing org.eclipse.jetty.server [9.2.13.v20150730]
+[2016-04-14 12:49:59] Installing org.eclipse.jetty.servlet [9.2.13.v20150730]
+[2016-04-14 12:49:59] Installing org.eclipse.jetty.util [9.2.13.v20150730]
+[2016-04-14 12:49:59] Installing org.eclipse.jface [3.11.1.v20160128-1644]
+[2016-04-14 12:49:59] Installing org.eclipse.jface.databinding [1.7.0.v20150406-2148]
+[2016-04-14 12:49:59] Installing org.eclipse.jface.text [3.10.0.v20150603-1752]
+[2016-04-14 12:49:59] Installing org.eclipse.jgit [4.1.1.201511131810-r]
+[2016-04-14 12:49:59] Installing org.eclipse.jgit.archive [4.1.1.201511131810-r]
+[2016-04-14 12:49:59] Installing org.eclipse.jgit.feature.group [4.1.1.201511131810-r]
+[2016-04-14 12:49:59] Installing org.eclipse.jgit.feature.jar [4.1.1.201511131810-r]
+[2016-04-14 12:49:59] Installing org.eclipse.jsch.core [1.2.0.v20141202-1415]
+[2016-04-14 12:49:59] Installing org.eclipse.jsch.ui [1.2.0.v20141202-1415]
+[2016-04-14 12:49:59] Installing org.eclipse.ltk.core.refactoring [3.6.201.v20150819-1034]
+[2016-04-14 12:49:59] Installing org.eclipse.ltk.ui.refactoring [3.7.200.v20140625-1835]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.archetype.common [1.6.2.20150902-0001]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.core [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.core.ui [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.discovery [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.editor [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.editor.xml [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.feature.feature.group [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.feature.feature.jar [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.jdt [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.jdt.ui [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.launching [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.lifecyclemapping.defaults [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.logback.appender [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.logback.configuration [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.logback.feature.feature.group [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.logback.feature.feature.jar [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.maven.indexer [1.6.2.20150902-0001]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.maven.runtime [1.6.2.20150902-0001]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.maven.runtime.slf4j.simple [1.6.2.20150902-0001]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.model.edit [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.profiles.core [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.profiles.ui [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.refactoring [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.scm [1.6.2.20150902-0002]
+[2016-04-14 12:49:59] Installing org.eclipse.m2e.workspace.cli [0.3.1]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.bugzilla.core [3.18.0.v20151009-2340]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.bugzilla.ide [3.18.0.v20151013-1847]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.bugzilla.ui [3.18.0.v20151009-2340]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.bugzilla_feature.feature.group [3.18.0.v20151009-2340]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.bugzilla_feature.feature.jar [3.18.0.v20151009-2340]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.builds.core [1.10.0.v20151013-2221]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.builds.feature.group [1.10.0.v20151211-2137]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.builds.feature.jar [1.10.0.v20151211-2137]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.builds.ui [1.10.0.v20151211-2137]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.core [3.18.0.v20151019-2227]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.feature.group [3.18.0.v20151116-1930]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.feature.jar [3.18.0.v20151116-1930]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.identity.core [1.10.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.identity.feature.group [1.10.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.identity.feature.jar [1.10.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.net [3.18.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.notifications.core [1.10.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.notifications.feature.group [1.10.0.v20151102-1814]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.notifications.feature.jar [1.10.0.v20151102-1814]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.notifications.feed [1.10.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.notifications.ui [1.10.0.v20151102-1814]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.repositories.core [1.10.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.repositories.feature.group [1.10.0.v20151116-1930]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.repositories.feature.jar [1.10.0.v20151116-1930]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.repositories.http.core [1.10.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.repositories.http.feature.group [1.10.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.repositories.http.feature.jar [1.10.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.repositories.ui [1.10.0.v20151116-1930]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.screenshots [3.18.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.ui [3.18.0.v20151116-1930]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.workbench [3.18.0.v20151102-1813]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.commons.xmlrpc [3.18.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.context.core [3.18.0.v20151013-1847]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.context.tasks.ui [3.18.0.v20151013-1847]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.context.ui [3.18.0.v20151014-2324]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.context_feature.feature.group [3.18.0.v20151014-2324]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.context_feature.feature.jar [3.18.0.v20151014-2324]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.debug.ui [3.18.0.v20151013-1847]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.discovery.core [3.18.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.discovery.feature.group [3.18.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.discovery.feature.jar [3.18.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.discovery.ui [3.18.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.git.core [1.10.0.v20151009-2340]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.git.feature.group [1.10.0.v20151009-2340]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.git.feature.jar [1.10.0.v20151009-2340]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.git.ui [1.10.0.v20151009-2340]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.help.ui [3.18.0.v20151009-2340]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.hudson.core [1.10.0.v20151013-2221]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.hudson.feature.group [1.10.0.v20151013-2221]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.hudson.feature.jar [1.10.0.v20151013-2221]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.hudson.ui [1.10.0.v20151013-2221]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.ide.ant [3.18.0.v20151013-1847]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.ide.ui [3.18.0.v20151013-1847]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.ide_feature.feature.group [3.18.0.v20151013-1847]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.ide_feature.feature.jar [3.18.0.v20151013-1847]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.java.tasks [3.18.0.v20151013-1847]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.java.ui [3.18.0.v20151013-1847]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.java_feature.feature.group [3.18.0.v20151013-1847]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.java_feature.feature.jar [3.18.0.v20151013-1847]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.monitor.core [3.18.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.monitor.feature.group [3.18.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.monitor.feature.jar [3.18.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.monitor.ui [3.18.0.v20151009-1724]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.resources.ui [3.18.0.v20151013-1847]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.tasks.bugs [3.18.0.v20151009-2340]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.tasks.core [3.18.0.v20151202-0115]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.tasks.ide.feature.group [3.18.0.v20151009-2340]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.tasks.ide.feature.jar [3.18.0.v20151009-2340]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.tasks.index.core [3.18.0.v20151012-1647]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.tasks.index.ui [3.18.0.v20151009-2340]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.tasks.search [3.18.0.v20151009-2340]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.tasks.ui [3.18.0.v20151211-2235]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.team.ui [3.18.0.v20151120-2228]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.team_feature.feature.group [3.18.0.v20151120-2228]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.team_feature.feature.jar [3.18.0.v20151120-2228]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.versions.core [1.10.0.v20151125-0025]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.versions.feature.group [1.10.0.v20151125-0025]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.versions.feature.jar [1.10.0.v20151125-0025]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.versions.ui [1.10.0.v20151009-2340]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.confluence.core [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.confluence.ui [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.context.ui [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.core [2.7.0.v20151015-1452]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.core.ant [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.core.osgi [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.help.ui [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.html.core [2.7.0.v20151015-1452]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.markdown.core [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.markdown.ui [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.mediawiki.core [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.mediawiki.ui [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.tasks.ui [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.textile.core [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.textile.ui [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.tracwiki.core [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.tracwiki.ui [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.twiki.core [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.twiki.ui [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext.ui [2.7.0.v20151009-1723]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext_feature.feature.group [2.7.0.v20151015-1452]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn.wikitext_feature.feature.jar [2.7.0.v20151015-1452]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn_feature.feature.group [3.18.0.v20151211-2235]
+[2016-04-14 12:49:59] Installing org.eclipse.mylyn_feature.feature.jar [3.18.0.v20151211-2235]
+[2016-04-14 12:49:59] Installing org.eclipse.nebula.widgets.tablecombo [1.0.0.201602191853]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.base [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.base.edit [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.extractor.lib [1.1.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.jreinfo [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.jreinfo.ui [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.p2 [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.p2.core [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.p2.doc [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.p2.edit [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.p2.feature.group [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.p2.feature.jar [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.p2.ui [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.predicates [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.predicates.edit [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.preferences [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.resources [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.resources.edit [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.setup [1.4.0.v20160324-0842]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.setup.core [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.setup.core.feature.group [1.4.0.v20160324-0842]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.setup.core.feature.jar [1.4.0.v20160324-0842]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.setup.doc [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.setup.edit [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.setup.editor [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.setup.feature.group [1.4.0.v20160324-0842]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.setup.feature.jar [1.4.0.v20160324-0842]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.setup.p2 [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.setup.p2.edit [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.setup.sync [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.setup.ui [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.setup.ui.questionnaire [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.ui [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.util [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.workingsets [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.workingsets.edit [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.oomph.workingsets.editor [1.4.0.v20160323-1057]
+[2016-04-14 12:49:59] Installing org.eclipse.osgi [3.10.102.v20160118-1700]
+[2016-04-14 12:49:59] Installing org.eclipse.osgi.compatibility.state [1.0.100.v20150402-1551]
+[2016-04-14 12:49:59] Installing org.eclipse.osgi.services [3.5.0.v20150519-2006]
+[2016-04-14 12:49:59] Installing org.eclipse.osgi.util [3.3.100.v20150423-1351]
+[2016-04-14 12:49:59] Installing org.eclipse.platform [4.5.2.v20160212-1500]
+[2016-04-14 12:50:00] Installing org.eclipse.platform.doc.user [4.5.1.v20150819-1130]
+[2016-04-14 12:50:00] Installing org.eclipse.platform.feature.group [4.5.2.v20160212-1500]
+[2016-04-14 12:50:00] Installing org.eclipse.platform.feature.jar [4.5.2.v20160212-1500]
+[2016-04-14 12:50:00] Installing org.eclipse.platform.ide [4.5.2.M20160212-1500]
+[2016-04-14 12:50:00] Installing org.eclipse.platform.ide.executable.gtk.linux.x86_64 [4.5.2.M20160212-1500]
+[2016-04-14 12:50:00] Installing org.eclipse.platform.ide.executable.gtk.linux.x86_64.eclipse [4.5.2.M20160212-1500]
+[2016-04-14 12:50:00] Installing org.eclipse.platform_root [4.5.2.v20160212-1500]
+[2016-04-14 12:50:00] Installing org.eclipse.rcp [4.5.2.v20160212-1500]
+[2016-04-14 12:50:00] Installing org.eclipse.rcp.feature.group [4.5.2.v20160212-1500]
+[2016-04-14 12:50:00] Installing org.eclipse.rcp.feature.jar [4.5.2.v20160212-1500]
+[2016-04-14 12:50:00] Installing org.eclipse.rcp_root [4.5.2.v20160212-1500]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.apidocs [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.apidocs.rcp [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.calls [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.calls.rcp [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.chain.rcp [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.completion.rcp [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.constructors [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.constructors.rcp [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.coordinates [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.coordinates.rcp [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.injection [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.jayes [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.jayes.io [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.jdt [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.models [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.models.rcp [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.mylyn.rcp [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.mylyn.rcp.feature.feature.group [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.mylyn.rcp.feature.feature.jar [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.net [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.overrides [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.overrides.rcp [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.rcp [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.rcp.feature.feature.group [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.rcp.feature.feature.jar [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.snipmatch [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.snipmatch.rcp [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.snipmatch.rcp.feature.feature.group [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.snipmatch.rcp.feature.feature.jar [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.subwords.rcp [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.types.rcp [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.utils [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.recommenders.utils.rcp [2.3.0.v20160216-1255]
+[2016-04-14 12:50:00] Installing org.eclipse.search [3.10.0.v20150318-0856]
+[2016-04-14 12:50:00] Installing org.eclipse.swt [3.104.2.v20160212-1350]
+[2016-04-14 12:50:00] Installing org.eclipse.swt.gtk.linux.x86_64 [3.104.2.v20160212-1350]
+[2016-04-14 12:50:00] Installing org.eclipse.team.core [3.7.100.v20150203-1452]
+[2016-04-14 12:50:00] Installing org.eclipse.team.ui [3.7.200.v20150203-1452]
+[2016-04-14 12:50:00] Installing org.eclipse.text [3.5.400.v20150505-1044]
+[2016-04-14 12:50:00] Installing org.eclipse.ui [3.107.0.v20150507-1945]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.browser [3.4.300.v20150429-0602]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.cheatsheets [3.4.200.v20131227-1524]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.console [3.6.100.v20150822-1912]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.editors [3.9.0.v20150213-1939]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.externaltools [3.3.0.v20150302-1002]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.forms [3.6.200.v20150506-2029]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.ide [3.11.0.v20150825-2158]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.ide.application [1.1.0.v20150422-0725]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.intro [3.4.300.v20141007-1449]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.intro.universal [3.2.800.v20150325-0952]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.monitoring [1.0.0.v20150512-1436]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.navigator [3.6.0.v20150422-0725]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.navigator.resources [3.5.1.v20160128-1644]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.net [1.2.200.v20120807-0927]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.themes [1.1.1.v20151026-1355]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.views [3.8.0.v20150422-0725]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.views.log [1.0.600.v20150513-1840]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.views.properties.tabbed [3.6.100.v20150423-0822]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.workbench [3.107.1.v20160120-2131]
+[2016-04-14 12:50:00] Installing org.eclipse.ui.workbench.texteditor [3.9.100.v20141023-1946]
+[2016-04-14 12:50:00] Installing org.eclipse.update.configurator [3.3.300.v20140518-1928]
+[2016-04-14 12:50:00] Installing org.eclipse.userstorage [1.0.0.v20151212-0935]
+[2016-04-14 12:50:00] Installing org.eclipse.userstorage.ui [1.0.0.v20151216-0912]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.core [1.8.0.r45x201506110820]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.core.databinding [1.8.0.r45x201506110821]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.core.feature.feature.group [1.8.0.r45x201506110820]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.core.feature.feature.jar [1.8.0.r45x201506110820]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.core.java [1.8.0.r45x201506110821]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.core.java.feature.feature.group [1.8.0.r45x201506110821]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.core.java.feature.feature.jar [1.8.0.r45x201506110821]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.core.lib [1.8.0.r45x201506110820]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.core.ui [1.8.0.r45x201506110822]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.core.ui.feature.feature.group [1.8.0.r45x201506110822]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.core.ui.feature.feature.jar [1.8.0.r45x201506110822]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.layout.group [1.8.0.r45x201506110824]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.layout.group.feature.feature.group [1.8.0.r45x201506110824]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.layout.group.feature.feature.jar [1.8.0.r45x201506110824]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.os [1.8.0.r45x201506110820]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.os.linux [1.8.0.r45x201506110820]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.runtime [1.8.0.r45x201506110820]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.runtime.lib [1.8.0.r45x201506110820]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.swing [1.8.0.r45x201506110826]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.swing.FormLayout [1.8.0.r45x201506110826]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.swing.FormLayout.lib [1.8.0.r45x201506110826]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.swing.MigLayout [1.8.0.r45x201506110826]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.swing.MigLayout.lib [1.8.0.r45x201506110826]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.swing.databinding [1.8.0.r45x201506110826]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.swing.feature.feature.group [1.8.0.r45x201506110826]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.swing.feature.feature.jar [1.8.0.r45x201506110826]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.swing.java6 [1.8.0.r45x201506110826]
+[2016-04-14 12:50:00] Installing org.eclipse.wb.swing.jsr296 [1.8.0.r45x201506110826]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common.core [1.2.0.v200908251833]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common.emf [1.2.400.v201505132009]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common.emfworkbench.integration [1.2.101.v201107081800]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common.environment [1.0.400.v200912181831]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common.frameworks [1.2.200.v201304241450]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common.frameworks.ui [1.2.400.v201504292002]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common.infopop [1.0.300.v201309101952]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common.modulecore [1.2.401.v201408132036]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common.modulecore.ui [1.0.300.v201505072128]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common.project.facet.core [1.4.300.v201111030423]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common.snippets [1.2.200.v201208080420]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common.ui [1.1.500.v200911182011]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common.uriresolver [1.2.200.v201505132009]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common_core.feature.feature.group [3.7.1.v201508262220]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common_core.feature.feature.jar [3.7.1.v201508262220]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common_ui.feature.feature.group [3.7.2.v201510130022]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.common_ui.feature.feature.jar [3.7.2.v201510130022]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.dtd.core [1.1.700.v201211012112]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.dtd.ui [1.0.801.v201308100602]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.dtd.ui.infopop [1.0.400.v201309112106]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.dtdeditor.doc.user [1.0.700.v201208081537]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.internet.cache [1.0.701.v201510130022]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.server.core [1.8.0.v201601132216]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.server.discovery [1.2.0.v201601132216]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.sse.core [1.1.901.v201510130005]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.sse.doc.user [1.1.100.v201208081537]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.sse.ui [1.3.401.v201510130005]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.sse.ui.infopop [1.0.300.v201309112106]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.standard.schemas [1.0.700.v201304171715]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.validation [1.2.700.v201508251749]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.validation.infopop [1.0.300.v201309101952]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.validation.ui [1.2.500.v201310231452]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.xml.core [1.1.902.v201501211904]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.xml.ui [1.1.501.v201501212057]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.xml.ui.infopop [1.0.400.v201309112106]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.xml_core.feature.feature.group [3.7.2.v201510130005]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.xml_core.feature.feature.jar [3.7.2.v201510130005]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.xml_ui.feature.feature.group [3.7.2.v201511240257]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.xml_ui.feature.feature.jar [3.7.2.v201511240257]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.xml_userdoc.feature.feature.group [3.6.0.v201405062147]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.xml_userdoc.feature.feature.jar [3.6.0.v201405062147]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.xmleditor.doc.user [1.0.700.v201208081537]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.xsd.core [1.1.900.v201401141857]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.xsd.ui [1.2.510.v201511240257]
+[2016-04-14 12:50:00] Installing org.eclipse.wst.xsdeditor.doc.user [1.0.800.v201208081537]
+[2016-04-14 12:50:00] Installing org.eclipse.xsd [2.11.0.v20160208-0841]
+[2016-04-14 12:50:00] Installing org.eclipse.xsd.edit [2.8.0.v20160208-0841]
+[2016-04-14 12:50:00] Installing org.gradle.toolingapi [2.9.0.v201512100932]
+[2016-04-14 12:50:00] Installing org.hamcrest.core [1.3.0.v201303031735]
+[2016-04-14 12:50:00] Installing org.jsoup [1.7.2.v201411291515]
+[2016-04-14 12:50:00] Installing org.junit [4.12.0.v201504281640]
+[2016-04-14 12:50:00] Installing org.maven.ide.eclipse [1.6.2.20150902-0002]
+[2016-04-14 12:50:00] Installing org.sat4j.core [2.3.5.v201308161310]
+[2016-04-14 12:50:00] Installing org.sat4j.pb [2.3.5.v201404071733]
+[2016-04-14 12:50:00] Installing org.slf4j.api [1.7.2.v20121108-1250]
+[2016-04-14 12:50:00] Installing org.slf4j.impl.log4j12 [1.7.2.v20131105-2200]
+[2016-04-14 12:50:00] Installing org.tukaani.xz [1.3.0.v201308270617]
+[2016-04-14 12:50:00] Installing org.w3c.css.sac [1.3.1.v200903091627]
+[2016-04-14 12:50:00] Installing org.w3c.dom.events [3.0.0.draft20060413_v201105210656]
+[2016-04-14 12:50:00] Installing org.w3c.dom.smil [1.0.1.v200903091627]
+[2016-04-14 12:50:00] Installing org.w3c.dom.svg [1.1.0.v201011041433]
+[2016-04-14 12:50:00] Installing tooling.org.eclipse.update.feature.default [1.0.0]
+[2016-04-14 12:50:00] Installing tooling.osgi.bundle.default [1.0.0]
+[2016-04-14 12:50:00] Installing tooling.source.default [1.0.0]
+[2016-04-14 12:50:00] Installing toolingepp.package.java.application [4.5.2.20160218-0600]
+[2016-04-14 12:50:00] Installing toolingepp.package.java.config.gtk.linux.x86_64 [4.5.2.20160218-0600]
+[2016-04-14 12:50:00] Installing toolingepp.package.java.configuration [4.5.2.20160218-0600]
+[2016-04-14 12:50:00] Installing toolingepp.package.java.executable.gtk.linux.x86_64 [4.5.2.20160218-0600]
+[2016-04-14 12:50:00] Installing toolingepp.package.java.ini.gtk.linux.x86_64 [4.5.2.20160218-0600]
+[2016-04-14 12:50:00] Installing toolinggtk.linux.x86_64org.eclipse.core.runtime [4.5.2.M20160212-1500]
+[2016-04-14 12:50:00] Installing toolinggtk.linux.x86_64org.eclipse.equinox.common [4.5.2.M20160212-1500]
+[2016-04-14 12:50:00] Installing toolinggtk.linux.x86_64org.eclipse.equinox.ds [4.5.2.M20160212-1500]
+[2016-04-14 12:50:00] Installing toolinggtk.linux.x86_64org.eclipse.equinox.event [4.5.2.M20160212-1500]
+[2016-04-14 12:50:00] Installing toolinggtk.linux.x86_64org.eclipse.equinox.p2.reconciler.dropins [4.5.2.M20160212-1500]
+[2016-04-14 12:50:00] Installing toolinggtk.linux.x86_64org.eclipse.equinox.simpleconfigurator [4.5.2.M20160212-1500]
+[2016-04-14 12:50:00] Installing toolinggtk.linux.x86_64org.eclipse.update.configurator [4.5.2.M20160212-1500]
+[2016-04-14 12:50:00] Installing toolingorg.eclipse.equinox.launcher [1.3.100.v20150511-1540]
+[2016-04-14 12:50:00] Installing toolingorg.eclipse.equinox.launcher.gtk.linux.x86_64 [1.1.300.v20150602-1417]
+[2016-04-14 12:50:00] Installing toolingorg.eclipse.platform.configuration [1.0.0]
+[2016-04-14 12:50:00] Installing toolingorg.eclipse.platform.ide.application [4.5.2.M20160212-1500]
+[2016-04-14 12:50:00] Installing toolingorg.eclipse.platform.ide.config.gtk.linux.x86_64 [4.5.2.M20160212-1500]
+[2016-04-14 12:50:00] Installing toolingorg.eclipse.platform.ide.configuration [4.5.2.M20160212-1500]
+[2016-04-14 12:50:00] Installing toolingorg.eclipse.platform.ide.executable.gtk.linux.x86_64 [4.5.2.M20160212-1500]
+[2016-04-14 12:50:00] Installing toolingorg.eclipse.platform.ide.ini.gtk.linux.x86_64 [4.5.2.M20160212-1500]
+[2016-04-14 12:50:00] Preparing to commit the provisioning operation.
+[2016-04-14 12:50:00] Committing the provisioning operation.
+[2016-04-14 12:50:01] Performing Eclipse Ini --launcher.appendVmargs
+[2016-04-14 12:50:01] Performing Eclipse Ini -vm /usr/lib/jvm/java-8-oracle/jre/bin
+[2016-04-14 12:50:01] Changing /home/aman/Desktop/prog/JavaEc/eclipse/eclipse.ini (-vm /usr/lib/jvm/java-8-oracle/jre/bin)
+[2016-04-14 12:50:01] Performing Eclipse Ini -Declipse.p2.max.threads=10
+[2016-04-14 12:50:01] Changing /home/aman/Desktop/prog/JavaEc/eclipse/eclipse.ini (-Declipse.p2.max.threads=10)
+[2016-04-14 12:50:01] Performing Eclipse Ini -Doomph.update.url=http://download.eclipse.org/oomph/updates/milestone/latest
+[2016-04-14 12:50:01] Changing /home/aman/Desktop/prog/JavaEc/eclipse/eclipse.ini (-Doomph.update.url=http://download.eclipse.org/oomph/updates/milestone/latest)
+[2016-04-14 12:50:01] Performing Eclipse Ini -Doomph.redirection.index.redirection=index:/->http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/
+[2016-04-14 12:50:01] Changing /home/aman/Desktop/prog/JavaEc/eclipse/eclipse.ini (-Doomph.redirection.index.redirection=index:/->http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/)
+[2016-04-14 12:50:01] Performing post bootstrap tasks
+[2016-04-14 12:50:01] Changing /home/aman/Desktop/prog/JavaEc/eclipse/configuration/org.eclipse.update/platform.xml (policy=MANAGED-ONLY)
+[2016-04-14 12:50:01] 

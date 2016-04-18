@@ -3,6 +3,14 @@
 typedef long long unsigned ll;
 using  namespace std;
 
+ll nextSeed = 1;
+
+int myRand() {
+    //generates a random number with the given seed using linear congruential generator
+    nextSeed = nextSeed * 1103515245 + 12345;
+    return ((nextSeed/65536) % 65536);
+}
+
 ll gcd(ll a, ll b){
     // Given two numbers, finds GCD using Euclidean Method
     if (a < b)
@@ -55,14 +63,6 @@ bool primalityTest(ll n){
 }
 
 
-ll generateRandomNumber(ll seeder){
-    //generates a random number % seeder
-    time_t new_time = time(NULL);
-    ll  randomVal = fastExp(new_time, seed, INT16_MAX);
-    return (randomVal + seeder) % seeder;
-}
-
-
 void rsaSolver(ll n1, ll n2){
     //Rsa algorithm given two large prime numbers
     ll msg;
@@ -79,6 +79,11 @@ void rsaSolver(ll n1, ll n2){
     tie (d, s) = extendedGCD(e, phyN);
     d = (d + phyN) % phyN;
 
+    cout << "\n N: " << n;
+    cout << "\n phyN: " << phyN;
+    cout << "\n e: " << e;
+    cout << "\n d: " << d << endl;
+
     ll enc = fastExp(msg, e, n);
     cout << "\n The crypted message is: " << enc << endl;
 
@@ -87,21 +92,24 @@ void rsaSolver(ll n1, ll n2){
 }
 
 
+
 int main(){
     ll n1 = 0, n2 = 0;
-    ll initSeed = LONG_MAX;
+    nextSeed =  time(NULL);
 
     while(true){
-        n1 = generateRandomNumber(initSeed);
+        n1 = myRand();
         if (primalityTest(n1))
             break;
     }
 
+    nextSeed = time(NULL);
     while(true){
-        n2 = generateRandomNumber(initSeed + n2 );
+        n2 = myRand();
         if (primalityTest(n2) and n2 != n1)
             break;
     }
+
     assert (gcd(n1, n2) == 1 && primalityTest(n1) && primalityTest(n2));
 
     cout << "\n Generated Prime Random n1:  " << n1 << endl;
