@@ -1,17 +1,4 @@
 eclipse.preferences.version=1
-org.eclipse.ant.ui.commentsColor=117,113,94
-org.eclipse.ant.ui.constantStringsColor=230,219,116
-org.eclipse.ant.ui.constantStringsColor_italic=true
 org.eclipse.ant.ui.customtemplates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
-org.eclipse.ant.ui.debugColor=235,235,235
-org.eclipse.ant.ui.dtdColor=255,255,255
-org.eclipse.ant.ui.errorColor=225,30,70
-org.eclipse.ant.ui.informationColor=140,175,210
-org.eclipse.ant.ui.processingInstructionsColor=248,248,242
-org.eclipse.ant.ui.processingInstructionsColor_bold=true
-org.eclipse.ant.ui.tagsColor=255,255,255
-org.eclipse.ant.ui.tagsColor_bold=true
-org.eclipse.ant.ui.textColor=248,248,242
-overriddenByCSS=,org.eclipse.ant.ui.commentsColor,org.eclipse.ant.ui.constantStringsColor,org.eclipse.ant.ui.constantStringsColor_italic,org.eclipse.ant.ui.dtdColor,org.eclipse.ant.ui.processingInstructionsColor,org.eclipse.ant.ui.processingInstructionsColor_bold,org.eclipse.ant.ui.tagsColor,org.eclipse.ant.ui.tagsColor_bold,org.eclipse.ant.ui.textColor,org.eclipse.ant.ui.debugColor,org.eclipse.ant.ui.errorColor,org.eclipse.ant.ui.informationColor,
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true

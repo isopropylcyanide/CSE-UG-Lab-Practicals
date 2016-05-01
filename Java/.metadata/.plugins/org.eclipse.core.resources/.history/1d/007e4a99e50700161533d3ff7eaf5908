@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class evaluateExp {
+	int mod = 1003;
+	
+	public int cnttrue(String a) {
+	}
+
+	public static void main(String[] args) {
+		System.out.println(new evaluateExp().cnttrue("T|F&T^T"));
+	}
+	
+}

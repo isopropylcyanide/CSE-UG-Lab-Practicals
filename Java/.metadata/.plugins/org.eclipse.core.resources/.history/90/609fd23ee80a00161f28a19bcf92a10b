@@ -1,0 +1,43 @@
+import java.util.*;
+
+public class longestIncSub {
+	//Find the longest increasing subsequence of a given sequence / array. 
+	
+	public int lis(final List<Integer> a) {
+		int n = a.size();
+		
+		int T[][] = new int[n][n];
+		
+		for (int col = 0; col < n; col++){
+			for (int i = 0; i < n - col; i++){
+				int j = i + col;
+				
+				if (i == j){
+					T[i][j] = 1;
+					continue;
+				}
+				
+				if (j > 0 && a.get(j) > a.get(j -1)){
+					T[i][j] = T[i][j] + 1;
+				}
+				else
+					T[i][j] = Math.max(T[i][j -1], T[i + 1][j]);
+				
+			}
+		}
+		
+		for (int i = 0; i < n; i++){
+        	for (int j = 0; j < n; j++)
+        		System.out.print(T[i][j] + " ");
+        	System.out.println();
+        }
+		
+		return T[0][n -1];
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(new longestIncSub().lis(Arrays.asList(0, 8, 4, 12)));
+	}
+
+}

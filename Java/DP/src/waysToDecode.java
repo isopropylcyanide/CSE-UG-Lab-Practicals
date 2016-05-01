@@ -1,5 +1,3 @@
-import java.io.*;
-import java.util.*;
 public class waysToDecode {
 	//Given an encoded message containing digits, determine the total number of ways to decode it.
 	

@@ -1,0 +1,60 @@
+import java.util.*;
+/*The demons had captured the princess (P) and imprisoned her in the bottom-right corner of a dungeon. The dungeon
+ consists of M x N rooms laid out in a 2D grid. Our valiant knight (K) was initially positioned in the top-left room 
+ and must fight his way through the dungeon to rescue the princess. The knight has an initial health point represented 
+ by a positive integer. If at any point his health point drops to 0 or below, he dies immediately.Some of the rooms 
+ are guarded by demons, so the knight loses health (negative integers) upon entering these rooms; other rooms are
+  either empty (0’s) or contain magic orb that increase the knight’s health (positive integers).In order to reach the 
+  princess as quickly as possible, the knight decides to move only rightward or downward in each step. Write a function
+   to determine the knight’s minimum initial health so that he is able to rescue the princess.
+ * */
+
+public class dungeonPrincess {
+	
+	public int calculateMinimumHP(ArrayList<ArrayList<Integer>> a) {
+		int m = a.size(), n = a.get(0).size();
+		
+        int T[][] = new int[m][n];
+        T[0][0] = a.get(0).get(0);
+        
+        for (int i = 1; i < m; i++)
+        	T[i][0] = T[i -1][0] + a.get(i).get(0);
+        
+        for (int j = 1; j < n; j++)
+        	T[0][j] = T[0][j -1] + a.get(0).get(j);
+        
+        for (int i = 1; i < m; i++){
+        	for (int j = 1; j < n; j++){
+        		T[i][j] = a.get(i).get(j) + Math.max(T[[i][j -]], T[i -1][j]);
+        	}
+        }
+        
+        for (int i = 0; i < m; i++){
+        	for (int j = 0; j < n; j++)
+        		System.out.print(T[i][j] + " ");
+        	System.out.println();
+        }
+        
+		
+		return T[m -1][n -1];
+	}
+	
+	public static void main(String[] args) {
+		ArrayList<ArrayList<Integer>> arrayList = new ArrayList<>();
+		arrayList.add(new ArrayList<>(Arrays.asList(-2, -3, 3)));
+		arrayList.add(new ArrayList<>(Arrays.asList(-5, -10, 1)));
+		arrayList.add(new ArrayList<>(Arrays.asList(10, 30, -5)));
+
+		System.out.println(new dungeonPrincess().calculateMinimumHP(arrayList));
+	}
+}
+
+
+
+
+
+
+
+
+
+

@@ -51,6 +51,7 @@ int main(){
         for (int i = 0 ; i < readChar; i++)
             printf("%c",recvBuff[i]);
 
+        printf("\n");
         close(connfd);
         sleep(1);
      }

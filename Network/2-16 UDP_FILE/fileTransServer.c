@@ -4,10 +4,6 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
-#include <errno.h>
-#include <string.h>
-#include <strings.h>
-#include <sys/types.h>
 #include <stdbool.h>
 #include <assert.h>
 
@@ -20,13 +16,13 @@
 
 int main(){
     // Create a fd for server and one for client
-    int sockFd = 0, clientFd = 0;
+    int sockFd;
 
     // A socket address structure to hold in the socket
     struct sockaddr_in serv_addr = {0};
 
-    // String to hold input file line by line for client
-    char sendBuff[MAX];
+    // String to hold input file line by line for client and the client's message
+    char sendBuff[MAX], recvBuff[MAX];
 
     // Creates a TCP socket i.e file descriptor within the process table
     sockFd = socket(AF_INET, SOCK_DGRAM, 0);
@@ -39,32 +35,31 @@ int main(){
     // Assign protocol to a socket :=
     bind(sockFd, (struct sockaddr *)&serv_addr, sizeof(serv_addr));
 
-    // listen for incoming connections with a specified backlog queue
-    listen(sockFd, MAX_BACKLOG);
+    FILE *fp = fopen(SERVER_INPUT_FILE, "r");
+    int readChar;
+    assert (fp);
+
+    while (!feof(fp))
+        readChar = fread(sendBuff, 1, MAX, fp);
+
+    fclose(fp);
+    struct sockaddr_in addr;
+    socklen_t addr_size = sizeof(addr);
 
     while(true){
         // Socket address structure to hold the client socket
-        struct sockaddr_in addr;
-        socklen_t addr_size = sizeof(addr);
 
-        fprintf(stdout, "\nA new client has connected. Sending file\n");
-        fprintf(stdout, "IP Address: %s\n", inet_ntoa(addr.sin_addr) );
+        fprintf(stdout, "Waiting for client\n");
 
-        FILE *fp = fopen(SERVER_INPUT_FILE, "r");
-        assert (fp);
-
-        int readChar;
-
-        while (!feof(fp)){
-            readChar = fread(sendBuff, 1, MAX, fp);
-            recvfrom(clientFd, sendBuff, 0, 0, (struct sockaddr *)&addr, &addr_size);
-            sendto(clientFd, sendBuff, readChar, 0, (struct sockaddr *)&addr, sizeof(addr));
+        if (recvfrom(sockFd, recvBuff, MAX, 0, (struct sockaddr *)&addr, &addr_size) != -1){
+            fprintf(stdout, "\n Client has connected. It says: %s \n", recvBuff);
+            fprintf(stdout, "\n Sending File => to client : %s \n",inet_ntoa(addr.sin_addr) );
+            sendto(sockFd, sendBuff, readChar, 0, (struct sockaddr *)&addr, sizeof(addr));
         }
-        fclose(fp);
-        close(sockFd);
-        close(clientFd);
+
         sleep(1);
     }
+    close(sockFd);
 
     return 0;
 }

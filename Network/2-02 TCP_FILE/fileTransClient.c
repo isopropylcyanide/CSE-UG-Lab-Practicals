@@ -16,7 +16,6 @@
 
 // Connect to the server at the given location and create a file mentioning its inputs
 
-
 int main(){
     // Set up client sockets, character buffers
     int sockFd = 0, n = 0;

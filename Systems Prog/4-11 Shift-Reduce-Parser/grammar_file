@@ -1,0 +1,4 @@
+E -> A | B | ( E ) | C | id
+A -> E + E
+B -> E * E
+C -> E - E

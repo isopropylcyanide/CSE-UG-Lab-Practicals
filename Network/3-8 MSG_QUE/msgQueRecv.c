@@ -25,14 +25,14 @@ int main(){
         perror("\nMessage Reading failed\n\n");
 
         else {
-            printf("\nMessage Received: %s\n\n", recvMsg.mtext );
+            printf("\nMessage Received: %s\n", recvMsg.mtext );
             if (msgctl(msgQue, IPC_STAT, &wholeQueue) == 0){
                 printf("\nNumber of messages in Queue: %ld", wholeQueue.msg_qnum);
                 printf("\nLast PID that wrote: %d", wholeQueue.msg_lspid);
                 printf("\nTime of last write: %ld", wholeQueue.msg_stime);
                 printf("\nLast PID that read: %d", wholeQueue.msg_lrpid);
-                printf("\nTime of last read: %ld", wholeQueue.msg_rtime);
-                // msgctl(msgQue, IPC_RMID, NULL); //Remove message
+                printf("\nTime of last read: %ld\n\n", wholeQueue.msg_rtime);
+                msgctl(msgQue, IPC_RMID, NULL); //Remove message
             }
         }
 

@@ -57,7 +57,7 @@ int main(){
     n = read(sockfd, recvBuff, MAX);
     if (n < 0)
         perror("Error Reading value from server");
-        
+
     printf ("\n Receiving: %s", recvBuff);
 
     printf("\n");
