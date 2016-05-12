@@ -1,4 +1,4 @@
 5
-2 2 3 6 8
-3 17 8 11 3
-3 #denotes time quantum for round robin processes
+0 2 3 4 8
+3 3 5 2 3
+2 #denotes time quantum for round robin processes

@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
-#include <sys/stat.h>
-#include <sys/types.h>
 
 #define FIFO_NAME "aman_fifo_files"
 #define FIFO_MODE 0666
