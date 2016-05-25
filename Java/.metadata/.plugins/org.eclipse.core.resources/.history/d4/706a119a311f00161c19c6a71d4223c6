@@ -1,0 +1,39 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class wordBreakProb {
+	//Given a string s and a dictionary of words, determine if s can be segmented
+	//into a space-separated sequence of one or more dictionary words.
+	
+	public int wordBreak(String a, ArrayList<String> b) {
+		int n = a.length();
+		int T[][] = new int[n][n];
+		
+		for (int col = 1; col < n; col++){
+			for (int i = 0; i < n - col; i++){
+				int j = i + col;
+				System.out.println("["+i+"]["+j+"]");
+				String str = a.substring(i, j +1);
+				
+				if (a.contains(str))
+					T[i][j] = 1;
+				
+				else{ //find a split point
+					for (int k = i + 1; k < j; k++){
+						if (T[i][k -1] == 1 && T[k][j] == 1)
+							T[i][j] = 1;
+						else T[i][j] = 0;
+					}
+				}
+			}
+		}
+		return T[0][n -1];
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<String> dict = new ArrayList<>(Arrays.asList("my","trainer","interview"));
+		System.out.println(new wordBreakProb().wordBreak("myinterviewtrainer", dict));
+	}
+
+}

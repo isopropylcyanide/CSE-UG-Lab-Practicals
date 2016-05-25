@@ -30,7 +30,7 @@ tuple<ll, ll> extendedGCDUtil(ll a, ll b, ll s1, ll s2, ll t1, ll t2){
 tuple<ll, ll> extendedGCD(ll a, ll b){
     // Returns a pair of llegers r and s such that a *r + b *s = 1
     // Solutions exist only when gcd(a, b) == 1
-    // Let tie (r, s) = extendedGCD(divs[i], mods[i]); then (r + mods[i]) % mods[i] is the mod inv
+    // Let tie (r, s) = extendedGCD(a, b); then (r + b) % b is a mod inv b
     if (gcd (a, b) != 1)
         return make_tuple(0,0);
     return extendedGCDUtil(a, b, 1, 0, 0, 1);
@@ -55,7 +55,7 @@ bool primalityTest(ll n){
     else if (n % 2 == 0)
     return false;
 
-    for (ll i = 3; i * i <= n; i++){
+    for (ll i = 3; i * i <= n; i += 2){
         if (n % i == 0)
         return false;
     }

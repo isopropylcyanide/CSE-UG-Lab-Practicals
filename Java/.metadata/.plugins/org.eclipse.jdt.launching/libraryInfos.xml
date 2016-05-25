@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
-<libraryInfo home="/usr/lib/jvm/java-8-oracle" version="1.8.0_77">
+<libraryInfo home="/usr/lib/jvm/java-8-oracle" version="1.8.0_91">
 <bootpath>
 <entry path="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar"/>
 <entry path="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar"/>

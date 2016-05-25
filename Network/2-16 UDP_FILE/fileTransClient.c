@@ -38,11 +38,6 @@ int main(){
     serv_addr.sin_family = AF_INET;
     serv_addr.sin_port = htons(PORT);
 
-    if(inet_pton(AF_INET, localhost, &serv_addr.sin_addr) <= 0){
-        printf("\n inet_pton error occured\n");
-        return 1;
-    }
-
     FILE * fp = fopen(outputFile, "w");
     assert(fp);
 

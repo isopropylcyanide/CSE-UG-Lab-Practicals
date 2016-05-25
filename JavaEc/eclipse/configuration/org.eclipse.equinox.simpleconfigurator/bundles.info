@@ -234,14 +234,6 @@ org.eclipse.jgit,4.1.1.201511131810-r,../../../../.p2/pool/plugins/org.eclipse.j
 org.eclipse.jgit.archive,4.1.1.201511131810-r,../../../../.p2/pool/plugins/org.eclipse.jgit.archive_4.1.1.201511131810-r.jar,4,false
 org.eclipse.jsch.core,1.2.0.v20141202-1415,../../../../.p2/pool/plugins/org.eclipse.jsch.core_1.2.0.v20141202-1415.jar,4,false
 org.eclipse.jsch.ui,1.2.0.v20141202-1415,../../../../.p2/pool/plugins/org.eclipse.jsch.ui_1.2.0.v20141202-1415.jar,4,false
-org.eclipse.jst.common.project.facet.core,1.4.400.v201403261418,../../../../.p2/pool/plugins/org.eclipse.jst.common.project.facet.core_1.4.400.v201403261418.jar,4,false
-org.eclipse.jst.server.core,1.2.400.v201512031711,../../../../.p2/pool/plugins/org.eclipse.jst.server.core_1.2.400.v201512031711.jar,4,false
-org.eclipse.jst.server.generic.core,1.0.900.v201402262303,../../../../.p2/pool/plugins/org.eclipse.jst.server.generic.core_1.0.900.v201402262303.jar,4,false
-org.eclipse.jst.server.generic.ui,1.0.600.v201402262303,../../../../.p2/pool/plugins/org.eclipse.jst.server.generic.ui_1.0.600.v201402262303.jar,4,false
-org.eclipse.jst.server.preview.adapter,1.1.300.v201309182039,../../../../.p2/pool/plugins/org.eclipse.jst.server.preview.adapter_1.1.300.v201309182039.jar,4,false
-org.eclipse.jst.server.ui,1.1.300.v201309182039,../../../../.p2/pool/plugins/org.eclipse.jst.server.ui_1.1.300.v201309182039.jar,4,false
-org.eclipse.jst.server.ui.doc.user,1.0.600.v201309182117,../../../../.p2/pool/plugins/org.eclipse.jst.server.ui.doc.user_1.0.600.v201309182117.jar,4,false
-org.eclipse.jst.server.ui.infopop,1.0.500.v201309182117,../../../../.p2/pool/plugins/org.eclipse.jst.server.ui.infopop_1.0.500.v201309182117.jar,4,false
 org.eclipse.ltk.core.refactoring,3.6.201.v20150819-1034,../../../../.p2/pool/plugins/org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar,4,false
 org.eclipse.ltk.ui.refactoring,3.7.200.v20140625-1835,../../../../.p2/pool/plugins/org.eclipse.ltk.ui.refactoring_3.7.200.v20140625-1835.jar,4,false
 org.eclipse.m2e.archetype.common,1.6.2.20150902-0001,../../../../.p2/pool/plugins/org.eclipse.m2e.archetype.common_1.6.2.20150902-0001/,4,false
@@ -453,7 +445,6 @@ org.eclipse.wst.common.infopop,1.0.300.v201309101952,../../../../.p2/pool/plugin
 org.eclipse.wst.common.modulecore,1.2.401.v201408132036,../../../../.p2/pool/plugins/org.eclipse.wst.common.modulecore_1.2.401.v201408132036.jar,4,false
 org.eclipse.wst.common.modulecore.ui,1.0.300.v201505072128,../../../../.p2/pool/plugins/org.eclipse.wst.common.modulecore.ui_1.0.300.v201505072128.jar,4,false
 org.eclipse.wst.common.project.facet.core,1.4.300.v201111030423,../../../../.p2/pool/plugins/org.eclipse.wst.common.project.facet.core_1.4.300.v201111030423.jar,4,false
-org.eclipse.wst.common.project.facet.ui,1.4.600.v201505072140,../../../../.p2/pool/plugins/org.eclipse.wst.common.project.facet.ui_1.4.600.v201505072140.jar,4,false
 org.eclipse.wst.common.snippets,1.2.200.v201208080420,../../../../.p2/pool/plugins/org.eclipse.wst.common.snippets_1.2.200.v201208080420.jar,4,false
 org.eclipse.wst.common.ui,1.1.500.v200911182011,../../../../.p2/pool/plugins/org.eclipse.wst.common.ui_1.1.500.v200911182011.jar,4,false
 org.eclipse.wst.common.uriresolver,1.2.200.v201505132009,../../../../.p2/pool/plugins/org.eclipse.wst.common.uriresolver_1.2.200.v201505132009.jar,4,false
@@ -462,10 +453,8 @@ org.eclipse.wst.dtd.ui,1.0.801.v201308100602,../../../../.p2/pool/plugins/org.ec
 org.eclipse.wst.dtd.ui.infopop,1.0.400.v201309112106,../../../../.p2/pool/plugins/org.eclipse.wst.dtd.ui.infopop_1.0.400.v201309112106.jar,4,false
 org.eclipse.wst.dtdeditor.doc.user,1.0.700.v201208081537,../../../../.p2/pool/plugins/org.eclipse.wst.dtdeditor.doc.user_1.0.700.v201208081537.jar,4,false
 org.eclipse.wst.internet.cache,1.0.701.v201510130022,../../../../.p2/pool/plugins/org.eclipse.wst.internet.cache_1.0.701.v201510130022.jar,4,false
-org.eclipse.wst.internet.monitor.core,1.0.600.v201309182039,../../../../.p2/pool/plugins/org.eclipse.wst.internet.monitor.core_1.0.600.v201309182039.jar,4,false
 org.eclipse.wst.server.core,1.8.0.v201601132216,../../../../.p2/pool/plugins/org.eclipse.wst.server.core_1.8.0.v201601132216.jar,4,false
 org.eclipse.wst.server.discovery,1.2.0.v201601132216,../../../../.p2/pool/plugins/org.eclipse.wst.server.discovery_1.2.0.v201601132216.jar,4,false
-org.eclipse.wst.server.ui,1.5.202.v201602111638,../../../../.p2/pool/plugins/org.eclipse.wst.server.ui_1.5.202.v201602111638.jar,4,false
 org.eclipse.wst.sse.core,1.1.901.v201510130005,../../../../.p2/pool/plugins/org.eclipse.wst.sse.core_1.1.901.v201510130005.jar,4,false
 org.eclipse.wst.sse.doc.user,1.1.100.v201208081537,../../../../.p2/pool/plugins/org.eclipse.wst.sse.doc.user_1.1.100.v201208081537.jar,4,false
 org.eclipse.wst.sse.ui,1.3.401.v201510130005,../../../../.p2/pool/plugins/org.eclipse.wst.sse.ui_1.3.401.v201510130005.jar,4,false
@@ -497,12 +486,4 @@ org.w3c.css.sac,1.3.1.v200903091627,../../../../.p2/pool/plugins/org.w3c.css.sac
 org.w3c.dom.events,3.0.0.draft20060413_v201105210656,../../../../.p2/pool/plugins/org.w3c.dom.events_3.0.0.draft20060413_v201105210656.jar,4,false
 org.w3c.dom.smil,1.0.1.v200903091627,../../../../.p2/pool/plugins/org.w3c.dom.smil_1.0.1.v200903091627.jar,4,false
 org.w3c.dom.svg,1.1.0.v201011041433,../../../../.p2/pool/plugins/org.w3c.dom.svg_1.1.0.v201011041433.jar,4,false
-org.zeroturnaround.eclipse,6.4.2.SR1,../../../../.p2/pool/plugins/org.zeroturnaround.eclipse_6.4.2.SR1.jar,4,false
-org.zeroturnaround.eclipse.config,6.4.2.SR1,../../../../.p2/pool/plugins/org.zeroturnaround.eclipse.config_6.4.2.SR1.jar,4,false
-org.zeroturnaround.eclipse.debug,6.4.2.SR1,../../../../.p2/pool/plugins/org.zeroturnaround.eclipse.debug_6.4.2.SR1.jar,4,false
-org.zeroturnaround.eclipse.embedder,6.4.2.SR1,../../../../.p2/pool/plugins/org.zeroturnaround.eclipse.embedder_6.4.2.SR1/,4,false
-org.zeroturnaround.eclipse.m2e,6.4.2.SR1,../../../../.p2/pool/plugins/org.zeroturnaround.eclipse.m2e_6.4.2.SR1.jar,4,false
-org.zeroturnaround.eclipse.remoting,6.4.2.SR1,../../../../.p2/pool/plugins/org.zeroturnaround.eclipse.remoting_6.4.2.SR1.jar,4,false
-org.zeroturnaround.eclipse.wtp,6.4.2.SR1,../../../../.p2/pool/plugins/org.zeroturnaround.eclipse.wtp_6.4.2.SR1.jar,4,false
-org.zeroturnaround.eclipse.wtp.websphere,6.4.2.SR1,../../../../.p2/pool/plugins/org.zeroturnaround.eclipse.wtp.websphere_6.4.2.SR1.jar,4,false
 pm.eclipse.editbox,0.70.0.201508180438,../../../../.p2/pool/plugins/pm.eclipse.editbox_0.70.0.201508180438.jar,4,false

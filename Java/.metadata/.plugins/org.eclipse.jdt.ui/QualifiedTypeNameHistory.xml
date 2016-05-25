@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="coinSum"/>
-<fullyQualifiedTypeName name="javax.crypto.spec.IvParameterSpec"/>
 <fullyQualifiedTypeName name="java.awt.FocusTraversalPolicy"/>
 <fullyQualifiedTypeName name="minSumPathTria"/>
 <fullyQualifiedTypeName name="javax.swing.JWindow"/>
 <fullyQualifiedTypeName name="waysToDecode"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction"/>
 <fullyQualifiedTypeName name="javax.swing.GroupLayout.ParallelGroup"/>
-<fullyQualifiedTypeName name="maxProductSub"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
 <fullyQualifiedTypeName name="java.lang.Number"/>
@@ -22,9 +18,6 @@
 <fullyQualifiedTypeName name="jumpGame"/>
 <fullyQualifiedTypeName name="evaluateExp"/>
 <fullyQualifiedTypeName name="Pair"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.lang.Character"/>
 <fullyQualifiedTypeName name="javax.swing.JViewport"/>
 <fullyQualifiedTypeName name="evaluateExp.Pair"/>
 <fullyQualifiedTypeName name="maxSumWithoutAdj"/>
@@ -34,7 +27,6 @@
 <fullyQualifiedTypeName name="java.util.ConcurrentModificationException"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="longestIncSub"/>
-<fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="java.util.Deque"/>
 <fullyQualifiedTypeName name="javax.management.Query"/>
@@ -42,12 +34,30 @@
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="maxRectMat"/>
 <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="equalAvgPart"/>
 <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.lang.UnsatisfiedLinkError"/>
+<fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="maxSumTree.TreeNode"/>
+<fullyQualifiedTypeName name="TreeNode"/>
+<fullyQualifiedTypeName name="maxProductSub"/>
+<fullyQualifiedTypeName name="maxSumTree"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="wordBreakProb"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.awt.RenderingHints.Key"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.StringHolder"/>
+<fullyQualifiedTypeName name="repeatSubSeq"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

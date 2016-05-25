@@ -104,7 +104,7 @@ void md5(vector<string> &block){
                 G = i;
             }
             else if (i >= 16 && i <= 31){
-                F = (D & B) | (~D & C);
+                F = (B & D) | (C & -D);
                 G = (5 * i + 1) % 16;
             }
             else if (i >= 32 && i <= 47){

@@ -1,0 +1,49 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class possPass {
+	
+	public static int lcs(String a, String b){
+		int m = a.length(), n = b.length();
+		
+		int T[][] = new int[m +1][n +1];
+		for (int i = 1; i <= m; i++){
+			for (int j = 1; j <= n; j++){
+				if (a.charAt(i -1) == b.charAt(j -1))
+					T[i][j] = T[i -1][j -1] +1;
+				else
+					T[i][j] = Math.max(T[i -1][j], T[i][j -1]);
+			}
+		}
+		
+		return T[m][n];
+	}
+	
+	
+    public static String possiblePass(String S, String P){
+        //Find if the password is possible. Conditions:
+    	// Only if length of P is twice that of S
+    	// LCS of S and P has length that of S
+    	
+    	int n = S.length(), nn = P.length();
+    	if (nn != 2 * n || lcs(S, P) != n)
+    		return "Impossible";
+    	return "Possible";
+    }
+
+
+    public static void main(String args[] ) throws Exception {
+    	
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String line = br.readLine();
+        int testcases = Integer.parseInt(line);
+        
+        while (testcases-- > 0){
+        	String a[] = br.readLine().split(" ");
+        	String S = a[0], P = a[1]; 
+        	
+            System.out.println(possiblePass(S, P));
+        }
+
+    }
+}

@@ -1,0 +1,17 @@
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class wordBreakProb {
+
+	public int wordBreak(String a, ArrayList<String> b) {
+		return 0;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<String> dict = new ArrayList<>(Arrays.asList("my","trainer","interview"));
+		
+	}
+
+}

@@ -2,6 +2,7 @@
 #include <netdb.h>
 #include <arpa/inet.h>
 #include <netinet/in.h>
+#include <sys/utsname.h>
 
 #define MAX 100
 
@@ -23,13 +24,20 @@ void resolveName(char *host_name){
 
 int main(){
 
+    struct utsname myName;
+    if (uname(&myName) == 0){
+        printf("Name: %s\n", myName.machine );
+        printf("Node: %s\n", myName.nodename);
+        printf("Rele: %s\n", myName.release);
+        printf("SysN: %s\n", myName.sysname);
+        printf("Vers: %s\n", myName.version);
+    }
+
     char host_name[MAX];
 
     printf("\n Enter host name to resolve: ");
     scanf("%s", host_name);
 
     resolveName(host_name);
-
-
     return 0;
 }
