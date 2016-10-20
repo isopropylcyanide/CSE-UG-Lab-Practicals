@@ -28,9 +28,8 @@ solve :: Map.Map String Int -> Int -> Int -> IO()
 solve m 0 s  = lookUps m s
 solve m t s = do
     temp <- getLine
-    let name = read $ show temp :: String
-    tem2p <- getLine
-    let phone = read tem2p :: Int
+    let name = head $ words temp
+    let phone = read (words temp !! 1) :: Int
 
     let mm = Map.insert name phone m
     solve mm (t - 1) s

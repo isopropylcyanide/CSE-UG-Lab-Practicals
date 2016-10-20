@@ -14,7 +14,7 @@ regexList = [
     (re.compile('\"(.*?)\"'), 'STRING LITERAL'),
     (re.compile('\[.*\]'), 'SUBSCRIPT OPERATOR'),
     (re.compile("[-+]?[0-9]*\.?[0-9]+"), 'CONSTANT'),
-    (re.compile("(==)|=|\-\-|\-|\+\+|\+|\*|\/|%|&|\^"), 'OPERATOR'),
+    (re.compile("(==)|=|\-\-|\-|\+\+|\+|\;|\*|\/|%|&|\^"), 'OPERATOR'),
     (re.compile(keywords), 'KEYWORD'),
     (re.compile("(_|[a-zA-Z])\w*"), 'IDENTIFIER')
 ]

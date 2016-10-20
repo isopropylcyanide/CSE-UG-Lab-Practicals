@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='/home/aman/.p2/pool/.eclipseextension' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
   <properties size='3'>
-    <property name='p2.timestamp' value='1463721289028'/>
+    <property name='p2.timestamp' value='1474434943310'/>
     <property name='org.eclipse.update.site.policy' value='MANAGED-ONLY'/>
     <property name='org.eclipse.update.site.list' value=''/>
   </properties>

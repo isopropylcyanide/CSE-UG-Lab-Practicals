@@ -55,7 +55,7 @@ class Grammar:
         return string
 
     def addProduction(self, line):
-        """Add a production rule as parsed from the gven line"""
+        """Add a production rule as parsed from the given line"""
         if not line:
             raise IllegalProductionError(line, 'Empty production')
 

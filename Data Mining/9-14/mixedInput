@@ -1,0 +1,4 @@
+A->C Good->O,3 42->N
+B->C Fair->O,2 50->N
+C->C Good->O,3 24->N
+A->C Poor->O,1 30->N

@@ -7,7 +7,6 @@ input_file = "input_file"
 # After that the rules of precedence follow
 keywords = 'int|float|double|real|bool|do|while|if|then|else|return|main|switch\
         |char|byte|static|void|printf|print|true|false|NULL|extern'
-
 regexList = [
     (re.compile("[\(\)]"), 'PARENTHESIS'),
     (re.compile('\.(\S)+'), 'ACCESSOR METHOD'),

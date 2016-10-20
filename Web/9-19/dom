@@ -1,0 +1,14 @@
+It defines a standard way for accessing and manipulating XML docs.
+All XML elements can be accessed through XML Dom. XML Dom defines the object
+properties and method -> (get, change, add delete).
+It is platform and language independent and W3C standardized.
+
+All the status of the HTML HTTP request DOM change from 0 to 4
+0: Request
+1: Server connection establishment
+2: Request received
+3: Processing request
+4: Request finished and the response is ready
+
+Status:
+200 : OK

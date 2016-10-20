@@ -1,0 +1,18 @@
+<!doctype HTML>
+<html>
+
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <script>
+        var person, xmlDOC;
+        var text = "<bookshow><book>" + "<title>Everyday</title>" +
+            "<author>Aman</author>" + "<year>2015</year>" + "</book></bookshow>";
+        person = new DOMParser();
+        xmlDOC = person.parseFromString(text, "text/xml");
+        document.getElementById("demo").innerHTML = xmlDOC.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+    </script>
+</body>
+
+</html>
